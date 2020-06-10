@@ -1,45 +1,105 @@
 baseURL = "/"
 languageCode = "fr-fr"
 summaryLength = "10"
-theme = "kross-hugo"
+theme = "qori"
 title = "Qori"
+
+[menu]
 [[menu.main]]
 URL = "about"
 name = "Quiénes somos?"
 weight = 1
+
 [[menu.main]]
+identifier = "estudia"
 URL = "estudia"
 name = "Estudia en Francia"
 weight = 2
 [[menu.main]]
+parent = "estudia"
+URL = "estudia/universitario"
+name = "Universitario"
+weight = 1
+[[menu.main]]
+parent = "estudia"
+URL = "estudia/secundaria"
+name = "Estudent Secundaria"
+weight = 2
+[[menu.main]]
+parent = "estudia"
+URL = "estudia/joven_profesional"
+name = "Joven Profesional"
+weight = 3
+
+[[menu.main]]
+identifier = "traduccion_e_interpretacion"
 URL = "traduccion_e_interpretacion"
 name = "Traducción e Interpretación"
 weight = 4
 [[menu.main]]
+parent = "traduccion_e_interpretacion"
+URL = "traduccion_e_interpretacion/comercial"
+name = "Commercial"
+weight = 1
+[[menu.main]]
+parent = "traduccion_e_interpretacion"
+URL = "traduccion_e_interpretacion/informatica"
+name = "Informatica"
+weight = 2
+[[menu.main]]
+parent = "traduccion_e_interpretacion"
+URL = "traduccion_e_interpretacion/literia"
+name = "Literia"
+weight = 3
+[[menu.main]]
+parent = "traduccion_e_interpretacion"
+URL = "traduccion_e_interpretacion/simple"
+name = "Simple"
+weight = 4
+[[menu.main]]
+parent = "traduccion_e_interpretacion"
+URL = "traduccion_e_interpretacion/relectura"
+name = "Relectura"
+weight = 5
+
+[[menu.main]]
+identifier = "asesorias"
 URL = "asesorias"
 name = "Asesorias"
-weight = 4
+weight = 5
+[[menu.main]]
+parent = "asesorias"
+URL = "asesorias/empleo"
+name = "Búsqueda de empleo en Francia"
+weight = 1
+
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 5
+weight = 6
+
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 6
+weight = 7
+
 [params]
-author = "Johnathan Smith"
-copyright = "Copyright &copy; 2020"
+author = "Ana Medina"
+copyright = "Qori - Copyright &copy; 2020"
 description = "Qori est une société proposant des services à vos besoins"
 email = "anamedina111@gmail.com"
 #google_analitycs_id = "Your ID"
 home = "Qori"
-logo = "images/logo.png"
+logo = "images/logo-w-sm.gif"
 phone = "+33 6 .. .. .. .."
-theme_color = "#41228e"
+
+primary_color = "#cf1931"
+nav_color = "#102f5e"
+
 [params.contact]
 enable = false
 form_action = "#"
+
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -54,18 +114,11 @@ URL = "plugins/bootstrap/bootstrap.min.js"
 URL = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 URL = "plugins/shuffle/shuffle.min.js"
+
 [params.preloader]
 enable = true
-preloader = ""
+preloader = "Welcome! Qori"
+
 [[params.social]]
 URL = "#"
 icon = "ti-facebook"
-[[params.social]]
-URL = "#"
-icon = "ti-instagram"
-[[params.social]]
-URL = "#"
-icon = "ti-dribbble"
-[[params.social]]
-URL = "#"
-icon = "ti-twitter-alt"
