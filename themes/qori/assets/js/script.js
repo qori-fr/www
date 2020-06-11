@@ -17,6 +17,69 @@
         }
     });
 
+    // Menu dropdown
+    const $dropdown = $(".dropdown");
+    const $dropdownToggle = $(".dropdown-toggle");
+    const $dropdownMenu = $(".dropdown-menu");
+    const showClass = "show";
+    
+    $(window).on("load resize", function() {
+        if (this.matchMedia("(max-width: 991px)").matches) {
+            $dropdown.off("mouseenter mouseleave");
+        } else {
+            $dropdown.hover(
+                function() {
+                    const $this = $(this);
+                    $this.addClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "true");
+                    $this.find($dropdownMenu).addClass(showClass);
+                },
+                function() {
+                    const $this = $(this);
+                    $this.removeClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "false");
+                    $this.find($dropdownMenu).removeClass(showClass);
+                }
+            );
+        }
+    });
+
+    // Menu dropdown click
+    $('.navbar-collapse').find('.dropdown').each(function() { 
+        $(this).children('a').each(function() {                            
+          var url = $(this).attr('href');
+          if(url != '#') {
+            $(this).attr('data-url',url);
+            $(this).attr('href','#');
+          }
+        });
+        $(this).children('a').click(function(e) {                        
+          e.preventDefault();                            
+        });
+      
+        if($(this).closest('.navbar-toggle').css('display') !== 'none') { // only on collapsed nav
+          $(this).on({                             
+            "click" : function(e) {                                  
+              if(e.target == $(this).children('a').first().get(0)) {                 
+                if($(this).hasClass('open')) {  
+                  var url = $(this).children('a').first().attr("data-url");
+                  document.location.href = url
+                } else {
+                  $(this).addClass('open'); 
+                }       
+                e.stopImmediatePropagation();
+                e.preventDefault();
+                return false;                                
+              }
+            },
+            "hide.bs.dropdown" : function(e) {
+              e.preventDefault();
+              return false;
+            }
+          });
+        }
+    });
+
     // Background-images
     $('[data-background]').each(function () {
         $(this).css({
@@ -37,68 +100,6 @@
             'bottom': $(this).data('progress')
         });
     });
-
-
-    /* ########################################### hero parallax ############################################## */
-    window.onload = function () {
-
-        var parallaxBox = document.getElementById('parallax');
-        /*
-         Fix js error, occurred at pages other than the home page. 
-         When there're no parallax, just ignore the below
-         other operations, as below elements are bingding to the parallax.
-        */
-        if (!parallaxBox) {
-            return ;
-        }
-
-        var
-            /* c1left = document.getElementById('l1').offsetLeft,
-            c1top = document.getElementById('l1').offsetTop, */
-            c2left = document.getElementById('l2').offsetLeft,
-            c2top = document.getElementById('l2').offsetTop,
-            c3left = document.getElementById('l3').offsetLeft,
-            c3top = document.getElementById('l3').offsetTop,
-            c4left = document.getElementById('l4').offsetLeft,
-            c4top = document.getElementById('l4').offsetTop,
-            c5left = document.getElementById('l5').offsetLeft,
-            c5top = document.getElementById('l5').offsetTop,
-            c6left = document.getElementById('l6').offsetLeft,
-            c6top = document.getElementById('l6').offsetTop,
-            c7left = document.getElementById('l7').offsetLeft,
-            c7top = document.getElementById('l7').offsetTop,
-            c8left = document.getElementById('l8').offsetLeft,
-            c8top = document.getElementById('l8').offsetTop,
-            c9left = document.getElementById('l9').offsetLeft,
-            c9top = document.getElementById('l9').offsetTop;
-
-        parallaxBox.onmousemove = function (event) {
-            event = event || window.event;
-            var x = event.clientX - parallaxBox.offsetLeft,
-                y = event.clientY - parallaxBox.offsetTop;
-
-            /*  mouseParallax('l1', c1left, c1top, x, y, 5); */
-            mouseParallax('l2', c2left, c2top, x, y, 25);
-            mouseParallax('l3', c3left, c3top, x, y, 20);
-            mouseParallax('l4', c4left, c4top, x, y, 35);
-            mouseParallax('l5', c5left, c5top, x, y, 30);
-            mouseParallax('l6', c6left, c6top, x, y, 45);
-            mouseParallax('l7', c7left, c7top, x, y, 30);
-            mouseParallax('l8', c8left, c8top, x, y, 25);
-            mouseParallax('l9', c9left, c9top, x, y, 40);
-        };
-
-    };
-
-    function mouseParallax(id, left, top, mouseX, mouseY, speed) {
-        var obj = document.getElementById(id);
-        var parentObj = obj.parentNode,
-            containerWidth = parseInt(parentObj.offsetWidth),
-            containerHeight = parseInt(parentObj.offsetHeight);
-        obj.style.left = left - (((mouseX - (parseInt(obj.offsetWidth) / 2 + left)) / containerWidth) * speed) + 'px';
-        obj.style.top = top - (((mouseY - (parseInt(obj.offsetHeight) / 2 + top)) / containerHeight) * speed) + 'px';
-    }
-    /* ########################################### /hero parallax ############################################## */
 
     // testimonial-slider
     $('.testimonial-slider').slick({

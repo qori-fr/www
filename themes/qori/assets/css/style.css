@@ -419,8 +419,7 @@ textarea.form-control {
 
 @media(max-width:991px) {
   .navigation {
-    padding: 20px;
-    background: var(--primary-color)
+    padding: 20px
   }
 }
 
@@ -439,12 +438,42 @@ textarea.form-control {
 }
 
 .navbar-brand img {
-  width: 50%
+  width: 100px
+}
+
+/* dropdown */
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+ 
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+ 
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+  min-width: 300px;
+}
+
+.dropdown-item {
+  font-size: 1.2em;
+  padding: 10px
 }
 
 .hero-area {
-  padding: 250px 0 200px;
+  margin: 150px 0 0 0;
+  padding: 200px 0 200px;
   position: relative
+}
+
+@media(max-width:991px) {
+  .hero-area {
+    margin: 100px 0 0 0;
+  }
 }
 
 @media(max-width:767px) {
