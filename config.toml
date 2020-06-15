@@ -17,56 +17,67 @@ name = "Estudia en Francia"
 weight = 2
 [[menu.main]]
 parent = "estudia"
-URL = "estudia/universitario"
-name = "Universitario"
+URL = "estudia/frances"
+name = "Francés"
 weight = 1
 [[menu.main]]
 parent = "estudia"
-URL = "estudia/secundaria"
-name = "Estudent Secundaria"
+URL = "estudia/carrera_universitaria"
+name = "Carrera Universitaria"
 weight = 2
-[[menu.main]]
-parent = "estudia"
-URL = "estudia/joven_profesional"
-name = "Joven Profesional"
-weight = 3
 
 [[menu.main]]
-identifier = "traduccion_e_interpretacion"
-URL = "traduccion_e_interpretacion"
+identifier = "traduccion"
+URL = "traduccion"
 name = "Traducción e Interpretación"
 weight = 4
 [[menu.main]]
-parent = "traduccion_e_interpretacion"
-URL = "traduccion_e_interpretacion/comercial"
-name = "Commercial"
+parent = "traduccion"
+URL = "traduccion/comercial"
+name = "Comercial"
 weight = 1
 [[menu.main]]
-parent = "traduccion_e_interpretacion"
-URL = "traduccion_e_interpretacion/informatica"
-name = "Informatica"
+parent = "traduccion"
+URL = "traduccion/informatica"
+name = "Informática"
 weight = 2
 [[menu.main]]
-parent = "traduccion_e_interpretacion"
-URL = "traduccion_e_interpretacion/literia"
-name = "Literia"
+parent = "traduccion"
+URL = "traduccion/literaria"
+name = "Literaria"
 weight = 3
 [[menu.main]]
-parent = "traduccion_e_interpretacion"
-URL = "traduccion_e_interpretacion/simple"
-name = "Simple"
+parent = "traduccion"
+URL = "traduccion/relectura"
+name = "Relectura"
 weight = 4
 [[menu.main]]
-parent = "traduccion_e_interpretacion"
-URL = "traduccion_e_interpretacion/relectura"
-name = "Relectura"
+parent = "traduccion"
+URL = "traduccion/simple"
+name = "Simple"
 weight = 5
+
+[[menu.main]]
+identifier = "interpretacion"
+URL = "interpretacion"
+name = "Interpretación"
+weight = 5
+[[menu.main]]
+parent = "interpretacion"
+URL = "interpretacion/simultanea"
+name = "Simultánea"
+weight = 1
+[[menu.main]]
+parent = "interpretacion"
+URL = "interpretacion/consecutiva"
+name = "Consecutiva"
+weight = 2
 
 [[menu.main]]
 identifier = "asesorias"
 URL = "asesorias"
 name = "Asesorias"
-weight = 5
+weight = 6
 [[menu.main]]
 parent = "asesorias"
 URL = "asesorias/empleo"
@@ -76,12 +87,12 @@ weight = 1
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 6
+weight = 7
 
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 7
+weight = 8
 
 [params]
 author = "Ana Medina"
