@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "fr-fr"
 summaryLength = "10"
-theme = "qori"
+theme = "educenter-hugo"
 title = "Qori"
 
 [menu]
@@ -106,25 +106,38 @@ phone = "+33 6 .. .. .. .."
 
 primary_color = "#cf1931"
 nav_color = "#102f5e"
+top_header = true
 
 [params.contact]
 enable = false
 form_action = "#"
 
+# CSS Plugins
 [[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
+link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-URL = "plugins/slick/slick.css"
+link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
 [[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
+link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
+link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
+link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
-URL = "plugins/shuffle/shuffle.min.js"
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
 
 [params.preloader]
 enable = true
@@ -133,3 +146,35 @@ preloader = "Welcome! Qori"
 [[params.social]]
 URL = "#"
 icon = "ti-facebook"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+
+
+################################### French language #####################################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+
+################################### Espanol language #####################################
+[Languages.es]
+languageName = "Es"
+languageCode = "es-es"
+contentDir = "content/espanol"
+weight = 2
+home = "Accueil"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"

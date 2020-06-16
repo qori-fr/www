@@ -1,23 +1,23 @@
 banner:
-  title : "Qori, services à vos besoins"
+  title : "Haz Tus Sueños Realidad"
 
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "Intentando cambiar el contenido de la pagina Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   button:
     enable : true
-    label : "know more"
+    label : "Saber Más"
     URL : "about"
 
 skill:
   enable : true
-  title : "Skills"
+  title : "Habilidades"
   item:
-    - title : "Traducion"
+    - title : "Traducción"
       progress : "90%"
       color : "#fdb157"
 
-    - title : "Interpretacion"
+    - title : "Interpretación"
       progress : "60%"
       color : "#9473e6"
 
