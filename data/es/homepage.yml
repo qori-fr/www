@@ -4,37 +4,37 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Haz Tus Sueños Realidad"
+      content : "Test test test Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
-        link : "contact"
+        label : "Consulta Gratuita"
+        link : "https://www.google.com/"
 
     # slider item loop
-    - title : "Your bright future is our mission"
+    - title : "Estudia Al Exterior Francia Te Espera"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
-        link : "contact"
+        label : "Consulta Gratuita"
+        link : "https://www.google.com/"
 
     # slider item loop
-    - title : "Your bright future is our mission"
+    - title : "Estudia En Francia"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
-        link : "contact"
+        label : "Consulta Gratuita"
+        link : "https://www.google.com/"
 
 
 ############################### Banner feature ###############################
@@ -43,22 +43,22 @@ banner_feature:
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Scholorship News"
+    - name : "Estudia En Francia"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
     # feature item loop
-    - name : "Our Notice Board"
+    - name : "Traducción"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
     # feature item loop
-    - name : "Our Achievements"
+    - name : "Interpretación"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
     # feature item loop
-    - name : "Admission Now"
+    - name : "Asesorias de Empleo"
       icon : "ti-write" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
@@ -66,32 +66,35 @@ banner_feature:
 ############################## about ##################################
 about:
   enable : true
-  title : "About Educenter"
+  title : "Acerca de QORI"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
+  content : "**QORI** es una sociedad que brinda una amplia gama de servicios: Interpretación; Traducción; Consejería, Orientación y Acompañamiento sobre Estudios Superiores en el Extranjero (especialmente, Francia) o Asesoramiento para el Aprendizaje del Idioma, etc.
 
+De París a Lima, de Europa a Latinoamérica, QORI ofrece servicios de alta calidad tanto a personas como a empresas.
 
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+Nuestro personal permanente se encuentra basado en París y está a tu lado para ofrecerte un servicio clave a la mano.
+
+Tenemos una red de traductores e intérpretes seleccionados que comparten nuestros valores y rigurosidad."
   button:
     enable : true
-    label : "Learn more"
+    label : "Descubre Más"
     link : "about"
 
 
 ############################# Course ################################
 course:
   enable : true
-  title : "Our Course"
+  title : "Talleres Virtuales"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Click to Join the Advance Workshop"
-  title : "Training In Advannce Networking"
+  subtitle : "Quieres estudiar en Francia"
+  title : "CONSULTORIA GRATUITA"
   button:
     enable : true
-    label : "join now"
+    label : "Reservar Cita"
     link : "contact"
 
 
@@ -99,7 +102,7 @@ cta:
 success_story:
   enable : true
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Success Stories"
+  title : "Historias De Éxito"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
             
             
@@ -112,7 +115,7 @@ success_story:
 ############################# event ################################
 event:
   enable : true
-  title : "Upcoming Events"
+  title : "Proximos Eventos"
   # event item comes from "content/**/event" folder.
 
   
@@ -133,7 +136,7 @@ funfacts:
       count : "1000"
 
     # funfact item loop
-    - name : "SATISFIED CLIENT"
+    - name : "Clientes Satisfechos"
       count : "1400"
 
 # funfact is for about page
@@ -143,5 +146,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "Latest News"
+  title : "Ultimas Noticias"
   # blog item comes from "content/**/blog" folder.

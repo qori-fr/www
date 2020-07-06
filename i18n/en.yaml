@@ -1,6 +1,15 @@
 - id: read_more
   translation: Read More
 
+- id: more_details
+  translation: More Details
+
+- id: buy_now
+  translation: Buy Now
+
+- id: get_into
+  translation: Get Into
+
 - id: contact_form
   translation: Contact Form
 

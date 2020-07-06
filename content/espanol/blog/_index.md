@@ -1,5 +1,8 @@
 ---
-title: "Blog"
-date: 2020-06-10T12:14:34+06:00
-description: "This is meta description."
+title: "Ultimas Noticias"
+draft: false
+# page title background image
+bg_image: "images/backgrounds/page-title.jpg"
+# meta description
+description : "this is meta description"
 ---

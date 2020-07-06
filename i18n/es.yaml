@@ -1,110 +1,122 @@
+- id: about
+  translation: Nosotros
+
+- id: more_details
+  translation: Más Detalles
+
+- id: buy_now
+  translation: Comprar Ahora
+
 - id: read_more
-  translation: Lire la suite
+  translation: Leer Más
+
+- id: get_into
+  translation: Ingresar
 
 - id: contact_form
-  translation: Formulaire de contact
+  translation: Formulario de contacto
 
 - id: send
-  translation: envoyer
+  translation: Enviar
 
 - id: contact_info
-  translation: Info de contact
+  translation: Inforñación de contacto
 
 - id: subscribe_newsletter
-  translation: Abonnement à l’infolettre
+  translation: Suscribirse a las Noticias
 
 - id: subscribe
-  translation: S’abonner
+  translation: Suscribirse
 
 - id: contact_us
-  translation: Nous joindre
+  translation: Contactanos
 
 - id: latest_article
-  translation: Dernier article
+  translation: Ultimos Articulos
 
 - id: categories
-  translation: Catégories
+  translation: Catégorias
 
 - id: tags
-  translation: Étiquettes
+  translation: Etiquetas
 
 - id: see_all
-  translation: Tout voir
+  translation: Ver Todo
 
 - id: apply_now
-  translation: Postuler maintenant
+  translation: Aplicar Ahora 
 
 - id: posted_by
-  translation: Publié par
+  translation: Publicado Por
 
 - id: date
-  translation: Date
+  translation: Fecha
 
 - id: time
-  translation: heure
+  translation: Hora
 
 - id: category
-  translation: Catégorie
+  translation: Categoría
 
 - id: related_course
-  translation: Cours lié
+  translation: Cursos Relacionados
 
 - id: duration
-  translation: durée
+  translation: Duración
 
 - id: weekly
-  translation: hebdomadairement
+  translation: Taller Virtual
 
 - id: fee
-  translation: frais
+  translation: Precio
 
 - id: teacher
-  translation: enseignant·e
+  translation: Profesores
 
 - id: location
-  translation: emplacement
+  translation: Lugar
 
 - id: entry_fee
-  translation: frais d’entrée
+  translation: Entrada Libre
 
 - id: event_speaker
-  translation: Présentateur•trice·s
+  translation: Presentador del Evento
 
 - id: more_event
-  translation: Plus d’événements
+  translation: Más Eventos
 
 - id: join
-  translation: S’abonner
+  translation: Suscribirse
 
 - id: enter_email
-  translation: Entrez votre courriel…
+  translation: Ingresar Correo
 
 - id: company
-  translation: compagnie
+  translation: Compañia
 
 - id: links
-  translation: liens
+  translation: Links
 
 - id: courses
-  translation: Cours
+  translation: Cursos
 
 - id: new_notice
-  translation: nouvelle notice
+  translation: Nuevas Noticias
 
 - id: call
-  translation: appeler
+  translation: Llamar
 
 - id: email
-  translation: courriel
+  translation: Correo
 
 - id: all
-  translation: Tous
+  translation: Todo
 
 - id: interest
-  translation: RÉSUMÉ DES ACTIVITÉS/INTÉRÊTS
+  translation: RESUMEN DE ACTIVIDADES/INTERESES
 
 - id: our_teachers
-  translation: Nos enseignants
+  translation: Nuestros Profesores
 
 - id: download
-  translation: Télécharger
+  translation: Descargar
