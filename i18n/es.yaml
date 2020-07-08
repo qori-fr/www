@@ -1,0 +1,122 @@
+- id: about
+  translation: Nosotros
+
+- id: more_details
+  translation: Más Detalles
+
+- id: buy_now
+  translation: Comprar Ahora
+
+- id: read_more
+  translation: Leer Más
+
+- id: get_into
+  translation: Ingresar
+
+- id: contact_form
+  translation: Formulario de contacto
+
+- id: send
+  translation: Enviar
+
+- id: contact_info
+  translation: Inforñación de contacto
+
+- id: subscribe_newsletter
+  translation: Suscribirse a las Noticias
+
+- id: subscribe
+  translation: Suscribirse
+
+- id: contact_us
+  translation: Contactanos
+
+- id: latest_article
+  translation: Ultimos Articulos
+
+- id: categories
+  translation: Catégorias
+
+- id: tags
+  translation: Etiquetas
+
+- id: see_all
+  translation: Ver Todo
+
+- id: apply_now
+  translation: Aplicar Ahora 
+
+- id: posted_by
+  translation: Publicado Por
+
+- id: date
+  translation: Fecha
+
+- id: time
+  translation: Hora
+
+- id: category
+  translation: Categoría
+
+- id: related_course
+  translation: Cursos Relacionados
+
+- id: duration
+  translation: Duración
+
+- id: weekly
+  translation: Taller Virtual
+
+- id: fee
+  translation: Precio
+
+- id: teacher
+  translation: Profesores
+
+- id: location
+  translation: Lugar
+
+- id: entry_fee
+  translation: Entrada Libre
+
+- id: event_speaker
+  translation: Presentador del Evento
+
+- id: more_event
+  translation: Más Eventos
+
+- id: join
+  translation: Suscribirse
+
+- id: enter_email
+  translation: Ingresar Correo
+
+- id: company
+  translation: Compañia
+
+- id: links
+  translation: Links
+
+- id: courses
+  translation: Cursos
+
+- id: new_notice
+  translation: Nuevas Noticias
+
+- id: call
+  translation: Llamar
+
+- id: email
+  translation: Correo
+
+- id: all
+  translation: Todo
+
+- id: interest
+  translation: RESUMEN DE ACTIVIDADES/INTERESES
+
+- id: our_teachers
+  translation: Nuestros Profesores
+
+- id: download
+  translation: Descargar

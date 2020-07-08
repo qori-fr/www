@@ -1,86 +1,86 @@
 baseURL = "/"
 languageCode = "fr-fr"
 summaryLength = "10"
-theme = "qori"
+theme = "educenter-hugo"
 title = "Qori"
 
 [menu]
 [[menu.main]]
 URL = "about"
-name = "Quiénes somos?"
+name = "Nosotros"
 weight = 1
 
 [[menu.main]]
 identifier = "estudia"
-URL = "estudia"
+URL = "pages/estudia"
 name = "Estudia en Francia"
 weight = 2
 [[menu.main]]
 parent = "estudia"
-URL = "estudia/frances"
-name = "Francés"
+URL = "pages/estudia/frances"
+name = "Lengua Francesa"
 weight = 1
 [[menu.main]]
 parent = "estudia"
-URL = "estudia/carrera_universitaria"
-name = "Carrera Universitaria"
+URL = "pages/estudia/carrera_universitaria"
+name = "Estudios Superiores"
 weight = 2
 
 [[menu.main]]
 identifier = "traduccion"
-URL = "traduccion"
+URL = "pages/traduccion"
 name = "Traducción"
 weight = 4
 [[menu.main]]
 parent = "traduccion"
-URL = "traduccion/comercial"
+URL = "pages/traduccion/comercial"
 name = "Comercial"
 weight = 1
 [[menu.main]]
 parent = "traduccion"
-URL = "traduccion/informatica"
+URL = "pages/traduccion/informatica"
 name = "Informática"
 weight = 2
 [[menu.main]]
 parent = "traduccion"
-URL = "traduccion/literaria"
+URL = "pages/traduccion/literaria"
 name = "Literaria"
 weight = 3
 [[menu.main]]
 parent = "traduccion"
-URL = "traduccion/relectura"
+URL = "pages/traduccion/relectura"
 name = "Relectura"
 weight = 4
 [[menu.main]]
 parent = "traduccion"
-URL = "traduccion/simple"
+URL = "pages/traduccion/simple"
 name = "Simple"
 weight = 5
 
 [[menu.main]]
 identifier = "interpretacion"
-URL = "interpretacion"
+URL = "pages/interpretacion"
 name = "Interpretación"
 weight = 5
 [[menu.main]]
 parent = "interpretacion"
-URL = "interpretacion/simultanea"
+URL = "pages/interpretacion/simultanea"
 name = "Simultánea"
 weight = 1
 [[menu.main]]
 parent = "interpretacion"
-URL = "interpretacion/consecutiva"
+URL = "pages/interpretacion/consecutiva"
 name = "Consecutiva"
 weight = 2
 
 [[menu.main]]
 identifier = "asesorias"
-URL = "asesorias"
+URL = "pages/asesorias"
 name = "Asesorias"
 weight = 6
 [[menu.main]]
 parent = "asesorias"
-URL = "asesorias/empleo"
+URL = "pages/asesorias/empleo"
 name = "Búsqueda de empleo en Francia"
 weight = 1
 
@@ -102,34 +102,79 @@ email = "anamedina111@gmail.com"
 #google_analitycs_id = "Your ID"
 home = "Qori"
 logo = "images/logo-w-sm.gif"
-phone = "+33 6 .. .. .. .."
+phone = "+33 6.. .. .. .."
 
 primary_color = "#cf1931"
 nav_color = "#102f5e"
+top_header = true
 
 [params.contact]
 enable = false
 form_action = "#"
 
+# CSS Plugins
 [[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
+link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-URL = "plugins/slick/slick.css"
+link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
 [[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
+link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
+link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
+link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
-URL = "plugins/shuffle/shuffle.min.js"
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
 
 [params.preloader]
 enable = true
-preloader = "Welcome! Qori"
+preloader = "Bienvenido! Qori"
 
 [[params.social]]
-URL = "#"
+URL = "https://www.facebook.com/"
 icon = "ti-facebook"
+
+
+################################### Espanol language #####################################
+[Languages.es]
+languageName = "Es"
+languageCode = "es-es"
+contentDir = "content/espanol"
+weight = 1
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 2
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+
+
+################################### French language #####################################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 3
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+
