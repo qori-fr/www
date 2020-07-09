@@ -5,7 +5,7 @@ slider:
   slider_item:
     # slider item loop
     - title : "Haz Tus Sueños Realidad"
-      content : "Test test test Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+      content : "No te quedes pensando en como sería si me fuera a estudiar a Francia. Contáctanos y da el salto para que puedas iniciar el proceso de admisión."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -15,8 +15,8 @@ slider:
         link : "https://www.google.com/"
 
     # slider item loop
-    - title : "Estudia Al Exterior Francia Te Espera"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Estudia En El Exterior Francia Te Espera"
+      content : "Te damos todos los tips para puedas lograr ser admitido en alguna institución francesa. Qori asegura tu éxito profesional !"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -26,8 +26,8 @@ slider:
         link : "https://www.google.com/"
 
     # slider item loop
-    - title : "Estudia En Francia"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Trabaja En Francia"
+      content : "Te ayudamos en la búsqueda de empleo profesional en Francia, como prácticas profesionales o trabajo en CDD o CDI."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -45,22 +45,22 @@ banner_feature:
     # feature item loop
     - name : "Estudia En Francia"
       icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Francia es un país reconocido por su excelencia académica a nivel internacional. Qori te asesora en todo el proceso para que puedas ser aceptado en alguna institución académica en Francia."
 
     # feature item loop
     - name : "Traducción"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Realizamos traducciones en todos los idiomas. Nuestros traductores son nativos quienes garantizan calidad y eficiencia en la traducción."
 
     # feature item loop
     - name : "Interpretación"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Nuestros intérpretes son nativos, formados en diferentes disciplinas que se encargan de realizar una interpretación consecutiva o simultánea para todo tipo de actividad, en todos los idiomas."
 
     # feature item loop
     - name : "Asesorias de Empleo"
       icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+      content : "Te asesoramos en tu búsqueda de empleo profesional en Francia, desde la redacción de una carta de motivación hasta la preparación a la entrevista."
 
 
 ############################## about ##################################
