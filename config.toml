@@ -1,4 +1,5 @@
 baseURL = "/"
+defaultContentLanguage = "es"
 languageCode = "fr-fr"
 summaryLength = "10"
 theme = "educenter-hugo"
@@ -98,11 +99,11 @@ weight = 8
 author = "Ana Medina"
 copyright = "Qori - Copyright &copy; 2020"
 description = "Qori est une société proposant des services à vos besoins"
-email = "anamedina111@gmail.com"
+email = "contact@qori.fr"
 #google_analitycs_id = "Your ID"
 home = "Qori"
 logo = "images/logo-w-sm.gif"
-phone = "+33 6.. .. .. .."
+phone = ""
 
 primary_color = "#cf1931"
 nav_color = "#102f5e"
@@ -156,18 +157,6 @@ contentDir = "content/espanol"
 weight = 1
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-
-
-################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 2
-home = "Home"
-# copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-
 
 ################################### French language #####################################
 [Languages.fr]
