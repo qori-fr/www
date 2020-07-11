@@ -11,8 +11,8 @@ slider:
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler maintenant"
-        link : "contact"
+        label : "Consulter gratuitement"
+        link : "https://calendly.com/qori"
 
     # slider item loop
     - title : "Votre brillant avenir est notre mission"
@@ -22,8 +22,8 @@ slider:
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
-        link : "contact"
+        label : "Consulter gratuitement"
+        link : "https://calendly.com/qori"
 
     # slider item loop
     - title : "Votre brillant avenir est notre mission"
@@ -33,8 +33,8 @@ slider:
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
-        link : "contact"
+        label : "Consulter gratuitement"
+        link : "https://calendly.com/qori"
 
 
 ############################### Banner feature ###############################

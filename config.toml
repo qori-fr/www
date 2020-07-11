@@ -103,15 +103,15 @@ email = "contact@qori.fr"
 #google_analitycs_id = "Your ID"
 home = "Qori"
 logo = "images/logo-w-sm.gif"
-phone = ""
+phone = "https://calendly.com/qori"
 
 primary_color = "#cf1931"
 nav_color = "#102f5e"
 top_header = true
 
 [params.contact]
-enable = false
-form_action = "#"
+enable = true
+form_action = "https://calendly.com/qori"
 
 # CSS Plugins
 [[params.plugins.css]]

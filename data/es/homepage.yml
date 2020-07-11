@@ -12,7 +12,7 @@ slider:
       button:
         enable : true
         label : "Consulta Gratuita"
-        link : "https://www.google.com/"
+        link : "https://calendly.com/qori"
 
     # slider item loop
     - title : "Estudia En El Exterior Francia Te Espera"
@@ -23,7 +23,7 @@ slider:
       button:
         enable : true
         label : "Consulta Gratuita"
-        link : "https://www.google.com/"
+        link : "https://calendly.com/qori"
 
     # slider item loop
     - title : "Trabaja En Francia"
@@ -34,7 +34,7 @@ slider:
       button:
         enable : true
         label : "Consulta Gratuita"
-        link : "https://www.google.com/"
+        link : "https://calendly.com/qori"
 
 
 ############################### Banner feature ###############################
