@@ -16,7 +16,7 @@ slider:
 
     # slider item loop
     - title : "Estudia En El Exterior Francia Te Espera"
-      content : "Te damos todos los tips para puedas lograr ser admitido en alguna institución francesa. Qori asegura tu éxito profesional !"
+      content : "Te damos todos los tips para puedas lograr ser admitido en alguna institución francesa. ¡Qori asegura tu éxito profesional!"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down

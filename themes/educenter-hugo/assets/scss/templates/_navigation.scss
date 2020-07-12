@@ -8,11 +8,18 @@
     transform: scaleY(0);
     transform-origin: top;
   }
+  padding-left: 10px;
+  padding-right: 10px;
+  @include desktop {
+    display: none;
+  }
 }
 
 .navigation {
   background: linear-gradient(to right, transparent 50%, $primary-color 50%);
   transition: .2s ease;
+  padding-left: 10px;
+  padding-right: 10px;
 
   @include desktop {
     background: $secondary-color;
@@ -26,6 +33,7 @@
 }
 
 .navbar-nav {
+  height: 100px;
   padding-left: 50px;
   background: $primary-color;
 
@@ -36,7 +44,10 @@
 }
 
 .navbar-brand img {
-  width: 100px
+  height: 90px;
+  @include desktop {
+    height: 45px;
+  }
 }
 
 .nav-bg {

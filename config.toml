@@ -5,96 +5,6 @@ summaryLength = "10"
 theme = "educenter-hugo"
 title = "Qori"
 
-[menu]
-[[menu.main]]
-URL = "about"
-name = "Nosotros"
-weight = 1
-
-[[menu.main]]
-identifier = "estudia"
-URL = "pages/estudia"
-name = "Estudia en Francia"
-weight = 2
-[[menu.main]]
-parent = "estudia"
-URL = "pages/estudia/frances"
-name = "Lengua Francesa"
-weight = 1
-[[menu.main]]
-parent = "estudia"
-URL = "pages/estudia/carrera_universitaria"
-name = "Estudios Superiores"
-weight = 2
-
-[[menu.main]]
-identifier = "traduccion"
-URL = "pages/traduccion"
-name = "Traducción"
-weight = 4
-[[menu.main]]
-parent = "traduccion"
-URL = "pages/traduccion/comercial"
-name = "Comercial"
-weight = 1
-[[menu.main]]
-parent = "traduccion"
-URL = "pages/traduccion/informatica"
-name = "Informática"
-weight = 2
-[[menu.main]]
-parent = "traduccion"
-URL = "pages/traduccion/literaria"
-name = "Literaria"
-weight = 3
-[[menu.main]]
-parent = "traduccion"
-URL = "pages/traduccion/relectura"
-name = "Relectura"
-weight = 4
-[[menu.main]]
-parent = "traduccion"
-URL = "pages/traduccion/simple"
-name = "Simple"
-weight = 5
-
-[[menu.main]]
-identifier = "interpretacion"
-URL = "pages/interpretacion"
-name = "Interpretación"
-weight = 5
-[[menu.main]]
-parent = "interpretacion"
-URL = "pages/interpretacion/simultanea"
-name = "Simultánea"
-weight = 1
-[[menu.main]]
-parent = "interpretacion"
-URL = "pages/interpretacion/consecutiva"
-name = "Consecutiva"
-weight = 2
-
-[[menu.main]]
-identifier = "asesorias"
-URL = "pages/asesorias"
-name = "Asesorias"
-weight = 6
-[[menu.main]]
-parent = "asesorias"
-URL = "pages/asesorias/empleo"
-name = "Búsqueda de empleo en Francia"
-weight = 1
-
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 7
-
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 8
-
 [params]
 author = "Ana Medina"
 copyright = "Qori - Copyright &copy; 2020"
@@ -150,7 +60,7 @@ icon = "ti-facebook"
 
 
 ################################### Espanol language #####################################
-[Languages.es]
+[languages.es]
 languageName = "Es"
 languageCode = "es-es"
 contentDir = "content/espanol"
@@ -158,8 +68,98 @@ weight = 1
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 
+
+[[languages.es.menu.main]]
+URL = "about"
+name = "Nosotros"
+weight = 1
+
+[[languages.es.menu.main]]
+identifier = "estudia"
+URL = "pages/estudia"
+name = "Estudia en Francia"
+weight = 2
+[[languages.es.menu.main]]
+parent = "estudia"
+URL = "pages/estudia/frances"
+name = "Lengua Francesa"
+weight = 1
+[[languages.es.menu.main]]
+parent = "estudia"
+URL = "pages/estudia/carrera_universitaria"
+name = "Estudios Superiores"
+weight = 2
+
+[[languages.es.menu.main]]
+identifier = "traduccion"
+URL = "pages/traduccion"
+name = "Traducción"
+weight = 4
+[[languages.es.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/comercial"
+name = "Comercial"
+weight = 1
+[[languages.es.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/informatica"
+name = "Informática"
+weight = 2
+[[languages.es.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/literaria"
+name = "Literaria"
+weight = 3
+[[languages.es.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/relectura"
+name = "Relectura"
+weight = 4
+[[languages.es.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/simple"
+name = "Simple"
+weight = 5
+
+[[languages.es.menu.main]]
+identifier = "interpretacion"
+URL = "pages/interpretacion"
+name = "Interpretación"
+weight = 5
+[[languages.es.menu.main]]
+parent = "interpretacion"
+URL = "pages/interpretacion/simultanea"
+name = "Simultánea"
+weight = 1
+[[languages.es.menu.main]]
+parent = "interpretacion"
+URL = "pages/interpretacion/consecutiva"
+name = "Consecutiva"
+weight = 2
+
+[[languages.es.menu.main]]
+identifier = "asesorias"
+URL = "pages/asesorias"
+name = "Asesorias"
+weight = 6
+[[languages.es.menu.main]]
+parent = "asesorias"
+URL = "pages/asesorias/empleo"
+name = "Búsqueda de empleo en Francia"
+weight = 1
+
+[[languages.es.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 7
+
+[[languages.es.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 8
+
 ################################### French language #####################################
-[Languages.fr]
+[languages.fr]
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
@@ -167,3 +167,92 @@ weight = 3
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
 
+
+[[languages.fr.menu.main]]
+URL = "about"
+name = "A propos"
+weight = 1
+
+[[languages.fr.menu.main]]
+identifier = "estudia"
+URL = "pages/estudia"
+name = "Etudes en France"
+weight = 2
+[[languages.fr.menu.main]]
+parent = "estudia"
+URL = "pages/estudia/frances"
+name = "Langue Française"
+weight = 1
+[[languages.fr.menu.main]]
+parent = "estudia"
+URL = "pages/estudia/carrera_universitaria"
+name = "Etudes supérieures"
+weight = 2
+
+[[languages.fr.menu.main]]
+identifier = "traduccion"
+URL = "pages/traduccion"
+name = "Traduction"
+weight = 4
+[[languages.fr.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/comercial"
+name = "Commercial"
+weight = 1
+[[languages.fr.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/informatica"
+name = "Informatique"
+weight = 2
+[[languages.fr.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/literaria"
+name = "Litéraire"
+weight = 3
+[[languages.fr.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/relectura"
+name = "Relecture"
+weight = 4
+[[languages.fr.menu.main]]
+parent = "traduccion"
+URL = "pages/traduccion/simple"
+name = "Simple"
+weight = 5
+
+[[languages.fr.menu.main]]
+identifier = "interpretacion"
+URL = "pages/interpretacion"
+name = "Interprétation"
+weight = 5
+[[languages.fr.menu.main]]
+parent = "interpretacion"
+URL = "pages/interpretacion/simultanea"
+name = "Simultanée"
+weight = 1
+[[languages.fr.menu.main]]
+parent = "interpretacion"
+URL = "pages/interpretacion/consecutiva"
+name = "Consecutive"
+weight = 2
+
+[[languages.fr.menu.main]]
+identifier = "asesorias"
+URL = "pages/asesorias"
+name = "Conseils"
+weight = 6
+[[languages.fr.menu.main]]
+parent = "asesorias"
+URL = "pages/asesorias/empleo"
+name = "Recherche emploi en France"
+weight = 1
+
+[[languages.fr.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 7
+
+[[languages.fr.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 8

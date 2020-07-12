@@ -4,8 +4,8 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Faites de votre rêve une réalité"
+      content : "Ne réfléchit pas plus longtemps à ce que ce serait d'étudier en France. Contactez-nous et faites le premiers pas pour entâmer votre processus d'admission."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -15,8 +15,8 @@ slider:
         link : "https://calendly.com/qori"
 
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Etudiez à l'étranger. La France vous attend."
+      content : "Nous vous conseillons afin que vous puissiez être admis(e) dans un établissement français. Qori assure votre réussite professionnelle !"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -26,8 +26,8 @@ slider:
         link : "https://calendly.com/qori"
 
     # slider item loop
-    - title : "Votre brillant avenir est notre mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Travaillez en France"
+      content : "Nous vous accompagnons dans votre recherche d'un emploi professionnel en France, tels que des stages professionnels ou un emploi en CDD ou CDI."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
