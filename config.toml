@@ -13,7 +13,7 @@ email = "contact@qori.fr"
 google_analitycs_id = "UA-59880117-2"
 home = "Qori"
 logo = "images/logo-w-sm.gif"
-phone = "https://calendly.com/qori"
+phone = "+33 (0) 7 80 97 35 25"
 
 primary_color = "#cf1931"
 nav_color = "#102f5e"
@@ -66,7 +66,7 @@ languageCode = "es-es"
 contentDir = "content/espanol"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com), modified for Qori"
 
 
 [[languages.es.menu.main]]
@@ -165,7 +165,7 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 3
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com), modified for Qori"
 
 
 [[languages.fr.menu.main]]
