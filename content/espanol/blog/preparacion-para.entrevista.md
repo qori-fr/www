@@ -1,5 +1,5 @@
 ---
-title: "Preparación Para Una Entrevis"
+title: "Preparación Para Una Entrevista"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
@@ -17,7 +17,7 @@ tags: ["bancos", "cuenta bancaria", "trabajo"]
 type: "post"
 ---
 
-#### Preparación para una entrevista de trabajo
+## Preparación para una entrevista de trabajo
 
 Después de haber obtenido una cita para una entrevista, necesitas prepararla. Este paso es fundamental para poder conseguir el puesto al que estás postulando.
 
