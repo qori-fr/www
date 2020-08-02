@@ -12,7 +12,7 @@ image: "images/blog/preguntas entrevista.jpg"
 author: "Qori"
 # taxonomy
 categories: ["Entrevista"]
-tags: ["Advice", "English"]
+tags: ["Entrevista", "Preguntas"]
 # type
 type: "post"
 ---
