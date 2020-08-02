@@ -58,7 +58,7 @@ banner_feature:
       content : "Nuestros intérpretes son nativos, formados en diferentes disciplinas que se encargan de realizar una interpretación consecutiva o simultánea para todo tipo de actividad, en todos los idiomas."
 
     # feature item loop
-    - name : "Asesorias de Empleo"
+    - name : "Asesorías de Empleo"
       icon : "ti-write" # icon pack : https://themify.me/themify-icons
       content : "Te asesoramos en tu búsqueda de empleo profesional en Francia, desde la redacción de una carta de motivación hasta la preparación a la entrevista."
 
@@ -68,7 +68,7 @@ about:
   enable : true
   title : "Acerca de QORI"
   image : "images/about/about-us.jpg"
-  content : "**QORI** es una sociedad que brinda una amplia gama de servicios: Interpretación; Traducción; Consejería, Orientación y Acompañamiento sobre Estudios Superiores en el Extranjero (especialmente, Francia) o Asesoramiento para el Aprendizaje del Idioma, etc.
+  content : "**QORI** es una sociedad que brinda una amplia gama de servicios: Interpretación, Traducción, Consejería, Orientación y Acompañamiento sobre Estudios Superiores en el Extranjero (especialmente, Francia) o Asesoramiento para el Aprendizaje del Idioma, etc.
 
 De París a Lima, de Europa a Latinoamérica, QORI ofrece servicios de alta calidad tanto a personas como a empresas.
 

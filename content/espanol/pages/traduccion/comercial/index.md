@@ -1,7 +1,7 @@
 ---
 title: "Comercial"
 draft: false
-description: "This is meta description."
+#description: "This is meta description."
 # about image
 image: "images/about/about-us.jpg"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Encontrar Mis Primeras Practicas"
+title: "Encontrar Mis Primeras Prácticas"
 date: 2020-07-21T15:27:17+06:00
 draft: false
 # page title background image
@@ -11,7 +11,7 @@ image: "images/blog/primeras practicas.jpg"
 # post author
 author: "Qori"
 # taxonomy
-categories: ["Encontrar mis Primeras Practicas"]
+categories: ["Encontrar mis Primeras Prácticas"]
 tags: ["Practica", "Trabajo", "Consejo"]
 # type
 type: "post"
