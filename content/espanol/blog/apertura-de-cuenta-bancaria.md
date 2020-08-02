@@ -1,6 +1,6 @@
 ---
 title: "Apertura de cuenta bancaria"
-date: 2019-07-06T15:27:17+06:00
+date: 2020-07-21T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,8 +11,8 @@ image: "images/blog/apertura de cuenta.jpg"
 # post author
 author: "Ana Medina"
 # taxonomy
-categories: ["Education System"]
-tags: ["bancos", "cuenta bancaria"]
+categories: ["Apertura de cuenta bancaria"]
+tags: ["Bancos", "Cuenta Bancaria", "Consejo"]
 # type
 type: "post"
 ---

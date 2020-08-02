@@ -1,6 +1,6 @@
 ---
 title: "Período de prueba (période d’essai)"
-date: 2019-07-06T15:27:17+06:00
+date: 2020-07-21T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,8 +11,8 @@ image: "images/blog/periodo de prueba.jpg"
 # post author
 author: "Qori"
 # taxonomy
-categories: ["Deep Learning"]
-tags: ["AI", "Automation"]
+categories: ["Periodo de Prueba"]
+tags: ["Trabajo", "Consejo"]
 # type
 type: "post"
 ---

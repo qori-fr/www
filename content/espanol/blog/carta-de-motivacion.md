@@ -1,6 +1,6 @@
 ---
 title: "Carta de Motivación"
-date: 2019-07-06T15:27:17+06:00
+date: 2020-07-21T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,8 +11,8 @@ image: "images/blog/letra de motivacion.jpg"
 # post author
 author: "Ana Medina"
 # taxonomy
-categories: ["automation-system"]
-tags: ["carta de motivación", "trabajo", "consejo"]
+categories: ["Carta de Motivación"]
+tags: ["Carta de Motivación", "Trabajo", "Consejo"]
 # type
 type: "post"
 ---

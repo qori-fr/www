@@ -1,6 +1,6 @@
 ---
 title: "Encontrar Mis Primeras Practicas"
-date: 2019-07-06T15:27:17+06:00
+date: 2020-07-21T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,13 +11,13 @@ image: "images/blog/primeras practicas.jpg"
 # post author
 author: "Qori"
 # taxonomy
-categories: ["Mathmatics Learning"]
-tags: ["Advice", "Rules"]
+categories: ["Encontrar mis Primeras Practicas"]
+tags: ["Practica", "Trabajo", "Consejo"]
 # type
 type: "post"
 ---
 
-Encontrar mis primeras prácticas profesionales en Francia
+## Encontrar mis primeras prácticas profesionales en Francia
 
 Algunas Universidades o Escuelas, te exigen en su programa la realización de un stage (prácticas profesionales). La duración puede variar de 1 a 6 meses. En el programa que estás estudiando, sea de pregrado o postgrado, es necesario verificar si requieres un stage como requisito académico.
 

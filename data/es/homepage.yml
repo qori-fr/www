@@ -95,7 +95,7 @@ cta:
   button:
     enable : true
     label : "Reservar Cita"
-    link : "contact"
+    link : "https://calendly.com/qori"
 
 
 ######################## Success story #############################

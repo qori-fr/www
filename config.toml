@@ -52,7 +52,7 @@ link = "plugins/google-map/gmap.js"
 
 [params.preloader]
 enable = true
-preloader = "Bienvenido! Qori"
+preloader = "images/logo-sm.gif"
 
 [[params.social]]
 title = "facebook"
