@@ -27,17 +27,17 @@ Deseo darte algunos tips  para que puedas crearlo :
 
 En internet se pueden encontrar miles de modelos de CV, lo importante es no presentar un CV clásico, ya que recuerda que serán miles de personas las que se presentarán al mismo puesto que estás postulando. El hecho de crear algo, innovar, demostrará que eres una persona creativa, que además toma su tiempo crear algo original.
 
-### Coloca en primer lugar, informacion que permita identificarte
+### Coloca en primer lugar, información que permita identificarte
 
-Debes senalar tu primer nombre y tu primer apellido. Es lo que se estila en Francia. Luego puedes colocar una foto, tu nacionalidad, tu situacion familiar, tu correo electronico, teléfono y direccion.
+Debes senalar tu primer nombre y tu primer apellido. Es lo que se estila en Francia. Luego puedes colocar una foto, tu nacionalidad, tu situación familiar, tu correo electrónico, teléfono y direccion.
 
 En Francia no es obligatorio de colocar en un CV lo siguiente :
 - La foto
 - La edad
 - La nacionalidad
-- La situacion familiar
+- La situación familiar
 
-Dependiendo del trabajo al cual te encuentres postulando, el reclutor deberà tener mayor informacion sobre tu persona, por ello te aconsejo que coloques esta informacion.
+Dependiendo del trabajo al cual te encuentres postulando, el reclutor deberà tener mayor información sobre tu persona, por ello te aconsejo que coloques esta información.
 
 ### Coloca el intitulado del puesto al cual postulas
 
@@ -60,4 +60,4 @@ Recuerda que en Francia, los CV no tienen más de una hoja. Sé que en América 
 
 Piensa en colocar tus experiencias profesionales en función del puesto profesional al que postulas. Al reclutador no le va a interesar si tuviste alguna experiencia laboral. Por ejemplo, en el campo, cuando postulas a un puesto de asistente comercial o de marketing.
 
-Si te parece complicado redactar un buen CV, no dudes en contactar mis servicios. Te ofrezco la elaboración de un CV original y adaptado al puesto de trabajo al que postulas.
+Si te parece complicado redactar un buen CV, no dudes en contactar nuestros servicios. Te ofrecemos la elaboración de un CV original, adaptándolo al puesto de trabajo al que postulas.
