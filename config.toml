@@ -55,9 +55,12 @@ enable = true
 preloader = "Bienvenido! Qori"
 
 [[params.social]]
-URL = "https://www.facebook.com/"
+URL = "https://www.facebook.com/qori.france"
 icon = "ti-facebook"
 
+[[params.social]]
+URL = http://m.me/qori.france
+icon = "ti-comments"
 
 ################################### Espanol language #####################################
 [languages.es]
