@@ -17,9 +17,9 @@ tags: ["Perfil", "Trabajo", "Consejo"]
 type: "post"
 ---
 
-### Crear un perfil en Linkedln
+## Crear un perfil en Linkedln
 
-#### ¿Qué es Linkedln?
+### ¿Qué es Linkedln?
 
 Linkedln es una red profesional con mas de 675 millones de miembros. Fue creada en el año 2002 en Mountain View, California (EEUU). Ella te permite entrar en contacto con millones de empresas y empleados en el mundo.
 
