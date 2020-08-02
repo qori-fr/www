@@ -145,7 +145,7 @@ weight = 2
 [[languages.es.menu.main]]
 identifier = "asesorias"
 URL = "pages/asesorias"
-name = "Asesorias"
+name = "Asesorías"
 weight = 6
 [[languages.es.menu.main]]
 parent = "asesorias"

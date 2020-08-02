@@ -11,7 +11,7 @@ image: "images/blog/apertura de cuenta.jpg"
 # post author
 author: "Ana Medina"
 # taxonomy
-categories: ["Apertura de cuenta bancaria"]
+categories: ["Banco"]
 tags: ["Bancos", "Cuenta Bancaria", "Consejo"]
 # type
 type: "post"

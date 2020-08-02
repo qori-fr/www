@@ -11,8 +11,8 @@ image: "images/blog/periodo de prueba.jpg"
 # post author
 author: "Qori"
 # taxonomy
-categories: ["Periodo de Prueba"]
-tags: ["Trabajo", "Consejo"]
+categories: ["Trabajo"]
+tags: ["Periodo de Prueba", "Trabajo", "Consejo"]
 # type
 type: "post"
 ---

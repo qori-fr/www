@@ -11,7 +11,7 @@ image: "images/blog/letra de motivacion.jpg"
 # post author
 author: "Ana Medina"
 # taxonomy
-categories: ["Carta de Motivación"]
+categories: ["Trabajo"]
 tags: ["Carta de Motivación", "Trabajo", "Consejo"]
 # type
 type: "post"

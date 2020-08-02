@@ -11,7 +11,7 @@ image: "images/blog/perfil de linkedlin.jpg"
 # post author
 author: "Qori"
 # taxonomy
-categories: ["Crear un Perfil en Linkedln"]
+categories: ["Trabajo"]
 tags: ["Perfil", "Trabajo", "Consejo"]
 # type
 type: "post"

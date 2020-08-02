@@ -11,7 +11,7 @@ image: "images/blog/preguntas entrevista.jpg"
 # post author
 author: "Qori"
 # taxonomy
-categories: ["Encontrar mis Primeras Practicas"]
+categories: ["Entrevista"]
 tags: ["Advice", "English"]
 # type
 type: "post"

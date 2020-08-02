@@ -91,7 +91,7 @@ course:
 cta:
   enable : true
   subtitle : "Quieres estudiar en Francia"
-  title : "CONSULTORIA GRATUITA"
+  title : "CONSULTORÍA GRATUITA"
   button:
     enable : true
     label : "Reservar Cita"
@@ -146,5 +146,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "Ultimas Noticias"
+  title : "Últimas Noticias"
   # blog item comes from "content/**/blog" folder.

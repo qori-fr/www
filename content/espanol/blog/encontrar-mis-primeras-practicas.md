@@ -11,7 +11,7 @@ image: "images/blog/primeras practicas.jpg"
 # post author
 author: "Qori"
 # taxonomy
-categories: ["Encontrar mis Primeras Prácticas"]
+categories: ["Trabajo"]
 tags: ["Practica", "Trabajo", "Consejo"]
 # type
 type: "post"
