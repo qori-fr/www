@@ -1,11 +1,6 @@
 ---
-title: "Simultánea"
-date: 2020-06-09T12:14:34+06:00
-description: "This is meta description."
+title: "Interprétation simultanée"
+date: 2020-08-12T12:14:34+01:00
+description: "Qori propose un service de traduction simultanée"
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+L’interprète est doté généralement d’un casque et d’un micro avec lequel il pourra effectuer une traduction orale et précise au même rythme que l’orateur. Il est fortement utilisé pendant les conférences mais aussi pendant des réunions.

@@ -1,11 +1,8 @@
 ---
-title: "Consecutiva"
-date: 2020-06-09T12:14:34+06:00
-description: "This is meta description."
+title: "Interprétation consécutif"
+date: 2020-08-12T12:14:34+01:00
+description: "Qori propose un service de traduction consécutif"
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+L’interprète prends des notes et restitue ensuite le discours de la langue cible. Il peut demander de pauses afin de pouvoir mieux transmettre le message. 
+- Tu ne parles pas bien le français et tu souhaites transmettre un message ? Je suis là pour vous aider ! Rappelle-moi et nous établirons ensemble le message que tu souhaites passer. 
+- Aide à la rédaction des courriels en français. 

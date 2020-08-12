@@ -243,7 +243,7 @@ weight = 1
 [[languages.fr.menu.main]]
 parent = "interpretacion"
 URL = "pages/interpretacion/consecutiva"
-name = "Consecutive"
+name = "Consécutive"
 weight = 2
 
 [[languages.fr.menu.main]]

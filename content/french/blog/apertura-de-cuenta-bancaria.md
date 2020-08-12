@@ -1,6 +1,6 @@
 ---
-title: "Apertura de cuenta bancaria"
-date: 2019-07-06T15:27:17+06:00
+title: "Ouverture d’un compte bancaire étudiant"
+date: 2020-08-12T15:27:17+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,82 +11,60 @@ image: "images/blog/apertura de cuenta.jpg"
 # post author
 author: "Ana Medina"
 # taxonomy
-categories: ["Education System"]
-tags: ["bancos", "cuenta bancaria"]
+categories: ["Banque"]
+tags: ["Banque", "Compte bancaire"]
 # type
 type: "post"
 ---
+# Ouverture d’un compte bancaire étudiant
 
-### Apertura de una cuenta bancaria estudiante
+L’ouverture d’un compte bancaire est importante car elle permettra d’effectuer différentes transactions bancaires, notamment :
+- Déposer et retirer de l’argent de n’importe quel distributeur
+- Faire des achats de produits en magasin ou sur Internet
+- Demander le remboursement des paiements de santé que vous avez effectués
+- Recevoir votre salaire : obligatoire en France à partir d’un certain montant
 
-La apertura de una cuenta bancaria es importante porque te permitirá realizar diferentes transacciones bancarias, entre ellas :
+Que vous demandent les banques pour ouvrir un compte bancaire en France ?
+- Document d’identité (passeport, visa)
+- Justificatif de domicile (bail, reçu du paiement du loyer, facture d’électricité ou de gaz)
+- Certificat d’études universitaires 
+- Carte d’étudiant
 
- Depositar y retirar dinero desde cualquier distribuidor
+## Quelle banque choisir ?
 
- Realizar compras de productos físicamente y en linea
+Il existe nombreuses banques en France, les principales sont :
+- BNP Paribas
+- Société Générale
+- La Banque Postale
+- Crédit Agricole
+- LCL
+- Crédit Mutuel
 
- Solicitar el reembolso de los pagos por salud que hayas efectuado
+Nous ne pouvons recommander aucune banque, car il s’agit d’une décision personnelle. Ce que nous pouvons faire, c’est que vous vous informiez bien des commissions mensuelles que vous devez payer, si vous avez un avantage si vous êtes étudiant entre 18 et 25 ans. Avant de vous rendre à la première banque que vous voyez en France, nous vous conseillons de visiter chacune des banques mentionnées et de comparer les prix et avantages. 
 
- Recibir tu salario
+Veuillez lire avant tout les conditions générales de vente (CGV), car parfois les étudiants ne lisent pas cette partie importante du contrat qu’ils signent avec une banque. 
 
-#### ¿Qué es lo que te piden los bancos para abrir una cuenta bancaria?
+Si pour une raison quelconque vous rencontrez des difficultés pour ouvrir un compte bancaire, vous pouvez alors demander l’ouverture d’un compte bancaire a la Banque de France, car en France, n’importe qui, ayant ou n’ayant pas les documents, peut demander l’ouverture d’un compte bancaire.
 
- Documento de identidad (pasaporte, visa)
+Les banques en ligne, qui offre leurs services seulement sur Internet, sont généralement moins chers. Les services sont parfois limités, il faut donc bien vérifier que ceux ci sont en adéquations avec vos besoins.
 
- Justificativo de domicilio (contrato de arrendamiento, recibo de pago de alquiler)
+## Que dois-je demander lors de l’ouverture d’un compte bancaire ? 
 
- Certificado de estudios universitarios
+Nous vous conseillons de se poser les questions suivantes :
+- Y a-t-il un bonus de bienvenu ? Certaines banques proposent entre 50€ à 250€ pour l’ouverture d’un compte bancaire.
+- Quel est le coût de gestion du compte courant ? 
+- Quelle part de découvert la banque m’autorise-t-elle ? Le découvert est le montant que le banque te prête, au cas où vous n’auriez pas assez d’argent sur votre compte bancaire. Si vous dépassez ce montant, votre compte apparaîtra en rouge.
+- Dois-je mettre un montant minimum pour ouvrir mon compte bancaire ?
+- Ai-je droit à un chéquier ?
+- Dois-je payer un peu plus de commission pour avoir le service en ligne de mon compte bancaire ?
+- Quel est le coût des commissions pour retirer de l’argent d’une banque qui n’est pas la mienne ?
 
- Carné de estudiante
+## Combien de temps faut-il pour ouvrir un compte bancaire ?
 
-### ¿Qué banco escoger?
+En théorie, cela prend 15 jours ouvrables ; mais cela peut en pratique durer jusqu’à un mois car ils doivent vous envoyer la carte bancaire à votre adresse. 
 
-Existen muchas entidades bancarias en Francia, las principales son :
+D’un autre côté, les banques proposent généralement une assurance voyage, assurance habitation. Demandez le coût de ces assurances et voyez si cela vous convient vraiment.
 
- BNP Paribas
+## Conseil
 
- Société Générale
-
- Banque Populaire
-
- La Banque Postale
-
- Crédit Agricole
-
- LCL
-
- Crédit Mutuel
-
-Nosotros no podemos recomendar ningún banco, ya que es una decisión personal. Lo que si podemos hacer es que te informes bien de las comisiones mensuales que deberás pagar, si tienes alguna ventaja por ser estudiante de 18 a 25 años.
-
-Antes de ir al primer banco que observes en Francia, te recomendamos visitar cada una de las entidades bancarias mencionadas, y comparar precios. Por favor, lee sobre todo las condiciones generales de venta (CGV), ya que a veces los estudiantes no leen esta parte tan importante del contrato que firman con un banco.
-
-Si por algún motivo tuvieras dificultad en abrir una cuenta bancaria, entonces puedes pedir la apertura de una en el Banque de France, ya que en Francia cualquier persona, tenga o no documentos, puede solicitar la apertura de una cuenta bancaria en esta entidad.
-
-#### ¿Qué debo preguntar al momento de abrir una cuenta bancaria?
-
-Te aconsejamos preguntar lo siguiente :
-
-¿Existe alguna prima de bienvenida? Algunos bancos ofrecen de 50€ hasta 250€ por abrir una cuenta bancaria.
-
-¿Cuál es el costo de gestión de la cuenta corriente?
-
-¿Cuánto de découvert me autoriza el banco? El découvert es el monto que me presta el banco, en caso de que no tengas suficiente dinero en tu cuenta bancaria. Si sobrepasas ese monto, entonces tu cuenta figurará en rojo.
-
-¿Necesito colocar un monto mínimo para abrir mi cuenta bancaria?
-
-¿Tengo derecho a una chequera?
-
-¿Debo pagar algo más de comisión por tener el servicio en linea de mi cuenta bancaria?
-
-¿Cuál es el costo de comisiones por retirar dinero de un banco que no es el mío?
-
-¿Cuánto tiempo toma la apertura de una cuenta bancaria ?
-
-En teoría toma 15 días hábiles; pero puede en la práctica durar hasta un mes, ya que te deben hacer llegar la carta bancaria a tu domicilio.
-
-Por otro lado, los bancos suelen proponer seguros de viaje, de habitación. Pregunta el costo de estos seguros y ve si realmente te conviene pagar el monto mensual por ellos.
-
-Consejo
-
-Apenas poseas los documentos para la apertura de una cuenta bancaria, intenta realizar este trámite administrativo lo más pronto posible. Tu carta bancaria te será necesaria en tu vida diaria en Francia.
+Dès que vous avez les documents pour ouvrir un compte bancaire, essayez de terminer cette procédure administrative au plus vite. Votre carte bancaire sera nécessaire dans votre vie quotidienne en France. 

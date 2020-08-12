@@ -1,13 +1,10 @@
 ---
-title: "Literaria"
-date: 2020-06-09T12:14:34+06:00
-description: "This is meta description."
+title: "Traduction littéraire"
+date: 2020-08-12T12:14:34+01:00
+description: "Qori propose un service de traduction dans le domaine littéraire"
 author_image : "images/about/author.jpg"
 author_signature : "images/about/signature.png"
 ---
+La traduction littéraire est un travail assez complexe effectué par nos traducteurs. Nos traducteurs ont étudié la littérature et la linguistique et connaissent donc les figures littéraires, les noms propres et la culture de la langue dans laquelle elle doit être traduite.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Nous réalisons la traduction de : romans, poésie, nouvelles, théâtre et autres.

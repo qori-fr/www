@@ -1,11 +1,8 @@
 ---
-title: "Relectura"
-date: 2020-06-09T12:14:34+06:00
-description: "This is meta description."
+title: "Relecture"
+date: 2020-08-12T12:14:34+01:00
+description: "Qori propose un service de relecture"
 ---
+Selon le texte que vous nous envoyez, nous vous proposons la relecture de vos documents par nos experts. Nous enrichissons la langue, corrigeons la syntaxe et toutes les fautes d’orthographe.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Si vous faites par exemple votre travail de recherche et que vous doutez qu’il soit bien rédigé, n’hésitez pas à nous l’envoyer afin que nous puissions apporter les corrections nécessaires.

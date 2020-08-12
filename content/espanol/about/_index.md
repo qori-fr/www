@@ -1,29 +1,22 @@
 ---
-title: "Nosotros"
-date: 2020-06-10T12:14:34+06:00
+title: "Qui sommes-nous ?"
+date: 2020-08-12T12:14:34+01:00
 #description: "This is meta description."
 # about image
 image: "images/about/about-page.jpg"
 ---
+# Qui sommes-nous ?
 
-## ACERCA DE NOSOTROS
+**Qori** est une société se charge de diverses prestations : Traduction-Interprétariat, Conseil, Recherche d’Emploi, accompagnement aux études à l’étranger (spécialement en France) ou conseil à l’apprentissage de la langue, etc.
 
-**QORI** es una sociedad que brinda una amplia gama de servicios: Interpretación; Traducción; Consejería, Orientación y Acompañamiento sobre Estudios Superiores en el Extranjero (especialmente, Francia) o Asesoramiento para el Aprendizaje del Idioma, etc.
+De Paris à Lima, de l’Europe vers l’Amérique Latine, **Qori** propose des services de qualité aux particuliers et aux entreprises.
 
-De París a Lima, de Europa a Latinoamérica, QORI ofrece servicios de alta calidad tanto a personas como a empresas.
+Nous avons une gamme des traducteurs et interprètes sélectionnés qui partagent nos valeurs et notre rigueur.
 
-Nuestro personal permanente se encuentra basado en París y está a tu lado para ofrecerte un servicio clave a la mano.
+Nous avons un personnel spécialisé pour réaliser un accompagnement aux études à l’étranger de langues et des études en Licence, Master ou Doctorat.
 
-Tenemos una red de traductores e intérpretes seleccionados que comparten nuestros valores y rigurosidad.
+Nous avons une culture internationale orientée non seulement au marché internet mais aussi à l’exportation de services. Quelque soit ton secteur d’activité, ton domaine ou ton intérêt dans les services que nous proposons, nous mettons tout nos efforts pour satisfaire tes besoins.
 
-Contamos con un personal plenamente capacitado para realizar servicios de Consejería sobre Estudios Superiores en el Extranjero o de Aprendizaje del Idioma, dirigidos por expertos en el tema.
+Notre personnel est évalué constamment et nos services sont effectuées dans le strict respect de normes.
 
-Poseemos una cultura internacional y orientada no solamente al mercado interno, sino a la exportación de servicios. Cualquiera que sea tu sector de actividad, tu especialidad de estudios o tu interés en los servicios que brindamos, ponemos todo nuestro esfuerzo en satisfacer tus expectativas.
-
-El personal es evaluado periódicamente y nuestros servicios son efectuados con respeto estricto a las normas.
-
-Contamos con un grupo reactivo gracias a nuestras herramientas de organización interna.
-
-Inmediatamente que te pones en contacto con nosotros, identificamos rápidamente lo que necesitas para proveerte una solución en un plazo muy corto.
-
-Herramientas innovadoras nos permiten proponerte una relación calidad/precio de las más interesantes y soluciones a medida.
+Dès que le premier contact avec nous, nous identifions rapidement les besoins et nous répondons dans un délai court.
