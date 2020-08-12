@@ -21,6 +21,7 @@ type: "post"
 En Francia existe una institución llamado Centro Internacional de Estudios Pedagógicos (CIEP), que a través del servicio ENIC-NARIC se encarga de reconocer los diplomas extranjeros. 
 
 ENIC NARIC se encarga de otorgar dos tipos de certificados :
+
 1. Certificado de comparación (Attestation de comparabilité)
 2. Certificado que reconoce el período de estudios (Attestation de reconnaissance de période d’études)
 
