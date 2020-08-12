@@ -86,14 +86,19 @@ name = "Estudia en Francia"
 weight = 2
 [[languages.es.menu.main]]
 parent = "estudia"
-URL = "pages/estudia/frances"
-name = "Lengua Francesa"
+URL = "pages/estudia/estudios_superiores"
+name = "Estudios Superiores"
 weight = 1
 [[languages.es.menu.main]]
 parent = "estudia"
-URL = "pages/estudia/carrera_universitaria"
-name = "Estudios Superiores"
+URL = "pages/estudia/frances"
+name = "Lengua Francesa"
 weight = 2
+#[[languages.es.menu.main]]
+#parent = "estudia"
+#URL = "pages/estudia/carrera_universitaria"
+#name = "Estudios Superiores"
+#weight = 2
 
 [[languages.es.menu.main]]
 identifier = "traduccion"

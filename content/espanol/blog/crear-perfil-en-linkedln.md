@@ -1,6 +1,6 @@
 ---
 title: "Crear Un Perfil En Linkedln"
-date: 2020-07-21T15:27:17+06:00
+date: 2020-07-21T15:27:17+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -32,8 +32,6 @@ Pasos para crear un perfil Linkedln :
 Dirígete a la página de inicio de la sesión de LInkedln
 
 Escribe tu nombre, apellidos, dirección de correo electrónico y contraseña que usarás. Recuerda que se trata de una red profesional y, como tal, deberás colocar tu identidad real.
-
-Selecciona Únete ahora (colocar capture d’écran)
 
 #### 2. Coloca el titulo de tu perfil
 
