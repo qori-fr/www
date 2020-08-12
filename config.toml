@@ -7,7 +7,7 @@ title = "Qori"
 
 [params]
 author = "Ana Medina"
-copyright = "Qori - Copyright &copy; 2020"
+copyright = "Qori - Copyright &copy; 2020 [<img src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" alt=\"Licence Creative Commons\">](http://creativecommons.org/licenses/by-nc-sa/4.0/)"
 description = "Qori est une société proposant des services à vos besoins"
 email = "contact@qori.fr"
 google_analitycs_id = "UA-59880117-2"
@@ -71,7 +71,7 @@ languageCode = "es-es"
 contentDir = "content/espanol"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com), modified for Qori"
+copyright = "Content is copyrighted &copy; 2020 by Qori [Licence Creative Commons **by-nc-sa**](http://creativecommons.org/licenses/by-nc-sa/4.0/); web site Theme from **[themefisher](https://themefisher.com)**"
 
 
 [[languages.es.menu.main]]
@@ -175,7 +175,7 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 3
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com), modified for Qori"
+copyright = "Contenu protégé par droit d'auteur &copy; 2020 pour Qori [Licence Creative Commons **by-nc-sa**](http://creativecommons.org/licenses/by-nc-sa/4.0/); thème du site web par **[themefisher](https://themefisher.com)**"
 
 
 [[languages.fr.menu.main]]
