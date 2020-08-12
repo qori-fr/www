@@ -1,6 +1,6 @@
 ---
 title: "Preparación Para Una Entrevis"
-date: 2019-07-06T15:27:17+06:00
+date: 2020-07-06T15:27:17+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

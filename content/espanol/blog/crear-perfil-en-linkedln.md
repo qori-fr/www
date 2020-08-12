@@ -16,61 +16,64 @@ tags: ["Perfil", "Trabajo", "Consejo"]
 # type
 type: "post"
 ---
+# Créer un profil LinkedIn
+## Qu’est-ce que LinkedIn ?
+LinkedIn est un réseau professionnel de plus de 675 millions de membres. Il a été créé en 2002 à Mountain View, Californie (USA). Il vous permet de contacter des millions d’entreprises et employés dans le monde.
 
-## Crear un perfil en Linkedln
+En France si vous souhaitez chercher un emploi, je vous conseil de créer un profil LinkedIn.
 
-### ¿Qué es Linkedln?
+## Etapes pour créer un profil LinkedIn :
 
-Linkedln es una red profesional con mas de 675 millones de miembros. Fue creada en el año 2002 en Mountain View, California (EEUU). Ella te permite entrar en contacto con millones de empresas y empleados en el mundo.
+### 1. Placez vos données personnelles. Accédez à la page de démarrage de la session Linkedln.
 
-En Francia, si deseas buscar trabajo, te recomiendo crearte un perfil Linkedln.
+Ecrivez vos nom, prénom, adresse e-mail et mot de passe que vous utiliserez. N’oubliez pas qu’il s’agit d’un réseau professionnel et, à ce titre vous devez placer votre véritable identité.Sélectionnez rejoindre maintenant. 
 
-Pasos para crear un perfil Linkedln :
+### 2. Mettez le titre de votre profil
 
-#### 1. Coloca tus datos personales
+Ceci est le titre du poste actuel que vous occupez. Si vous recherche un emploi, vous pouvez mettre :
 
-Dirígete a la página de inicio de la sesión de LInkedln
+>« A la recherche d’une nouvelle opportunité d’emploi ».
 
-Escribe tu nombre, apellidos, dirección de correo electrónico y contraseña que usarás. Recuerda que se trata de una red profesional y, como tal, deberás colocar tu identidad real.
+### 3. Publiez une photo de profil
 
-#### 2. Coloca el titulo de tu perfil
+La photo doit être professionnelle, cela ne vous empêche pas de montrer une photo dans laquelle vos souriez. Montrez-vous original et surtout professionnel.
 
-Se trata del título del puesto actual que posees. Si te encuentras buscando un trabajo, puedes colocar « A la búsqueda de una nueva oportunidad de trabajo ».
+La taille conseillée de la photo est de 450x450 pixels.
 
-#### 3. Coloca una foto de perfil
+### 4. Publiez une photo de couverture
 
-La foto tiene que ser profesional, eso no impide que puedas mostrar una foto en la cual te encuentres sonriendo. Muéstrate original y sobre todo profesional. Evita colocar alguna foto familiar, ya que corres el riesgo de desacreditarte. La talla recomendada es de 450x450 pixels.
+Vous pouvez mettre une photo qui correspond au poste que vous recherchez ou peut être une photo de votre façon de penser, en lien avec l’emploi qui vous souhaitez. La taille conseillée est de 1584x396 pixels.
 
-#### 4. Coloca una foto de cobertura
+### 5. Publiez vos expériences professionnelles
 
-Puedes colocar una foto que corresponde al puesto que buscas o quizás una foto de tu manera de pensar, en nexo con el trabajo que tienes. La talla recomendada es de 1584x396 pixeles.
+Commencez du plus récent au plus ancien. N’oubliez pas de décrire les tâches que vous avez accomplies lorsque vous travailliez dans ces entreprises. N’oubliez pas de mettre des mots-clés qui vous rendent visible lorsqu’un recruteur recherche un profil comme le vôtre.
 
-#### 5. Coloca tus experiencias profesionales
+### 6. Placez du contenu
 
-Empieza de la más reciente a la más antigua. No olvides de describir las tareas que realizabas cuando te encontrabas trabajando en esas empresas. Recuerda colocar palabras claves, que te hagan visible al momento en que un reclutador realice una búsqueda de un perfil como el tuyo.
+Si vous avez un blog personnel, ou si vous avez créé une page web, n’oubliez pas de le mentionner. Cela peut vous servir de référence et montrer que vous avez d’autres qualités professionnelles. 
 
-#### 6. Coloca contenido
+### 7. Placez vos compétences
 
-Si posees un blog personal, o si has creado una página web, no olvides de mencionarlo. Esto puede servir como referencia de que posees otras calidades profesionales.
+LinkedIn a une fenêtre dans laquelle vous pouvez choisir vos compétences. De plus, actuellement, LinkedIn vos propose de passer un test composé de 15 à 20 questions, auxquelles vous devez répondre de manière chronométrée. Si vous ne pouvez pas passer le test, pas de problème, vous pouvez réessayer après 3 mois. Si vous parvenez à le réussir avec une moyenne de 70 %, vous obtiendrez un badge validant la compétence du point de vue de LinkedIn. 
 
-#### 7. Coloca tus competencias
+### 8. Placez votre formation
 
-Linkedln dispone de una ventana en la cual puedes escoger tus competencias. Es más, actualmente, Linkedln te propone pasar un test compuesto de entre 15 a 20 preguntas, la cuales deberás responder de manera cronometrada. Si no logras pasar el test, no hay problema, podrás volver a intentarlo en 3 meses. Si logras pasarlo con un promedio de 70%, entonces obtendrás un badge (identificación).
+Dans cette partie, vous devez placer les études que vous avez effectuées ou que vous menez. En l’indiquant, vous pouvez rapidement entrer en contact avec vos amis d’Université ou de Collège et consulter leurs profils, ce qui vous aidera également à vous faire une idée des entreprises qui les ont recrutés.
 
-#### 8. Coloca tu formación
+### 9. Publications
 
-En esta parte, debes colocar los estudios que has efectuado o que te encuentras realizando. Al indicar esto, puedes rápidamente ponerte en contacto con tus amigos de Universidad o de colegio y observar sus perfiles, lo cual te ayudara también a tener una idea de las empresas que los han **reclutado.**
+Si vous avez écrit un article dans un blog, ou si vous êtes entrepreneur, vous pouvez partager vos articles de cette manière. Cela vous donnera la possibilité de faire connaître le contenu de ce que vous souhaitez diffuser, de voir le trafic Web et d’avoir une statistique de l’impact de votre publication.
 
-#### 9. Publicaciones
+### 10. Demander une recommandation
 
-Si has escrito algún articulo en un blog, o si eres entrepreneur (emprendedor), puedes compartir tus artículos por esta vía. Esto te dará la posibilidad de hacer conocer el contenido de lo que deseas difundir, ver el tráfico web y tener una estadística del impacto que tuvo tu publicación.
+Il est important de savoir quitter un travail, surtout le faire dans de bonnes conditions, car cela pourrait avoir un impact lors de la recherche d’un prochain emploi.
 
-#### 10. Pide recomendación
+N’oubliez pas, avant la fin de votre contrat, de demander une recommandation à votre patron ou responsable de votre espace de travail. Vous pouvez ensuite partager ceci sur votre profil LinkedIn. Cela peut sembler banal, mais il est important que les recruteurs sachent quels types de compétences vous possédez et si vous êtes bon travailleur.
 
-Es importante retirarse en buenos términos cuando dejas un trabajo. No olvides, antes de que termine tu contrato, de solicitar una recomendación a tu jefe o responsable de tu área de trabajo. Esto luego lo podrás compartir en tu perfil Linkedln. Puede parecer banal, pero es importante para los **reclutadores** conocer qué tipo de capacidades posees.
+### 11. L’URL
 
-#### 11. L’URL
+N’oubliez pas que vous pouvez télécharger votre profil LinkedIn comme s’il s’agissait d’un CV. Cette URL est parfois demandée lorsque vous postulez à partir d’un site de recherche d’emploi. 
 
-Recuerda que puedes telecargar tu perfil Linkedln como si fuera un CV. Esta dirección url es a veces solicitada cuando postulas desde un sitio para buscar trabajo.
+Sur certains sites sur internet, vous pouvez même utiliser votre compte LinkedIn pour vous connecter à ces services et ils peuvent récupérer les informations de votre profil, avec votre accord bien entendu.
 
-Recuerda siempre mantener tu perfil Linkedln al día, ya que no conoces la oportunidad laboral que podría estar esperándote.
+N’oubliez pas de toujours garder votre profil LinkedIn à jour, car vous ne connaissez pas l’opportunité d’emploi qui pourrait vous attendre. 

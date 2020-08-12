@@ -1,6 +1,6 @@
 ---
-title: "Encontrar Mis Primeras Practicas"
-date: 2019-07-06T15:27:17+06:00
+title: "Trouver mon premier stage en France"
+date: 2020-08-12T15:27:17+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,65 +11,62 @@ image: "images/blog/primeras practicas.jpg"
 # post author
 author: "Qori"
 # taxonomy
-categories: ["Mathmatics Learning"]
-tags: ["Advice", "Rules"]
+categories: ["Travail"]
+tags: ["Stage", "Travail", "Conseil"]
 # type
 type: "post"
 ---
+# Trouver mon premier stage en France
 
-Encontrar mis primeras prácticas profesionales en Francia
+Certaines Universités et Écoles vous obligent à effectuer un stage professionnel pour pouvoir obtenir le diplôme. La durée peut varier de 1 à 6 mois. Dans le programme que vous étudiez, qu’il soit de premier cycle ou de deuxième cycle, il est nécessaire de vérifier si vous avez besoin d’un stage comme exigence académique. 
 
-Algunas Universidades o Escuelas, te exigen en su programa la realización de un stage (prácticas profesionales). La duración puede variar de 1 a 6 meses. En el programa que estás estudiando, sea de pregrado o postgrado, es necesario verificar si requieres un stage como requisito académico.
+Il existe des programmes qui vous donnent également la possibilité de rédiger un document de recherche, qui peut remplacer les pratiques professionnelles. Je recommanderais que si vous souhaitez vous orienter vers le professionnel et recherchez votre stage en France. 
 
-Hay programas que también te dan la opción de redactar un trabajo de investigación, que puede sustituir las prácticas profesionales. Yo recomendaría que si deseas inclinarte por el mundo profesional busques tus prácticas en Francia.
+Il est nécessaire de préciser que, pour effectuer un stage en France, vous devez disposer d’une convention de stage, document dont toutes les entreprises ont besoin lors de la prise d’un stagiaire. 
 
-Es necesario precisar que, para realizar unas prácticas en Francia, debes contar con una convención (convention de stage), documento que exigen todas las empresas al momento de tomar a un practicante.
+## 1. Identifiez vos compétences et la spécialité dans laquelle vous souhaitez travailler
 
-Pasos para encontrar tus prácticas en Francia
+C’est un travail personnel à faire. Je vous conseille de noter, sur une feuille séparée, une liste des tâches que vous souhaiteriez réaliser dans le cadre de la carrière professionnelle que vous étudiez.
 
-1) Identificar tus competencias y la especialidad en la cual deseas trabajar. Esto es un trabajo personal a realizar. Te aconsejo anotes, en una hoja aparte, una lista de tareas que te gustaría efectuar en nexo con la carrera profesional que estudias. Debes resaltar estas competencias en tu CV y expresarlas en tu carta de motivación. (Separar el párrafo del título).
+Vous devez mettre en valeur ces compétences dans votre CV et les exprimer dans votre lettre de motivation.
 
-2) Realiza un CV y carta de motivación en coherencia con lo que buscas.
+## 2. Faites un CV et une lettre de motivation cohérents avec ce que vous recherchez.
 
-La manera como presentes tu CV y carta de motivación, es importante para que, en un primer momento, los que reclutan te llamen y te realicen una primera entrevista telefónica. Luego vendrá una entrevista personal y finalmente obtendrás una respuesta.
+La manière dont vous présentez votre CV et votre lettre de motivation est important pour que, dans un premier temps, ceux qui recrutent vous appellent et procèdent à un premier entretien téléphonique. Ensuite, un entretien personnel viendra et vous obtiendrez enfin une réponse.
 
-Ten en cuenta que si eres extranjero, durante la entrevista personal, te pueden tomar un test de gramática, psicológico y de Excel. Esto dependerá del puesto al que postulas.
+Gardez l’esprit que si vous êtes étranger, lors de l’entretien personnel, vous pouvez passer un test de grammaires, un test psychologique et d’Excel. Cela dépendra du poste pour lequel vous postulez.
 
-3) Identificar las empresas que proponen el puesto que buscas.
+## 3. Identifiez les entreprises qui proposent le poste que vous recherchez
 
-Las prácticas se realizan en un período determinado del año, para los que necesitan realizar unas de 6 meses, empieza en general en el mes de marzo, abril, y para aquéllos que solo necesitan un mes o dos, en junio o julio. Esta información es importante para buscar con tiempo las prácticas profesionales, no esperar a última hora, ya que si no competirás con miles de estudiantes que las buscarán como tu. Aconsejo iniciar la búsqueda con tres meses de anticipación. Si las empresas todavía no abren algún puesto para practicantes, tienes la posibilidad de enviar las famosas candidaturas espontáneas (candidature spontanée) en las cuales deberás precisar el tipo de stage que buscas y la fecha de inicio de éste.
+Les pratiques sont effectuées à une certaine période de l’année, pour ceux qui ont besoin de faire une période de 6 mois, cela commence généralement au mois de mars, avril et pour ceux qui n’ont besoin d’un mois ou deux, en juin ou juillet. Ces informations sont importantes pour rechercher des stages professionnels dans le temps, ne pas attendre la dernière minute, car vous risquez d’être en concurrence avec des milliers d’étudiants qui comme vous chercheront un stage.
 
-Recomiendo también enviar una centena de candidaturas. Cuando yo empecé a buscar mi primera práctica profesional, me sentí un poco triste la primera vez que había enviado una decena de candidaturas, no obtuve ninguna respuesta. Luego conversando con otros estudiantes, en esa época, me di cuenta que no era la única, y que además existían experiencias exitosas de personas que había enviado aproximadamente 100 candidaturas.
+Je vous conseille de commencer la recherche trois mois à l’avance. Si les entreprises n’ouvrent toujours aucun poste pour les stagiaires, vous avez la possibilité d’envoyer les fameuses candidatures spontanées dans lesquelles vous devez préciser le type de stage vous recherchez et la date de début de celui-ci.
 
-Por otro lado, es necesario saber que si vives en Isla de Francia tendrás mayor posibilidad de encontrar tus prácticas de manera más rápida que alguien que vive en provincia.
+Je recommande également d’envoyer une centaine de candidatures. Quand j’ai commencé à chercher mon premier stage, je me suis sentie un peu triste la première fois car j’avais envoyé une dizaine de candidatures et je n’avais obtenu aucune réponse. Puis en discutant avec d’autres étudiants, à ce moment-là, j’ai réalisé que je n’étais pas la seule et qu’il y avait aussi des expériences réussies de personnes qui avaient envoyé environ 100 candidatures. Par contre, il faut savoir que si vous habitez en Ile-de-France vous aurez plus de chance de trouver un stage plus rapidement qu’une personne résidant en province. 
 
-4) Contacta con el servicio de Inserción profesional de tu Escuela o Universidad.
+## 4. Contactez le service d’insertion professionnelle de votre Ecole ou Université
 
-Casi todas las Universidades, y sobre todo Escuelas, cuentan con este servicio « Service d’Insertion Professionnelle », también llamadas Bureau d’Aide à l’Insertion Professionnelle (BAIP), que ayuda a un estudiante a insertarse al mundo laboral. Este servicio propone entrevistas individuales, talleres, ofertas de prácticas y encuentro con profesionales. (Revisar si son nombres alternativos « Service d’Insertion Professionnelle » y BAIP).
+Les Ecoles disposent généralement d’un service qui s’appelle « Insertion Professionnelle », également appelé Bureau d’Aide à l’Insertion Professionnelle (BAIP), qui aide aux étudiants à rentrer dans le monde du travail. Ce service propose des entretiens individuels, des ateliers, des offres de stages et des rencontres avec des professionnels. 
 
-5) Toma contacto con las promociones anteriores.
+## 5. Prenez contact avec les promotions précédentes
 
-Si tu Universidad no cuenta con una red Alumni, pregunta en el servicio de secretaría si existe una asociación de egresados en tu especialidad. Si esta información te es proporcionada, puedes empezar a contactar a los egresados y preguntarles si en los lugares en los cuales han trabajado o trabajan buscan practicantes. Esta información es valiosa, ya que te permitirá saber si vale o no la pena efectuar una postulación en tal o cual empresa.
+Si votre Université n’a pas de réseau d’anciens élèves, demandez au secrétariat s’il existe une association de diplômés dans votre spécialité. Si ces informations vous sont fournies, vous pouvez commencer à contacter les diplômés et leur demander s’ils recherchent des stagiaires dans les lieux où ils ont travaillé ou travaillent. Ces informations sont précieuses, car elles vous permettront de savoir si cela vaut la peine de faire une demande dans telle ou telle entreprise. 
 
-6) Relanza tus candidaturas.
+## 6. Relancez vos candidatures
 
-Si al cabo de 15 días no recibiste ninguna respuesta, puedes escribir un email para conocer si se encuentran analizando tu candidatura o si ya la descartaron. Puedes también llamar directamente al servicio de Recursos Humanos que te responderá o que incluso te dirá si hay otras ofertas de practicas abiertas en ese momento.
+Si après 15 jours vous n’avez reçu aucune réponse, vous pouvez écrire un e-mail pour savoir s’ils analysent votre candidature ou s’ils l’ont déjà rejetée. Vous pouvez également appeler directement le service de Ressources Humaines, qui vous répondra ou même vous indiquera s’il existe d’autres offres de stages ouvertes à ce moment-là.
 
-7) Creación o cuidado con las redes sociales.
+## 7. Création ou entretien avec les réseaux sociaux
 
-Te aconsejo de crearte una cuenta Linkedln, es una cuenta profesional en la cual colocas de manera libre tu experiencia académica y profesional. Las personas que reclutan pueden mirar tu perfil. Por otro lado, es importante también cuidar tu Facebook, aunque no sea común, puede ser visto por los que reclutan.
+Je vous conseille de créer un compte LinkedIn, c’est un compte professionnel dans lequel vous placez librement votre expérience académique et professionnelle. Les personnes qui recrutent peuvent consulter votre profil. 
 
-Es necesario saber…
+D’autre part, il est également important de prendre soin de votre Facebook, même si ce n’est pas courant, il peut être vu par ceux qui souhaitent vous recruter.
 
- Las practicas profesionales no pueden durar más de 6 meses, 924h salvo derogación.
+Il faut savoir que :
+- Les stages ne peuvent durer plus de 6 mois, 924h sauf dérogation.
+- Vous ne pouvez pas travailler plus de 48h par semaine.
+- Vous ne pouvez pas être tenu de produire en tant que salarié. Ceci pour plusieurs raisons, parmi lesquelles, le fait que vous avez récemment rejoint l’entreprise et vous êtes en « formation » et que vous n’aurez pas le même salaire qu’un salarié. 
+- Au-délà de deux mois, l’employeur est tenu de vous rémunérer.
+- La gratification annuel est passé du 1er janvier 2020, de 3,75€ à 3,90€ de l’heure.
 
- No puedes trabajar mas de 48h por semana.
-
- No te pueden exigir que produzcas como una persona que es asalariada. Esto es por varios motivos, entre ellos, el hecho de que recién te incorporas a la empresa y te « estás formando » y porque no tendrás el mismo sueldo que un asalariado.
-
- Mas allá de dos meses, el empleador está obligado a remunerarte
-
- La gratificación anual ha aumentado a partir del 1 de enero 2020, de 3,75€ a 3,90€ por hora.
-
-Espero que estos consejos te ayuden en tu búsqueda de prácticas profesionales. Si buscas ayuda, no dudes en contactarme.
-                                                    
+J’espère que ces conseils vous aideront dans votre recherche de stages. Si vous cherchez de l’aide, n’hésitez pas à nous contacter.
