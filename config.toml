@@ -1,4 +1,4 @@
-baseURL = "http://qori.fr/"
+baseURL = "https://qori.fr/"
 defaultContentLanguage = "es"
 languageCode = "fr-fr"
 summaryLength = "10"
