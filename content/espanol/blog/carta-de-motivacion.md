@@ -1,6 +1,6 @@
 ---
 title: "Carta de Motivación"
-date: 2020-07-21T15:27:17+06:00
+date: 2020-08-16T15:27:17+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -17,13 +17,13 @@ tags: ["Carta de Motivación", "Trabajo", "Consejo"]
 type: "post"
 ---
 
-### ¿Qué es una carta de motivación?
+# ¿Qué es una carta de motivación?
 
 Una carta de motivación es un documento escrito en una sola página, que se dirige sea a una persona que se encuentra a la búsqueda de un asalariado, o a alguna institución académica a la cual te encuentres postulando. En la mayoría de casos, es un documento obligatorio a adjuntar junto con el curriculum vitae.
 
 Existen dos tipos de carta de motivación que se realizan, una en el caso de un anuncio de trabajo, donde las condiciones del puesto están bien definidas y otra en la cual, la persona postula por su propia cuenta, llamada candidature spontanée (candidatura espontánea).
 
-#### ¿Cómo redactar una carta de motivación ?
+## ¿Cómo redactar una carta de motivación ?
 
 Una carta de motivación debe ser original. Las personas que reclutan reciben y leen cientos de cartas de motivación, todos los días y por ello hay que tener mucha originalidad en el contenido.
 
@@ -57,14 +57,10 @@ No olvides de leer tres o más veces tu carta de motivación, ella debe ser PERF
 
 La persona que recluta, cuando lee tu carta de motivación, puede observar varias cosas :
 
- Tu nivel de estudios
-
- Si sabes escribir
-
- Si dominas o no el idioma francés (para los extranjeros)
-
- Si tienes o no experiencia laboral
-
- Si sabes comunicar o no tus ideas
+- Tu nivel de estudios
+- Si sabes escribir
+- Si dominas o no el idioma francés (para los extranjeros)
+- Si tienes o no experiencia laboral
+- Si sabes comunicar o no tus ideas
 
 En internet puedes encontrar miles de modelos de cartas de motivación, pero recuerda me encuentro aquí para ayudarte. No dudes en contactar mis servicios para redactar o corregir tu carta de motivación sobre medida

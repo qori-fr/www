@@ -1,6 +1,6 @@
 ---
 title: "Crear un CV francés"
-date: 2020-08-02T15:27:17+06:00
+date: 2020-08-16T15:27:17+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -47,7 +47,7 @@ A veces puede sonar un poco tonto, pero es necesario colocar el nombre del puest
 
 Recuerda siempre empezar por lo más reciente que hayas hecho. La persona que lee tu CV debe ubicar rápidamente qué es lo que has estudiado y la experiencia laboral que posees. 
 
-Expériences professeionnelles :
+Expériences professionnelles :
 - 2019-2020 …………………………………
 - 2018-2019 …………………………………
 - 2017-2018 …………………………………
