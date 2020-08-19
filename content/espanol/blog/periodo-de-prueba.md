@@ -23,7 +23,7 @@ Un período de prueba se da cuando has ingresado a trabajar con un contrato de d
 
 El período de prueba dura como mínimo 2 meses y como máximo 4 meses. Esto dependerá del puesto al cual te encuentras postulando y también de lo que se señale en la convención colectiva de trabajo, si el sector en el cual trabajas posee una. Puedes verificar si la empresa a la cual has postulado posee una, leyendo detenidamente el contrato de trabajo que has firmado para ocupar el puesto al que te presentaste.
 
-El articulo L. 1221-19 del codigo de trabajo francés, estipula que un período de prueba dura 2 meses para un obrero o empleado, 3 meses para un mando intermedio (agent de maîtrise) o un mecánico y 4 meses para un ejecutivo (cadre). El período de prueba puede ser renovado una vez pero no puede pasar de 4 meses.
+El articulo L. 1221-19 del codigo de trabajo francés, estipula que un período de prueba dura 2 meses para un obrero o empleado, 3 meses para un mando intermedio (agent de maîtrise) o un mecánico y 4 meses para un ejecutivo (cadre). El período de prueba puede ser renovado una vez por el mismo tiempo del periodo inicial.
 
 Con el período de prueba, se busca saber si eres la persona mas idónea para el puesto que ocuparás en el futuro.
 

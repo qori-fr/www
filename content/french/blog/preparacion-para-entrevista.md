@@ -12,7 +12,7 @@ image: "images/blog/entrevista de trabajo.jpg"
 author: "Qori"
 # taxonomy
 categories: ["Entretien"]
-tags: ["travail"]
+tags: ["Travail", "Entretien", "Embauche"]
 # type
 type: "post"
 ---

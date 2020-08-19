@@ -1,6 +1,6 @@
 ---
-title: "Carta de Motivación"
-date: 2020-08-16T15:27:17+01:00
+title: "La lettre de motivation"
+date: 2020-08-19T10:27:17+01:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -11,60 +11,54 @@ image: "images/blog/letra de motivacion.jpg"
 # post author
 author: "Ana Medina"
 # taxonomy
-categories: ["automation-system"]
-tags: ["carta de motivación", "trabajo", "consejo"]
+categories: ["Lettre de motivation"]
+tags: ["Lettre", "Travail", "Conseil", "Embauche"]
 # type
 type: "post"
 ---
+# Qu’est-ce qu’une lettre de motivation ?
 
-# ¿Qué es una carta de motivación?
+Une lettre de motivation est un document rédigé sur une seule page, qui est adressée soit à une personne qui recherche un employé, soit à une institution académique auprès de laquelle vous postulez. Dans la plupart des cas, il s’agit d’un document obligatoire à joindre avec le Curriculum Vitae (CV).
 
-Una carta de motivación es un documento escrito en una sola página, que se dirige sea a una persona que se encuentra a la búsqueda de un asalariado, o a alguna institución académica a la cual te encuentres postulando. En la mayoría de casos, es un documento obligatorio a adjuntar junto con el curriculum vitae.
+Il existe plusieurs types de lettres de motivation qui sont faites, l’une dans le cas d’une offre d’emploi, où les conditions d’emploi sont bien définies et l’autre dans laquelle, n’y a pas d’offre d’emploi mais la personne postule en envoyant une candidature spontanée.
 
-Existen dos tipos de carta de motivación que se realizan, una en el caso de un anuncio de trabajo, donde las condiciones del puesto están bien definidas y otra en la cual, la persona postula por su propia cuenta, llamada candidature spontanée (candidatura espontánea).
+## Comment rédiger une lettre de motivation ?
 
-## ¿Cómo redactar una carta de motivación ?
+Une lettre de motivation doit être originale. Les recruteurs reçoivent et lisent des centaines de lettres de motivation chaque jour et vous devez donc avoir beaucoup d’originalité dans le contenu. Votre lettre de motivation sera lue en moins de trois minutes.
 
-Una carta de motivación debe ser original. Las personas que reclutan reciben y leen cientos de cartas de motivación, todos los días y por ello hay que tener mucha originalidad en el contenido.
+## Structure d’une lettre de motivation :
 
-Un **reclutador** no tomará mas de cinco minutos en leer una carta de motivación.
+En règle générale, il doit y avoir 4 parties :
 
-Estructura de una carta de motivación :
+1. Première partie. Il faut mentionner pourquoi vous écrivez à l’entreprise ou à l’institution académique.
 
-Por regla general deben existir 4 partes :
+>Etant à la recherche d’un emploi, je me permets de vous proposer ma candidature au poste de…
 
-**1) Primera parte.** Se debe mencionar por qué razón escribes a la empresa o a la institución académica.
+Vous pouvez mettre quel est votre parcours professionnel ou académique :
 
-Etant à la recherche d’un emploi, je me permets de vous proposer ma candidature au poste de …
+> Actuellement en troisième année d’école de Management, spécialité Marketing, je vous sollicite afin d’effectuer un stage de six mois dans le département de Marketing de votre société, pouvant débuter à partir du mois de mars.
 
-Puedes colocar cuál es el recorrido profesional o académico que tienes:
+2. Deuxième partie. Il est nécessaire de bien lire l’annonce pour laquelle vous postulez et de savoir ainsi exprimer en quoi vos compétences, qu’elles soient académiques ou professionnelles, seront utiles à l’entreprise qui souhaite vous embaucher.
 
-Actuellement en troisième année d’école de Management, spécialité Marketing, je vous sollicite afin d’effectuer un stage de six mois dans le département de Marketing de votre société pouvant débuter à partir du mois de mars.
+>En effet, suite à ma première expérience de stage, j’ai travaillé dans l’élaboration du plan de communication, en rédigeant des articles pour la newsletter, en gérant les réseaux sociales et sites et en assurant le service après-vente des clients. Sérieuse et pragmatique, cette expérience m’a permis d’apprendre à travailler en autonomie et être force de proposition.
 
-**2) Segunda parte.** Es necesario leer bien el anuncio al cual estás postulando y de esa manera saber expresar en qué tus competencias, sean académicas o profesionales, le serán útiles a la empresa que desee contratarte.
+3. Troisième partie. Vous devez mentionner pourquoi postuler à cette entreprise ou Université. 
 
-En effet, suite à ma première expérience de stage, j’ai travaillé dans l’élaboration du plan de communication, en rédigeant des articles pour la newsletter, en gérant les réseaux sociales et sites et en assurant le service après-vente des clients. Sérieuse et pragmatique, cette expérience m’a permis d’apprendre à travailler en autonomie et être force de proposition.
+>J’ai connu votre établissement grâce à sa renommée auprès des professionnels rencontrés lors de foires. Agence 80 est très connu à niveau national et international, votre expertise s’étend aux leviers majeurs liées au développement de la visibilité digitale, à savoir : la création de sites internet, l’optimisation de votre visibilité Google, l’amélioration de votre présence sur les réseaux sociaux.  Intégrer votre entreprise représente pour moi un réel enjeu d’avenir dans lequel mon travail et mon autonomie pourront s’exprimer pleinement.
 
-**3) Tercera parte.** Debes mencionar por qué postular a esa empresa o Universidad.
+4. Quatrième partie. Dans cette partie, vous devez préciser que vous êtes disponible à tout moment pour un entretien téléphonique, suivie de la fameuse phrase de courtoisie. 
 
-J’ai connu votre établissement grâce à sa renommée auprès des professionnels rencontrés lors de foires. Agence 80 est très connu à niveau national et international, votre expertise s’étend aux leviers majeurs liées au développement de la visibilité digitale, à savoir : la création de sites internet, l’optimisation de votre visibilité Google, l’amélioration de votre présence sur les réseaux sociaux. Intégrer votre entreprise représente pour moi un réel enjeu d’avenir dans lequel mon travail et mon autonomie pourront s’exprimer pleinement.
+>En espérant pouvoir vous exprimer ma motivation dans le cadre d’un entretien, je vous prie de croire, Madame, Monsieur, à l’expression de mes salutations distinguées. 
 
-**4) Cuarta parte.*** En esta parte, debes precisar que te encuentras disponible en cualquier momento para una posible entrevista por teléfono, seguida de la famosa frase de cortesía.
+N’oubliez pas de lire votre lettre de motivation trois fois ou plus, elle doit être PARFAITE, et je vous le répète, PARFAITE, une faute d’orthographe et vous serez immédiatement écarté, malgré les qualités ou l’expérience professionnelle que vous avez.
 
-En espérant pouvoir vous exprimer ma motivation dans le cadre d’un entretien, je vous prie de croire, Madame, Monsieur, à l’expression de mes salutations distinguées.
+La personne qui recrute, en lisant votre lettre de motivation, peut observer plusieurs choses :
+- Votre niveau d’études
+- Si vous savez bien rédiger
+- Si vous maîtrisez la langue française ou pas (pour les étrangers)
+- Que vous avez ou pas une expérience de travail
+- Si vous savez comment communiquer vos idées
 
-No olvides de leer tres o más veces tu carta de motivación, ella debe ser PERFECTA, y lo repito, PERFECTA, un error ortográfico y serás descartado enseguida, a pesar de las cualidades o experiencia profesional que tengas.
+Sur Internet, vous pouvez trouver des milliers de modèles de lettres de motivation, mais rappelez-vous que je suis là pour vous aider. 
 
-La persona que recluta, cuando lee tu carta de motivación, puede observar varias cosas :
-
- Tu nivel de estudios
-
- Si sabes escribir
-
- Si dominas o no el idioma francés (para los extranjeros)
-
- Si tienes o no experiencia laboral
-
- Si sabes comunicar o no tus ideas
-
-En internet puedes encontrar miles de modelos de cartas de motivación, pero recuerda me encuentro aquí para ayudarte. No dudes en contactar mis servicios para redactar o corregir tu carta de motivación sobre medida
+N’hésitez pas à contacter nos services pour rédiger ou corriger votre lettre de motivation sur mesure.
