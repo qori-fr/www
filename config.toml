@@ -190,13 +190,13 @@ name = "Etudes en France"
 weight = 2
 [[languages.fr.menu.main]]
 parent = "estudia"
-URL = "pages/estudia/frances"
-name = "Langue Française"
+URL = "pages/estudia/estudios_superiores"
+name = "Etudes supérieures"
 weight = 1
 [[languages.fr.menu.main]]
 parent = "estudia"
-URL = "pages/estudia/carrera_universitaria"
-name = "Etudes supérieures"
+URL = "pages/estudia/frances"
+name = "Langue Française"
 weight = 2
 
 [[languages.fr.menu.main]]
