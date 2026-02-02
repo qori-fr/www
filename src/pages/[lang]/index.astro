@@ -1,0 +1,185 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getHomepage } from '../../data/homepage';
+import { getCollection } from 'astro:content';
+import { t } from '../../i18n/translations';
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'es' } }, { params: { lang: 'fr' } }];
+}
+
+const { lang } = Astro.params;
+const homepage = getHomepage(lang!);
+const allPosts = (await getCollection('blog')).filter((p) => p.data.lang === lang && !p.data.draft);
+const latestPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
+function postSlug(entry: { slug: string }) {
+  return entry.slug.includes('/') ? entry.slug.split('/')[1]! : entry.slug;
+}
+const baseUrl = `/${lang}/`;
+---
+
+<BaseLayout title={homepage.slider.slider_item[0]?.title ?? ''} lang={lang!} isHome={true}>
+  {homepage.slider.enable && (
+    <section
+      class="hero-section overlay bg-cover"
+      style={`background-image: url('${homepage.slider.bg_image}')`}
+    >
+      <div class="container">
+        <div class="hero-slider">
+          {homepage.slider.slider_item.map((slide) => (
+            <div class="hero-slider-item">
+              <div class="row">
+                <div class="col-md-8">
+                  <h1 class="text-white">{slide.title}</h1>
+                  <p class="text-muted mb-4">{slide.content}</p>
+                  {slide.button.enable && (
+                    <a href={slide.button.link} class="btn btn-primary">
+                      {slide.button.label}
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {homepage.banner_feature.enable && homepage.banner_feature.feature_item.length > 0 && (
+    <section class="bg-gray overflow-md-hidden">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-xl-4 col-lg-5 align-self-end">
+            <img class="img-fluid w-100" src={homepage.banner_feature.image} alt="banner-feature" />
+          </div>
+          <div class="col-xl-8 col-lg-7">
+            <div class="row feature-blocks bg-gray justify-content-between">
+              {homepage.banner_feature.feature_item.map((f) => (
+                <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+                  <i class={`${f.icon} mb-xl-4 mb-lg-3 mb-4 feature-icon`}></i>
+                  <h3 class="mb-xl-4 mb-lg-3 mb-4">{f.name}</h3>
+                  <p set:html={f.content} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {homepage.about.enable && (
+    <section class="section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2 order-md-1">
+            <h2 class="section-title">{homepage.about.title}</h2>
+            <p set:html={homepage.about.content} />
+            {homepage.about.button.enable && (
+              <a href={`${baseUrl}${homepage.about.button.link}/`} class="btn btn-primary-outline">
+                {homepage.about.button.label}
+              </a>
+            )}
+          </div>
+          <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+            <img class="img-fluid w-100" src={homepage.about.image} alt="about" />
+          </div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {homepage.cta.enable && (
+    <section class="section bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h6 class="text-white font-secondary mb-0">{homepage.cta.subtitle}</h6>
+            <h2 class="section-title text-white">{homepage.cta.title}</h2>
+            {homepage.cta.button.enable && (
+              <a href={homepage.cta.button.link} class="btn btn-secondary">
+                {homepage.cta.button.label}
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {homepage.blog.enable && (
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title">{homepage.blog.title}</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          {latestPosts.map((post) => (
+            <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+              <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+                {post.data.image && (
+                  <img
+                    class="card-img-top rounded-0"
+                    src={post.data.image.startsWith('/') ? post.data.image : `/${post.data.image}`}
+                    alt={post.data.title}
+                  />
+                )}
+                <div class="card-body">
+                  <ul class="list-inline mb-3">
+                    <li class="list-inline-item mr-3 ml-0">
+                      <i class="ti-calendar"></i>{' '}
+                      {post.data.date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : 'es-ES', {
+                        day: '2-digit',
+                        month: 'short',
+                        year: 'numeric',
+                      })}
+                    </li>
+                    {post.data.author && (
+                      <li class="list-inline-item mr-3 ml-0">
+                        <i class="ti-user"></i> {post.data.author}
+                      </li>
+                    )}
+                  </ul>
+                  <h4 class="card-title">
+                    <a href={`/${lang}/blog/${postSlug(post)}/`}>{post.data.title}</a>
+                  </h4>
+                  <p class="card-text">
+                    {post.data.description?.slice(0, 100) ?? (post.body?.slice(0, 100) + '...')}
+                  </p>
+                  <a href={`/${lang}/blog/${postSlug(post)}/`} class="btn btn-primary btn-sm">
+                    {t(lang!, 'read_more')}
+                  </a>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <div id="fb-root"></div>
+  <script is:inline>
+    {`window.fbAsyncInit = function() {
+      FB.init({ xfbml: true, version: 'v7.0' });
+    };
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));`}
+  </script>
+  <section class="section">
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="109242554213757"
+      theme_color="#ffc300"
+    />
+  </section>
+</BaseLayout>

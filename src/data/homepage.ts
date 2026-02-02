@@ -1,0 +1,183 @@
+export interface SliderItem {
+  title: string;
+  content: string;
+  animation_in: string;
+  animation_out: string;
+  button: { enable: boolean; label: string; link: string };
+}
+
+export interface FeatureItem {
+  name: string;
+  icon: string;
+  content: string;
+}
+
+export interface HomepageData {
+  slider: {
+    enable: boolean;
+    bg_image: string;
+    slider_item: SliderItem[];
+  };
+  banner_feature: {
+    enable: boolean;
+    image: string;
+    feature_item: FeatureItem[];
+  };
+  about: {
+    enable: boolean;
+    title: string;
+    image: string;
+    content: string;
+    button: { enable: boolean; label: string; link: string };
+  };
+  course: { enable: boolean; title: string };
+  cta: {
+    enable: boolean;
+    subtitle: string;
+    title: string;
+    button: { enable: boolean; label: string; link: string };
+  };
+  success_story: { enable: boolean };
+  event: { enable: boolean; title: string };
+  blog: { enable: boolean; title: string };
+}
+
+const homepageEs: HomepageData = {
+  slider: {
+    enable: true,
+    bg_image: '/images/banner/banner-1.jpg',
+    slider_item: [
+      {
+        title: 'Haz Tus Sueños Realidad',
+        content:
+          'No te quedes pensando en como sería si me fuera a estudiar a Francia. Contáctanos y da el salto para que puedas iniciar el proceso de admisión.',
+        animation_in: 'left',
+        animation_out: 'right',
+        button: { enable: true, label: 'Consulta Gratuita', link: 'https://calendly.com/qori' },
+      },
+      {
+        title: 'Estudia En El Exterior Francia Te Espera',
+        content:
+          'Te damos todos los tips para puedas lograr ser admitido en alguna institución francesa. ¡Qori asegura tu éxito profesional!',
+        animation_in: 'left',
+        animation_out: 'right',
+        button: { enable: true, label: 'Consulta Gratuita', link: 'https://calendly.com/qori' },
+      },
+      {
+        title: 'Trabaja En Francia',
+        content:
+          'Te ayudamos en la búsqueda de empleo profesional en Francia, como prácticas profesionales o trabajo en CDD o CDI.',
+        animation_in: 'left',
+        animation_out: 'right',
+        button: { enable: true, label: 'Consulta Gratuita', link: 'https://calendly.com/qori' },
+      },
+    ],
+  },
+  banner_feature: {
+    enable: true,
+    image: '/images/banner/banner-feature.png',
+    feature_item: [
+      {
+        name: 'Estudia En Francia',
+        icon: 'ti-book',
+        content:
+          'Francia es un país reconocido por su excelencia académica a nivel internacional. Qori te asesora en todo el proceso para que puedas ser aceptado en alguna institución académica en Francia.',
+      },
+      {
+        name: 'Traducción',
+        icon: 'ti-blackboard',
+        content:
+          'Realizamos traducciones en todos los idiomas. Nuestros traductores son nativos quienes garantizan calidad y eficiencia en la traducción.',
+      },
+      {
+        name: 'Interpretación',
+        icon: 'ti-agenda',
+        content:
+          'Nuestros intérpretes son nativos, formados en diferentes disciplinas que se encargan de realizar una interpretación consecutiva o simultánea para todo tipo de actividad, en todos los idiomas.',
+      },
+      {
+        name: 'Asesorías de Empleo',
+        icon: 'ti-write',
+        content:
+          'Te asesoramos en tu búsqueda de empleo profesional en Francia, desde la redacción de una carta de motivación hasta la preparación a la entrevista.',
+      },
+    ],
+  },
+  about: {
+    enable: true,
+    title: 'Acerca de QORI',
+    image: '/images/about/about-us.jpg',
+    content:
+      '**QORI** es una sociedad que brinda una amplia gama de servicios: Interpretación, Traducción, Consejería, Orientación y Acompañamiento sobre Estudios Superiores en el Extranjero (especialmente, Francia) o Asesoramiento para el Aprendizaje del Idioma, etc.\n\nDe París a Lima, de Europa a Latinoamérica, QORI ofrece servicios de alta calidad tanto a personas como a empresas.\n\nNuestro personal permanente se encuentra basado en París y está a tu lado para ofrecerte un servicio clave a la mano.\n\nTenemos una red de traductores e intérpretes seleccionados que comparten nuestros valores y rigurosidad.',
+    button: { enable: true, label: 'Descubre Más', link: 'about' },
+  },
+  course: { enable: false, title: 'Talleres Virtuales' },
+  cta: {
+    enable: true,
+    subtitle: 'Quieres estudiar en Francia',
+    title: 'CONSULTORÍA GRATUITA',
+    button: { enable: true, label: 'Reservar Cita', link: 'https://calendly.com/qori' },
+  },
+  success_story: { enable: false },
+  event: { enable: false, title: 'Proximos Eventos' },
+  blog: { enable: true, title: 'Últimas Noticias' },
+};
+
+const homepageFr: HomepageData = {
+  slider: {
+    enable: true,
+    bg_image: '/images/banner/banner-1.jpg',
+    slider_item: [
+      {
+        title: "Faites de votre rêve une réalité",
+        content:
+          "Ne réfléchit pas plus longtemps à ce que ce serait d'étudier en France. Contactez-nous et faites le premiers pas pour entâmer votre processus d'admission.",
+        animation_in: 'left',
+        animation_out: 'right',
+        button: { enable: true, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
+      },
+      {
+        title: "Etudiez à l'étranger. La France vous attend.",
+        content:
+          "Nous vous conseillons afin que vous puissiez être admis(e) dans un établissement français. Qori assure votre réussite professionnelle !",
+        animation_in: 'left',
+        animation_out: 'right',
+        button: { enable: true, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
+      },
+      {
+        title: 'Travaillez en France',
+        content:
+          "Nous vous accompagnons dans votre recherche d'un emploi professionnel en France, tels que des stages professionnels ou un emploi en CDD ou CDI.",
+        animation_in: 'left',
+        animation_out: 'right',
+        button: { enable: true, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
+      },
+    ],
+  },
+  banner_feature: {
+    enable: false,
+    image: '/images/banner/banner-feature.png',
+    feature_item: [],
+  },
+  about: {
+    enable: false,
+    title: 'À propos de Qori',
+    image: '/images/about/about-us.jpg',
+    content: '',
+    button: { enable: true, label: 'En savoir plus', link: 'about' },
+  },
+  course: { enable: false, title: 'Notre cours' },
+  cta: {
+    enable: false,
+    subtitle: "Cliquez pour vous joindre à l'atelier avancé",
+    title: "Apprentissage en réseautique avancée",
+    button: { enable: true, label: 'Réserver un rendez-vous en ligne', link: 'https://calendly.com/qori' },
+  },
+  success_story: { enable: false },
+  event: { enable: false, title: "Événements à venir" },
+  blog: { enable: true, title: "DERNIÈRES NOUVELLES" },
+};
+
+export function getHomepage(lang: string): HomepageData {
+  return lang === 'fr' ? homepageFr : homepageEs;
+}

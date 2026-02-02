@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'es' } }, { params: { lang: 'fr' } }];
+}
+
+const { lang } = Astro.params;
+const pages = await getCollection('pages');
+const page = pages.find((p) => p.data.path === 'about' && p.data.lang === lang);
+if (!page) return Astro.redirect(`/${lang}/`);
+const { Content } = await page.render();
+---
+
+<BaseLayout title={page.data.title} lang={lang!} isHome={false} pageTitle={page.data.title}>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="content">
+            {page.data.image && (
+              <img
+                class="img-fluid mb-4 w-100"
+                src={page.data.image.startsWith('/') ? page.data.image : `/${page.data.image}`}
+                alt={page.data.title}
+              />
+            )}
+            <Content />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

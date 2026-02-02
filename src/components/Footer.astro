@@ -1,0 +1,98 @@
+---
+import { siteConfig } from '../config';
+import { getMenu } from '../data/menu';
+import { t } from '../i18n/translations';
+
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const menu = getMenu(lang);
+const baseUrl = `/${lang}/`;
+const mainLinks = menu.filter((m) => !m.children || m.children.length === 0);
+---
+
+<footer>
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <a class="logo-footer" href={baseUrl}>
+            <img class="img-fluid mb-4" src={siteConfig.logo} alt={siteConfig.title} />
+          </a>
+          <ul class="list-unstyled">
+            <li class="mb-4">{siteConfig.email}</li>
+            <li class="mb-4">{siteConfig.phone}</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5 text-uppercase">{t(lang, 'company')}</h4>
+          <ul class="list-unstyled">
+            {mainLinks.map((item) => (
+              <li class="mb-3">
+                <a class="text-color" href={`/${lang}/${item.URL}/`}>
+                  {item.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0" set:html={siteConfig.copyright} />
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            {siteConfig.social.map((s) => (
+              <li class="list-inline-item">
+                <a class="d-inline-block p-2" href={s.link} aria-label={s.title}>
+                  <i class={`${s.icon} text-primary`}></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{siteConfig.plugins.js.map((p) => (
+  <script src={p.link}></script>
+))}
+<script is:inline>
+  function initSite() {
+    var preloader = document.querySelector('.preloader');
+    if (preloader) {
+      preloader.classList.add('loaded');
+    }
+    var jq = window.jQuery || window.$;
+    if (jq && jq.fn.slick) {
+      var heroSlider = document.querySelector('.hero-slider');
+      if (heroSlider && heroSlider.querySelectorAll('.hero-slider-item').length > 1) {
+        jq(heroSlider).slick({
+          arrows: false,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 5000,
+          fade: true
+        });
+      }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      window.addEventListener('load', initSite);
+      setTimeout(initSite, 1200);
+    });
+  } else {
+    window.addEventListener('load', initSite);
+    setTimeout(initSite, 1200);
+  }
+</script>

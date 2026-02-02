@@ -1,5 +1,15 @@
-### Hugo
+# Astro
+dist/
+.astro/
+node_modules/
+
+# Hugo (legacy, can be removed after migration)
 /public/
 
-### macOS
+# macOS
 .DS_Store
+
+# Environment
+.env
+.env.*
+!.env.example

@@ -1,0 +1,35 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Preloader from '../components/Preloader.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Head from '../components/Head.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  lang: string;
+  isHome?: boolean;
+  pageTitle?: string;
+  pageDescription?: string;
+  bgImage?: string;
+}
+
+const { title, description, lang, isHome = false, pageTitle, pageDescription, bgImage } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang={lang === 'fr' ? 'fr' : 'es'}>
+  <Head title={title} description={description ?? ''} lang={lang} />
+  <body>
+    <Preloader />
+    <Header lang={lang} currentPath={Astro.url.pathname} />
+    {!isHome && pageTitle && (
+      <PageHeader title={pageTitle} description={pageDescription} bgImage={bgImage} lang={lang} />
+    )}
+    <main>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

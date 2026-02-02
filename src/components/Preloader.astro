@@ -1,0 +1,9 @@
+---
+import { siteConfig } from '../config';
+---
+
+{siteConfig.preloader.enable && (
+  <div class="preloader">
+    <img src={siteConfig.preloader.preloader} alt="preloader" />
+  </div>
+)}

@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { t } from '../../../i18n/translations';
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'es' } }, { params: { lang: 'fr' } }];
+}
+
+const { lang } = Astro.params;
+const posts = (await getCollection('blog'))
+  .filter((p) => p.data.lang === lang && !p.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+function postSlug(entry: { slug: string }) {
+  return entry.slug.includes('/') ? entry.slug.split('/')[1]! : entry.slug;
+}
+---
+
+<BaseLayout title={t(lang!, 'latest_article')} lang={lang!} isHome={false} pageTitle={t(lang!, 'latest_article')}>
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        {posts.map((post) => (
+          <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+            <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+              {post.data.image && (
+                <img
+                  class="card-img-top rounded-0"
+                  src={post.data.image.startsWith('/') ? post.data.image : `/${post.data.image}`}
+                  alt={post.data.title}
+                />
+              )}
+              <div class="card-body">
+                <ul class="list-inline mb-3">
+                  <li class="list-inline-item mr-3 ml-0">
+                    <i class="ti-calendar"></i>{' '}
+                    {post.data.date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : 'es-ES', {
+                      day: '2-digit',
+                      month: 'short',
+                      year: 'numeric',
+                    })}
+                  </li>
+                  {post.data.author && (
+                    <li class="list-inline-item mr-3 ml-0">
+                      <i class="ti-user"></i> {post.data.author}
+                    </li>
+                  )}
+                </ul>
+                <h4 class="card-title">
+                  <a href={`/${lang}/blog/${postSlug(post)}/`}>{post.data.title}</a>
+                </h4>
+                <p class="card-text">
+                  {post.data.description?.slice(0, 100) ?? ''}
+                  {(post.data.description?.length ?? 0) > 100 ? '...' : ''}
+                </p>
+                <a href={`/${lang}/blog/${postSlug(post)}/`} class="btn btn-primary btn-sm">
+                  {t(lang!, 'read_more')}
+                </a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

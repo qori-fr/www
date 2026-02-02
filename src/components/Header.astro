@@ -1,0 +1,102 @@
+---
+import { siteConfig } from '../config';
+import { getMenu } from '../data/menu';
+import { t } from '../i18n/translations';
+
+interface Props {
+  lang: string;
+  currentPath: string;
+}
+
+const { lang, currentPath } = Astro.props;
+const menu = getMenu(lang);
+const baseUrl = `/${lang}/`;
+
+const localeNames: Record<string, string> = { es: 'Es', fr: 'Fr' };
+const otherLang = lang === 'fr' ? 'es' : 'fr';
+const otherUrl = currentPath.replace(`/${lang}/`, `/${otherLang}/`);
+---
+
+<header class={`fixed-top header ${siteConfig.topHeader ? 'top-hider' : ''}`}>
+  {siteConfig.topHeader && (
+    <div class="top-header py-2 bg-white">
+      <div class="row no-gutters align-items-center">
+        <div class="col-lg-4 text-center text-lg-left">
+          <ul class="list-inline">
+            {siteConfig.social.map((s) => (
+              <li class="list-inline-item mx-0">
+                <a class="d-inline-block p-2 text-color" href={s.link} aria-label={s.title}>
+                  <i class={s.icon}></i>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a class="text-color mr-3" href={`tel:${siteConfig.phone}`}>
+                <strong>{t(lang, 'call').toUpperCase()} : </strong> {siteConfig.phone}
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-color" href={`mailto:${siteConfig.email}`}>
+                <strong>{t(lang, 'email').toUpperCase()} : </strong> {siteConfig.email}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  )}
+  <div class={`navigation w-100 ${siteConfig.topHeader ? 'top-hider' : ''}`}>
+    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+      <a class="navbar-brand" href={baseUrl}>
+        <img src={siteConfig.logo} alt={siteConfig.title} />
+      </a>
+      <button
+        class="navbar-toggler rounded-0"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navigation"
+        aria-controls="navigation"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          {menu.map((item) =>
+            item.children && item.children.length > 0 ? (
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                  {item.name}
+                </a>
+                <div class="dropdown-menu">
+                  {item.children!.map((child) => (
+                    <a class="dropdown-item" href={`/${lang}/${child.URL}/`}>
+                      {child.name}
+                    </a>
+                  ))}
+                </div>
+              </li>
+            ) : (
+              <li class="nav-item">
+                <a class="nav-link" href={`/${lang}/${item.URL}/`}>
+                  {item.name}
+                </a>
+              </li>
+            )
+          )}
+        </ul>
+        <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
+          <option value={Astro.url.pathname} selected>
+            {localeNames[lang]}
+          </option>
+          <option value={otherUrl}>{localeNames[otherLang]}</option>
+        </select>
+      </div>
+    </nav>
+  </div>
+</header>
