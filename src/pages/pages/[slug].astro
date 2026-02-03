@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import TranslationServicesGrid from '../../components/TranslationServicesGrid.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -22,6 +23,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const page = entry;
 const { Content } = await page.render();
+const isTraduccion = page.data.path === 'traduccion';
 ---
 
 <BaseLayout
@@ -43,4 +45,5 @@ const { Content } = await page.render();
       </div>
     </div>
   </section>
+  {isTraduccion && <TranslationServicesGrid lang="es" />}
 </BaseLayout>

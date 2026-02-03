@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
-  enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  enable : false
+  bg_image : "images/blog/primeraspracticas.jpg"
   slider_item:
     # slider item loop
     - title : "Haz Tus Sueños Realidad"
@@ -40,13 +40,8 @@ slider:
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
+  image : "images/blog/primeraspracticas.jpg"
   feature_item:
-    # feature item loop
-    - name : "Estudia En Francia"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Francia es un país reconocido por su excelencia académica a nivel internacional. Qori te asesora en todo el proceso para que puedas ser aceptado en alguna institución académica en Francia."
-
     # feature item loop
     - name : "Traducción"
       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
@@ -56,11 +51,6 @@ banner_feature:
     - name : "Interpretación"
       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
       content : "Nuestros intérpretes son nativos, formados en diferentes disciplinas que se encargan de realizar una interpretación consecutiva o simultánea para todo tipo de actividad, en todos los idiomas."
-
-    # feature item loop
-    - name : "Asesorías de Empleo"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Te asesoramos en tu búsqueda de empleo profesional en Francia, desde la redacción de una carta de motivación hasta la preparación a la entrevista."
 
 
 ############################## about ##################################

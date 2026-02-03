@@ -2,8 +2,8 @@
 title: "Acerca de nosotros"
 path: about
 lang: es
-date: 2020-08-16T12:14:34+01:00
-image: "/images/about/about-page.jpg"
+date: 2026-02-03T12:14:34+01:00
+image: "/images/about/ana.jpg"
 ---
 # ¡Bienvenido a QORI!
 

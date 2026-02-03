@@ -1,0 +1,39 @@
+---
+import { translationServices } from '../data/translationServices';
+import { localePath } from '../utils/locale';
+
+interface Props {
+  lang: 'es' | 'fr';
+}
+
+const { lang } = Astro.props;
+
+const sectionTitle = lang === 'es' ? 'Servicios de Traducción' : 'Services de traduction';
+---
+
+<section class="translation-services-header">
+  <div class="container">
+    <h2 class="translation-services-title">{sectionTitle}</h2>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {translationServices.map((item) => {
+        const title = lang === 'es' ? item.titleEs : item.titleFr;
+        const description = lang === 'es' ? item.descriptionEs : item.descriptionFr;
+        const href = localePath(lang, `pages/traduccion/${item.path}`);
+        return (
+          <div class="col-lg-4 col-md-6 mb-4">
+            <a href={href} class="translation-service-card">
+              <i class={`${item.icon} translation-service-icon`} aria-hidden="true"></i>
+              <h3 class="translation-service-card-title">{title}</h3>
+              <p class="translation-service-card-desc">{description}</p>
+            </a>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>

@@ -45,7 +45,7 @@ export interface HomepageData {
 
 const homepageEs: HomepageData = {
   slider: {
-    enable: true,
+    enable: false,
     bg_image: '/images/banner/banner-1.jpg',
     slider_item: [
       {
@@ -79,14 +79,8 @@ const homepageEs: HomepageData = {
   },
   banner_feature: {
     enable: true,
-    image: '/images/banner/banner-feature.png',
+    image: '/images/blog/primeraspracticas.jpg',
     feature_item: [
-      {
-        name: 'Estudia En Francia',
-        icon: 'ti-book',
-        content:
-          'Francia es un país reconocido por su excelencia académica a nivel internacional. Qori te asesora en todo el proceso para que puedas ser aceptado en alguna institución académica en Francia.',
-      },
       {
         name: 'Traducción',
         icon: 'ti-blackboard',
@@ -98,13 +92,7 @@ const homepageEs: HomepageData = {
         icon: 'ti-agenda',
         content:
           'Nuestros intérpretes son nativos, formados en diferentes disciplinas que se encargan de realizar una interpretación consecutiva o simultánea para todo tipo de actividad, en todos los idiomas.',
-      },
-      {
-        name: 'Asesorías de Empleo',
-        icon: 'ti-write',
-        content:
-          'Te asesoramos en tu búsqueda de empleo profesional en Francia, desde la redacción de una carta de motivación hasta la preparación a la entrevista.',
-      },
+      }
     ],
   },
   about: {
@@ -112,7 +100,7 @@ const homepageEs: HomepageData = {
     title: 'Acerca de QORI',
     image: '/images/about/about-us.jpg',
     content:
-      "**Ana MEDINA**, fundadora y traductora-intérprete principal de **QORI.FR**, te acompaña en traducción e interpretación entre el mundo hispanohablante y el francófono. Traductora e intérprete judicial, intérprete nombrada por la Cour d'Appel d'Angers: rigor, confidencialidad y sensibilidad cultural al servicio de tus proyectos transfronterizos.",
+      "<b>Ana MEDINA</b>, fundadora y traductora-intérprete principal de <b>QORI.FR</b>, te acompaña en traducción e interpretación entre el mundo hispanohablante y el francófono. Traductora e intérprete judicial, intérprete nombrada por la Cour d'Appel d'Angers: rigor, confidencialidad y sensibilidad cultural al servicio de tus proyectos transfronterizos.",
     button: { enable: true, label: 'Descubre Más', link: 'about' },
   },
   course: { enable: false, title: 'Talleres Virtuales' },
@@ -129,7 +117,7 @@ const homepageEs: HomepageData = {
 
 const homepageFr: HomepageData = {
   slider: {
-    enable: true,
+    enable: false,
     bg_image: '/images/banner/banner-1.jpg',
     slider_item: [
       {
@@ -162,9 +150,22 @@ const homepageFr: HomepageData = {
     ],
   },
   banner_feature: {
-    enable: false,
-    image: '/images/banner/banner-feature.png',
-    feature_item: [],
+    enable: true,
+    image: '/images/blog/primeraspracticas.jpg',
+    feature_item: [
+      {
+        name: 'Traduction',
+        icon: 'ti-blackboard',
+        content:
+          'Nous réalisons des traductions dans toutes les langues. Nos traducteurs sont natifs et garantissent qualité et efficacité dans la traduction.',
+      },
+      {
+        name: 'Interprétation',
+        icon: 'ti-agenda',
+        content:
+          'Nos interprètes sont natifs, formés dans différentes disciplines et assurent une interprétation consécutive ou simultanée pour tout type d\'activité, dans toutes les langues.',
+      }
+    ],
   },
   about: {
     enable: true,

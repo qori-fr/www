@@ -24,3 +24,5 @@ La traduction libre (également appelée traduction standard, classique ou non c
 Chez QORI, nous réalisons ce type de traductions avec le plus grand soin, en garantissant une qualité professionnelle, une adaptation culturelle et une fidélité au sens original.
 
 À l'inverse, la traduction assermentée (ou traduction jurée / certifiée) est strictement réservée aux documents officiels ou à valeur légale. Elle doit être effectuée par un traducteur-expert inscrit sur la liste officielle d'une Cour d'appel (ou de la Cour de cassation), qui a prêté serment devant la justice. Cette traduction conserve la pleine valeur probante du document original et est exigée par les administrations, tribunaux, préfectures, consulats, etc.
+
+[Suivant : Traduction assermentée](../traduction-assermentee/)

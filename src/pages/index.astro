@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import TranslationServicesGrid from '../components/TranslationServicesGrid.astro';
 import { getHomepage } from '../data/homepage';
 import { getCollection } from 'astro:content';
 import { t } from '../i18n/translations';
@@ -81,6 +82,24 @@ const firstSlideBg = firstSlide?.bg_image ?? homepage.slider.bg_image;
       </div>
     </section>
   )}
+
+  <TranslationServicesGrid lang={lang} />
+
+  <section class="section bg-gray">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="section-title">Servicios de Interpretación</h2>
+          <p class="mb-4">
+            Como intérprete jurada, facilito la comunicación en tiempo real en situaciones privadas que requieren precisión, neutralidad y valor probatorio: acompañamiento en compra-venta de inmuebles, asistencia en matrimonios civiles o PACS, interpretación en contratos comerciales internacionales, mediaciones familiares y asesoramiento jurídico o fiscal con clientes extranjeros.
+          </p>
+          <a href={localePath(lang, 'pages/interpretacion')} class="btn btn-primary-outline">
+            Saber más
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   {homepage.cta.enable && (
     <section class="section bg-primary">

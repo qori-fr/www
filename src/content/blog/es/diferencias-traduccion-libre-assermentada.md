@@ -24,3 +24,5 @@ La traducción libre (también llamada traducción estándar, clásica o no cert
 En QORI realizamos este tipo de traducciones con el mayor cuidado, garantizando una calidad profesional, una adaptación cultural y una fidelidad al sentido original.
 
 Por el contrario, la traducción jurada (o traducción certificada) está estrictamente reservada a los documentos oficiales o con valor legal. Debe ser realizada por un traductor-intérprete jurado inscrito en la lista oficial de un Tribunal de Apelación (o del Tribunal Supremo), que ha prestado juramento ante la justicia. Esta traducción conserva el pleno valor probatorio del documento original y es exigida por las administraciones, tribunales, prefecturas, consulados, etc.
+
+[La traducción jurada](../traduction-assermentee/)
