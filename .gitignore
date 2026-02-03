@@ -1,12 +1,7 @@
 # Astro
 dist/
-.astro/
 node_modules/
 
-# Hugo (legacy, can be removed after migration)
-/public/
-
-# macOS
 .DS_Store
 
 # Environment
