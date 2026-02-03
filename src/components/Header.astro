@@ -51,7 +51,7 @@ const otherUrl = otherLocalePath(currentPath, lang);
     </div>
   )}
   <div class={`navigation w-100 ${siteConfig.topHeader ? 'top-hider' : ''}`}>
-    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+    <nav class={`navbar navbar-expand-lg p-0 ${siteConfig.navLight ? 'navbar-light' : 'navbar-dark'}`}>
       <a class="navbar-brand" href={baseUrl}>
         <img src={siteConfig.logo} alt={siteConfig.title} />
       </a>
@@ -68,28 +68,13 @@ const otherUrl = otherLocalePath(currentPath, lang);
       </button>
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
-          {menu.map((item) =>
-            item.children && item.children.length > 0 ? (
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                  {item.name}
-                </a>
-                <div class="dropdown-menu">
-                  {item.children!.map((child) => (
-                    <a class="dropdown-item" href={localePath(lang, child.URL)}>
-                      {child.name}
-                    </a>
-                  ))}
-                </div>
-              </li>
-            ) : (
-              <li class="nav-item">
-                <a class="nav-link" href={localePath(lang, item.URL)}>
-                  {item.name}
-                </a>
-              </li>
-            )
-          )}
+          {menu.map((item) => (
+            <li class="nav-item">
+              <a class="nav-link" href={localePath(lang, item.URL)}>
+                {item.name}
+              </a>
+            </li>
+          ))}
         </ul>
         <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
           <option value={Astro.url.pathname} selected>

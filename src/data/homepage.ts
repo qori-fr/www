@@ -4,6 +4,7 @@ export interface SliderItem {
   animation_in: string;
   animation_out: string;
   button: { enable: boolean; label: string; link: string };
+  bg_image?: string;
 }
 
 export interface FeatureItem {
@@ -54,6 +55,7 @@ const homepageEs: HomepageData = {
         animation_in: 'left',
         animation_out: 'right',
         button: { enable: true, label: 'Consulta Gratuita', link: 'https://calendly.com/qori' },
+        bg_image: '/images/banner/banner-1.jpg',
       },
       {
         title: 'Estudia En El Exterior Francia Te Espera',
@@ -62,6 +64,7 @@ const homepageEs: HomepageData = {
         animation_in: 'left',
         animation_out: 'right',
         button: { enable: true, label: 'Consulta Gratuita', link: 'https://calendly.com/qori' },
+        bg_image: '/images/banner/banner-1.jpg',
       },
       {
         title: 'Trabaja En Francia',
@@ -70,6 +73,7 @@ const homepageEs: HomepageData = {
         animation_in: 'left',
         animation_out: 'right',
         button: { enable: true, label: 'Consulta Gratuita', link: 'https://calendly.com/qori' },
+        bg_image: '/images/banner/banner-1.jpg',
       },
     ],
   },
@@ -135,6 +139,7 @@ const homepageFr: HomepageData = {
         animation_in: 'left',
         animation_out: 'right',
         button: { enable: true, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
+        bg_image: '/images/banner/banner-1.jpg',
       },
       {
         title: "Etudiez à l'étranger. La France vous attend.",
@@ -143,6 +148,7 @@ const homepageFr: HomepageData = {
         animation_in: 'left',
         animation_out: 'right',
         button: { enable: true, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
+        bg_image: '/images/banner/banner-1.jpg',
       },
       {
         title: 'Travaillez en France',
@@ -151,6 +157,7 @@ const homepageFr: HomepageData = {
         animation_in: 'left',
         animation_out: 'right',
         button: { enable: true, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
+        bg_image: '/images/banner/banner-1.jpg',
       },
     ],
   },

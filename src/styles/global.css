@@ -1,11 +1,12 @@
-/* Qori theme - primary from config */
+/* Qori theme - original qori.fr (primary #ffbc3b, nav gradient) */
 :root {
-  --primary-color: #cf1931;
-  --nav-color: #102f5e;
+  --primary-color: #ffbc3b;
+  --nav-color: #ffbc3b;
   --text-color: #5c5c77;
   --body-color: #fff;
   --gray: #f8f8f8;
-  --footer-bg: #1a1a37;
+  --footer-bg: #182b45;
+  --heading-color: #1e1e4b;
 }
 
 * {
@@ -16,17 +17,18 @@ body {
   background-color: var(--body-color);
   overflow-x: hidden;
   padding-top: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   color: var(--text-color);
+  font-size: 15px;
 }
 
-/* Fixed header: add padding so content is not hidden */
+/* Fixed header: add padding so content is not hidden (nav height ~100px) */
 body .header.fixed-top ~ main {
-  padding-top: 56px;
+  padding-top: 100px;
 }
 
 body .header.fixed-top.top-hider ~ main {
-  padding-top: 120px;
+  padding-top: 140px;
 }
 
 /* Preloader */
@@ -55,29 +57,92 @@ body .header.fixed-top.top-hider ~ main {
   max-height: 80px;
 }
 
-/* Header & navigation */
+/* Header & navigation - original: gradient (dark left, yellow right), mobile solid dark */
 .header {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: visible;
+}
+
+.header .navigation,
+.header .navbar,
+.header .navbar-collapse {
+  overflow: visible;
 }
 
 .header .navigation {
-  background-color: var(--nav-color) !important;
-  padding: 0.5rem 1rem;
+  background: linear-gradient(to right, #1a1a37 50%, var(--nav-color) 50%) !important;
+  padding: 0 1rem;
+  min-height: 100px;
+}
+
+@media (max-width: 991px) {
+  .header .navigation {
+    background: #1a1a37 !important;
+  }
 }
 
 .header .navbar-brand img {
-  max-height: 45px;
+  max-height: 90px;
   width: auto;
 }
 
+@media (max-width: 991px) {
+  .header .navbar-brand img {
+    max-height: 45px;
+  }
+}
+
+.header .navbar-nav {
+  min-height: 100px;
+  padding-left: 50px;
+  background: var(--nav-color);
+}
+
+@media (max-width: 991px) {
+  .header .navbar-nav {
+    padding-left: 0;
+    min-height: auto;
+    background: transparent;
+  }
+}
+
 .header .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.9) !important;
-  padding: 1rem 0.75rem;
-  font-weight: 500;
+  color: #fff !important;
+  padding: 40px 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .header .navbar-dark .navbar-nav .nav-link {
+    padding: 20px 0;
+  }
 }
 
 .header .navbar-dark .navbar-nav .nav-link:hover {
   color: #fff !important;
+}
+
+.header .nav-item {
+  margin: 0 15px;
+  position: relative;
+}
+.header .nav-item::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 6px;
+  width: 100%;
+  content: '';
+  background: #fff;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease;
+}
+.header .nav-item:hover::before,
+.header .nav-item.active::before {
+  transform: scaleY(1);
+  transform-origin: bottom;
 }
 
 .header .navbar-toggler {
@@ -86,6 +151,92 @@ body .header.fixed-top.top-hider ~ main {
 
 .header .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Yellow/light nav: dark text for contrast */
+.header .navbar-light .navbar-nav .nav-link {
+  color: #1a1a37 !important;
+  padding: 1rem 0.75rem;
+  font-weight: 500;
+}
+.header .navbar-light .navbar-nav .nav-link:hover {
+  color: #000 !important;
+}
+.header .navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.header .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(26, 26, 55, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.header .navbar-light #select-language {
+  color: #1a1a37;
+}
+
+/* Dropdown - like qori.fr: hover on desktop, click on mobile */
+.header .navbar .dropdown {
+  position: relative;
+}
+
+.header .dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 0;
+  min-width: 14rem;
+  z-index: 1100;
+  background-color: #fff;
+  border: none;
+  border-bottom: 5px solid var(--primary-color);
+  border-radius: 0;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.12);
+  padding: 15px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+@media (min-width: 992px) {
+  .header .navbar .dropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    transform: translateY(8px);
+    pointer-events: none;
+  }
+  .header .navbar .dropdown:hover .dropdown-menu,
+  .header .navbar .dropdown .dropdown-menu.show {
+    display: block !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    pointer-events: auto !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .header .dropdown-menu {
+    position: static;
+    border-bottom-width: 3px;
+    display: none;
+    box-shadow: none;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+  }
+  .header .navbar .dropdown .dropdown-menu.show {
+    display: block !important;
+  }
+}
+
+.header .dropdown-item {
+  color: var(--heading-color);
+  padding: 0.5rem 0;
+  text-transform: capitalize;
+  font-weight: 400;
+  background: transparent !important;
+}
+.header .dropdown-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.header .dropdown-item:hover {
+  color: var(--primary-color);
+  background: transparent !important;
 }
 
 .top-header {
@@ -110,7 +261,7 @@ body .header.fixed-top.top-hider ~ main {
   min-height: 450px;
   display: flex;
   align-items: center;
-  padding: 100px 0 80px;
+  padding: 250px 0 290px;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -123,7 +274,8 @@ body .header.fixed-top.top-hider ~ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(16, 47, 94, 0.75);
+  background: #1a1a37;
+  opacity: 0.8;
   z-index: 0;
 }
 
@@ -145,23 +297,6 @@ body .header.fixed-top.top-hider ~ main {
   margin-bottom: 1.5rem;
 }
 
-/* Hero slider: show first slide only when Slick not initialized */
-.hero-slider .hero-slider-item {
-  display: none;
-}
-
-.hero-slider .hero-slider-item:first-child {
-  display: block;
-}
-
-.hero-slider.slick-initialized .hero-slider-item {
-  display: block;
-}
-
-.hero-slider.slick-initialized .hero-slider-item:not(.slick-active) {
-  display: none;
-}
-
 /* Sections */
 .section {
   padding-top: 90px;
@@ -172,7 +307,7 @@ body .header.fixed-top.top-hider ~ main {
   font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  color: var(--nav-color);
+  color: var(--heading-color);
 }
 
 .section-title.text-white {
@@ -210,8 +345,8 @@ body .header.fixed-top.top-hider ~ main {
 }
 
 .btn-primary:hover {
-  background-color: #a81428;
-  border-color: #a81428;
+  background-color: #ffab08;
+  border-color: #ffab08;
   color: #fff;
 }
 
@@ -243,7 +378,7 @@ body .header.fixed-top.top-hider ~ main {
 /* Page title (breadcrumb) */
 .page-title-section {
   position: relative;
-  padding: 80px 0 60px;
+  padding: 200px 0 80px;
   background-size: cover !important;
   background-position: center !important;
 }
@@ -255,7 +390,8 @@ body .header.fixed-top.top-hider ~ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(16, 47, 94, 0.85);
+  background-color: #1a1a37;
+  opacity: 0.85;
   z-index: 0;
 }
 
@@ -284,7 +420,7 @@ body .header.fixed-top.top-hider ~ main {
 .content h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  color: var(--nav-color);
+  color: var(--heading-color);
 }
 
 .content h1 { font-size: 1.75rem; }
@@ -306,15 +442,15 @@ body .header.fixed-top.top-hider ~ main {
 
 /* Feature blocks (homepage) */
 .feature-icon {
-  font-size: 2.5rem;
+  font-size: 50px;
   color: var(--primary-color);
-  display: block;
+  display: inline-block;
 }
 
 .feature-blocks h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--nav-color);
+  color: var(--heading-color);
 }
 
 /* Cards (blog) */
@@ -383,7 +519,8 @@ body .header.fixed-top.top-hider ~ main {
     padding-top: 70px;
   }
 
-  .navbar-collapse {
+  .header .navbar-collapse {
+    background: #1a1a37;
     padding: 1rem 0;
   }
 }

@@ -12,31 +12,27 @@ const latestPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.
 function postSlug(entry: { slug: string }) {
   return entry.slug.includes('/') ? entry.slug.split('/')[1]! : entry.slug;
 }
+const firstSlide = homepage.slider.slider_item[0];
+const firstSlideBg = firstSlide?.bg_image ?? homepage.slider.bg_image;
 ---
 
-<BaseLayout title={homepage.slider.slider_item[0]?.title ?? ''} lang={lang} isHome={true}>
-  {homepage.slider.enable && (
+<BaseLayout title={firstSlide?.title ?? ''} lang={lang} isHome={true}>
+  {homepage.slider.enable && firstSlide && (
     <section
       class="hero-section overlay bg-cover"
-      style={`background-image: url('${homepage.slider.bg_image}')`}
+      style={`background-image: url('${firstSlideBg}')`}
     >
       <div class="container">
-        <div class="hero-slider">
-          {homepage.slider.slider_item.map((slide) => (
-            <div class="hero-slider-item">
-              <div class="row">
-                <div class="col-md-8">
-                  <h1 class="text-white">{slide.title}</h1>
-                  <p class="text-muted mb-4">{slide.content}</p>
-                  {slide.button.enable && (
-                    <a href={slide.button.link} class="btn btn-primary">
-                      {slide.button.label}
-                    </a>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white">{firstSlide.title}</h1>
+            <p class="text-muted mb-4">{firstSlide.content}</p>
+            {firstSlide.button.enable && (
+              <a href={firstSlide.button.link} class="btn btn-primary">
+                {firstSlide.button.label}
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </section>

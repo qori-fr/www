@@ -68,32 +68,25 @@ const mainLinks = menu.filter((m) => !m.children || m.children.length === 0);
   <script src={p.link}></script>
 ))}
 <script is:inline>
-  function initSite() {
+  (function() {
     var preloader = document.querySelector('.preloader');
-    if (preloader) {
-      preloader.classList.add('loaded');
-    }
-    var jq = window.jQuery || window.$;
-    if (jq && jq.fn.slick) {
-      var heroSlider = document.querySelector('.hero-slider');
-      if (heroSlider && heroSlider.querySelectorAll('.hero-slider-item').length > 1) {
-        jq(heroSlider).slick({
-          arrows: false,
-          dots: true,
-          autoplay: true,
-          autoplaySpeed: 5000,
-          fade: true
-        });
-      }
-    }
-  }
+    if (preloader) preloader.classList.add('loaded');
+  })();
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function() {
-      window.addEventListener('load', initSite);
-      setTimeout(initSite, 1200);
+      window.addEventListener('load', function() {
+        var preloader = document.querySelector('.preloader');
+        if (preloader) preloader.classList.add('loaded');
+      });
+      setTimeout(function() {
+        var preloader = document.querySelector('.preloader');
+        if (preloader) preloader.classList.add('loaded');
+      }, 500);
     });
   } else {
-    window.addEventListener('load', initSite);
-    setTimeout(initSite, 1200);
+    setTimeout(function() {
+      var preloader = document.querySelector('.preloader');
+      if (preloader) preloader.classList.add('loaded');
+    }, 500);
   }
 </script>

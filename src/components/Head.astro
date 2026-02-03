@@ -10,10 +10,12 @@ interface Props {
 
 const { title, description, lang } = Astro.props;
 const fullTitle = title ? `${title} | ${siteConfig.title}` : siteConfig.title;
+const themeVars = `:root { --primary-color: ${siteConfig.primaryColor}; --nav-color: ${siteConfig.navColor}; }`;
 ---
 
 <meta charset="utf-8" />
 <title>{fullTitle}</title>
+<style is:global set:html={themeVars} />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <meta name="description" content={description || siteConfig.description} />
 <meta name="author" content={siteConfig.author} />
@@ -22,6 +24,9 @@ const fullTitle = title ? `${title} | ${siteConfig.title}` : siteConfig.title;
   <link rel="stylesheet" href={p.link} />
 ))}
 
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
