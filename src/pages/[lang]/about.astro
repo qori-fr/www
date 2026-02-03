@@ -24,7 +24,7 @@ const aboutData = getAboutData(lang!);
             {page.data.image && (
               <img
                 class="img-fluid mb-4 w-100"
-                src={page.data.image.startsWith('/') ? page.data.image : `/${page.data.image}`}
+                src={encodeURI(page.data.image.startsWith('/') ? page.data.image : `/${page.data.image}`)}
                 alt={page.data.title}
               />
             )}

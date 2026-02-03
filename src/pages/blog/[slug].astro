@@ -37,7 +37,7 @@ const { Content } = await post.render();
             {post.data.image && (
               <img
                 class="img-fluid mb-4"
-                src={post.data.image.startsWith('/') ? post.data.image : `/${post.data.image}`}
+                src={encodeURI(post.data.image.startsWith('/') ? post.data.image : `/${post.data.image}`)}
                 alt={post.data.title}
               />
             )}

@@ -24,7 +24,7 @@ function postSlug(entry: { slug: string }) {
               {post.data.image && (
                 <img
                   class="card-img-top rounded-0"
-                  src={post.data.image.startsWith('/') ? post.data.image : `/${post.data.image}`}
+                  src={encodeURI(post.data.image.startsWith('/') ? post.data.image : `/${post.data.image}`)}
                   alt={post.data.title}
                 />
               )}
