@@ -44,7 +44,16 @@ const firstSlideBg = firstSlide?.bg_image ?? homepage.slider.bg_image;
       <div class="container-fluid p-0">
         <div class="row no-gutters">
           <div class="col-xl-4 col-lg-5 align-self-end">
-            <img class="img-fluid w-100" src={homepage.banner_feature.image} alt="banner-feature" />
+            <img
+              class="img-fluid w-100"
+              src={homepage.banner_feature.image}
+              srcset={`${homepage.banner_feature.image} 618w`}
+              sizes="(max-width: 576px) 100vw, (max-width: 1200px) 50vw, 412px"
+              alt="banner-feature"
+              width="618"
+              height="417"
+              fetchpriority="high"
+            />
           </div>
           <div class="col-xl-8 col-lg-7">
             <div class="row feature-blocks bg-gray justify-content-between">
@@ -76,7 +85,15 @@ const firstSlideBg = firstSlide?.bg_image ?? homepage.slider.bg_image;
             )}
           </div>
           <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-            <img class="img-fluid w-100" src={homepage.about.image} alt="about" />
+            <img
+              class="img-fluid w-100"
+              src={homepage.about.image}
+              srcset={`${homepage.about.image} 816w`}
+              sizes="(max-width: 768px) 100vw, 382px"
+              alt="about"
+              width="816"
+              height="504"
+            />
           </div>
         </div>
       </div>

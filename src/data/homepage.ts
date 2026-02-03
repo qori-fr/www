@@ -105,7 +105,7 @@ const homepageEs: HomepageData = {
   },
   course: { enable: false, title: 'Talleres Virtuales' },
   cta: {
-    enable: true,
+    enable: false,
     subtitle: 'Quieres estudiar en Francia',
     title: 'CONSULTORÍA GRATUITA',
     button: { enable: true, label: 'Reservar Cita', link: 'https://calendly.com/qori' },
@@ -172,7 +172,7 @@ const homepageFr: HomepageData = {
     title: 'À propos de nous',
     image: '/images/about/about-us.jpg',
     content:
-      "**Ana MEDINA**, fondatrice et traductrice-interprète principale de **QORI.FR**, vous accompagne en traduction et interprétation entre le monde hispanophone et francophone. Traductrice et interprète judiciaire, interprète nommée par la Cour d'appel d'Angers : rigueur, confidentialité et sensibilité culturelle au service de vos projets transfrontaliers.",
+      "<b>Ana MEDINA</b>, fondatrice et traductrice-interprète principale de <b>QORI.FR</b>, vous accompagne en traduction et interprétation entre le monde hispanophone et francophone. Traductrice et interprète judiciaire, interprète nommée par la Cour d'appel d'Angers : rigueur, confidentialité et sensibilité culturelle au service de vos projets transfrontaliers.",
     button: { enable: true, label: 'En savoir plus', link: 'about' },
   },
   course: { enable: false, title: 'Notre cours' },

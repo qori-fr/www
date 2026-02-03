@@ -1,3 +1,25 @@
+/* Themify font: ensure font-display swap to avoid blocking text (override public plugin) */
+@font-face {
+  font-family: themify;
+  font-display: swap;
+  src: url(/plugins/themify-icons/fonts/themify.eot?-fvbane);
+  src: url(/plugins/themify-icons/fonts/themify.eot?#iefix-fvbane) format('embedded-opentype'),
+    url(/plugins/themify-icons/fonts/themify.woff?-fvbane) format('woff'),
+    url(/plugins/themify-icons/fonts/themify.ttf?-fvbane) format('truetype'),
+    url(/plugins/themify-icons/fonts/themify.svg?-fvbane#themify) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Touch targets: at least 44x44px for accessibility */
+.touch-target {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.5rem 0.75rem;
+}
+
 /* Qori theme - original qori.fr (primary #ffbc3b, nav gradient) */
 :root {
   --primary-color: #ffbc3b;

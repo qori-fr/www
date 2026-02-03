@@ -20,7 +20,7 @@ const mainLinks = menu.filter((m) => !m.children || m.children.length === 0);
       <div class="row">
         <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
           <a class="logo-footer" href={baseUrl}>
-            <img class="img-fluid mb-4" src={siteConfig.logo} alt={siteConfig.title} />
+            <img class="img-fluid mb-4" src={siteConfig.logo} alt={siteConfig.title} width="405" height="200" />
           </a>
           <ul class="list-unstyled">
             <li class="mb-4">{siteConfig.email}</li>
@@ -65,7 +65,7 @@ const mainLinks = menu.filter((m) => !m.children || m.children.length === 0);
 </footer>
 
 {siteConfig.plugins.js.map((p) => (
-  <script src={p.link}></script>
+  <script defer src={p.link}></script>
 ))}
 <script is:inline>
   (function() {

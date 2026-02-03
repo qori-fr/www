@@ -36,12 +36,12 @@ const otherUrl = otherLocalePath(currentPath, lang);
         <div class="col-lg-8 text-center text-lg-right">
           <ul class="list-inline">
             <li class="list-inline-item">
-              <a class="text-color mr-3" href={`tel:${siteConfig.phone}`}>
+              <a class="text-color mr-3 touch-target" href={`tel:${siteConfig.phone}`}>
                 <strong>{t(lang, 'call').toUpperCase()} : </strong> {siteConfig.phone}
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="text-color" href={`mailto:${siteConfig.email}`}>
+              <a class="text-color touch-target" href={`mailto:${siteConfig.email}`}>
                 <strong>{t(lang, 'email').toUpperCase()} : </strong> {siteConfig.email}
               </a>
             </li>
@@ -53,7 +53,7 @@ const otherUrl = otherLocalePath(currentPath, lang);
   <div class={`navigation w-100 ${siteConfig.topHeader ? 'top-hider' : ''}`}>
     <nav class={`navbar navbar-expand-lg p-0 ${siteConfig.navLight ? 'navbar-light' : 'navbar-dark'}`}>
       <a class="navbar-brand" href={baseUrl}>
-        <img src={siteConfig.logo} alt={siteConfig.title} />
+        <img src={siteConfig.logo} alt={siteConfig.title} width="405" height="200" />
       </a>
       <button
         class="navbar-toggler rounded-0"
