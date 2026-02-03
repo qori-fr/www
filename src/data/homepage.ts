@@ -108,7 +108,7 @@ const homepageEs: HomepageData = {
     title: 'Acerca de QORI',
     image: '/images/about/about-us.jpg',
     content:
-      '**QORI** es una sociedad que brinda una amplia gama de servicios: Interpretación, Traducción, Consejería, Orientación y Acompañamiento sobre Estudios Superiores en el Extranjero (especialmente, Francia) o Asesoramiento para el Aprendizaje del Idioma, etc.\n\nDe París a Lima, de Europa a Latinoamérica, QORI ofrece servicios de alta calidad tanto a personas como a empresas.\n\nNuestro personal permanente se encuentra basado en París y está a tu lado para ofrecerte un servicio clave a la mano.\n\nTenemos una red de traductores e intérpretes seleccionados que comparten nuestros valores y rigurosidad.',
+      "**Ana MEDINA**, fundadora y traductora-intérprete principal de **QORI.FR**, te acompaña en traducción e interpretación entre el mundo hispanohablante y el francófono. Traductora e intérprete judicial, intérprete nombrada por la Cour d'Appel d'Angers: rigor, confidencialidad y sensibilidad cultural al servicio de tus proyectos transfronterizos.",
     button: { enable: true, label: 'Descubre Más', link: 'about' },
   },
   course: { enable: false, title: 'Talleres Virtuales' },
@@ -160,10 +160,11 @@ const homepageFr: HomepageData = {
     feature_item: [],
   },
   about: {
-    enable: false,
-    title: 'À propos de Qori',
+    enable: true,
+    title: 'À propos de nous',
     image: '/images/about/about-us.jpg',
-    content: '',
+    content:
+      "**Ana MEDINA**, fondatrice et traductrice-interprète principale de **QORI.FR**, vous accompagne en traduction et interprétation entre le monde hispanophone et francophone. Traductrice et interprète judiciaire, interprète nommée par la Cour d'appel d'Angers : rigueur, confidentialité et sensibilité culturelle au service de vos projets transfrontaliers.",
     button: { enable: true, label: 'En savoir plus', link: 'about' },
   },
   course: { enable: false, title: 'Notre cours' },
