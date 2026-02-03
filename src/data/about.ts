@@ -14,7 +14,7 @@ export interface AboutPageData {
 
 const aboutEs: AboutPageData = {
   success_story: {
-    enable: true,
+    enable: false,
     title: 'Historias De Éxito',
     bg_image: '/images/backgrounds/success-story.jpg',
     content:
@@ -22,14 +22,14 @@ const aboutEs: AboutPageData = {
     video_link: 'https://www.youtube.com/watch?v=ResipmZmpDU',
   },
   teachers: {
-    enable: true,
+    enable: false,
     title: 'Nuestros Profesores',
   },
 };
 
 const aboutFr: AboutPageData = {
   success_story: {
-    enable: true,
+    enable: false,
     title: 'Histoires de succès',
     bg_image: '/images/backgrounds/success-story.jpg',
     content:
@@ -37,7 +37,7 @@ const aboutFr: AboutPageData = {
     video_link: 'https://www.youtube.com/watch?v=ResipmZmpDU',
   },
   teachers: {
-    enable: true,
+    enable: false,
     title: 'Nos professeurs',
   },
 };

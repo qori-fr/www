@@ -1,12 +1,10 @@
 ---
-title: "Traduction littéraire"
+title: "Littéraire"
 path: traduccion/literaria
 lang: fr
-date: 2020-08-12T12:14:34+01:00
-description: "Qori propose un service de traduction dans le domaine littéraire"
+date: 2020-06-09T12:14:34+06:00
+description: "Traduction d'œuvres littéraires"
 ---
-# Traduction littéraire
+# Littéraire
 
-La traduction littéraire est un travail assez complexe effectué par nos traducteurs. Nos traducteurs ont étudié la littérature et la linguistique et connaissent donc les figures littéraires, les noms propres et la culture de la langue dans laquelle elle doit être traduite.
-
-Nous réalisons la traduction de : romans, poésie, nouvelles, théâtre et autres.
+Traduction d'œuvres littéraires : romans, nouvelles, poésie, bandes dessinées, essais et textes narratifs du français vers l'espagnol (ou vice versa), en préservant le style, le ton et l'intention de l'auteur.

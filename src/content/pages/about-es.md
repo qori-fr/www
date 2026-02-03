@@ -1,28 +1,20 @@
 ---
-title: "Nosotros"
+title: "Acerca de nosotros"
 path: about
 lang: es
 date: 2020-08-16T12:14:34+01:00
 image: "/images/about/about-page.jpg"
 ---
-## ACERCA DE NOSOTROS
+# ¡Bienvenido a QORI!
 
-**QORI** es una sociedad que brinda una amplia gama de servicios: Interpretación; Traducción; Consejería, Orientación y Acompañamiento sobre Estudios Superiores en el Extranjero (especialmente, Francia) o Asesoramiento para el Aprendizaje del Idioma, etc.
+Soy **Ana MEDINA**, fundadora y traductora-intérprete principal de **QORI.FR**, empresa creada en 2020 con la pasión de tender puentes lingüísticos y culturales entre el mundo hispanohablante y el francófono.
 
-De París a Lima, de Europa a Latinoamérica, QORI ofrece servicios de alta calidad tanto a personas como a empresas.
+De origen peruano y con residencia en Francia desde hace más de una década, hablo español como lengua materna y francés bilingüe. Mi trayectoria combina una sólida formación académica en Derecho (Master en Derecho Social – Universidad Paris Panthéon Assas, Master 1 en Derecho Social – Universidad Panthéon Sorbonne, Jurista de Empresa – EFC), en Empresas e Intercambios internacionales (Máster en Empresas y Comercio Internacional – Université la Sorbonne) y en Estudios Latinoamericanos (Máster en Ciencia Política – IHEAL, Universidad Sorbonne Nouvelle).
 
-Nuestro personal permanente se encuentra basado en París y está a tu lado para ofrecerte un servicio clave a la mano.
+Desde 2020, soy traductora e intérprete judicial en español ante el Tribunal Judiciaire d'Évry-Courcouronnes, donde intervengo regularmente en procedimientos judiciales, incluyendo traducciones para el Procurador General y el Servicio de Asuntos Familiares, así como interpretaciones ante el Juez de Libertades y de Detención (JLD). Anteriormente, realicé interpretación simultánea y consecutiva para instituciones como la OFII, la Préfecture de Police de Paris, la Maison d'arrêt de Fleury-Mérogis, la Aide Sociale à l'Enfance (ASE), el Service Social (SS), entre otros.
 
-Tenemos una red de traductores e intérpretes seleccionados que comparten nuestros valores y rigurosidad.
+Mi experiencia abarca también el ámbito jurídico (jurista voluntaria en Secours Catholique especializada en derecho de extranjería), la gestión administrativa y comercial (Konica Minolta, Europ Assistance, Webedia, etc.), y el emprendimiento internacional. Esta diversidad me permite ofrecer servicios de traducción e interpretación de alta calidad en contextos jurídicos, administrativos, médicos, comerciales, migratorios y personales, siempre con rigor, confidencialidad y sensibilidad cultural.
 
-Contamos con un personal plenamente capacitado para realizar servicios de Consejería sobre Estudios Superiores en el Extranjero o de Aprendizaje del Idioma, dirigidos por expertos en el tema.
+Recientemente, he sido nombrada intérprete por la Cour d'Appel d'Angers, lo que me habilita para proponer servicios como interpretaciones en audiencias judiciales, en matrimonio, para el examen de permiso de conducir, entre otros.
 
-Poseemos una cultura internacional y orientada no solamente al mercado interno, sino a la exportación de servicios. Cualquiera que sea tu sector de actividad, tu especialidad de estudios o tu interés en los servicios que brindamos, ponemos todo nuestro esfuerzo en satisfacer tus expectativas.
-
-El personal es evaluado periódicamente y nuestros servicios son efectuados con respeto estricto a las normas.
-
-Contamos con un grupo reactivo gracias a nuestras herramientas de organización interna.
-
-Inmediatamente que te pones en contacto con nosotros, identificamos rápidamente lo que necesitas para proveerte una solución en un plazo muy corto.
-
-Herramientas innovadoras nos permiten proponerte una relación calidad/precio de las más interesantes y soluciones a medida.
+**En QORI, no solo traduzco palabras: facilito encuentros, resuelvo trámites y acompaño a personas y empresas en sus proyectos transfronterizos.**
