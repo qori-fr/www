@@ -79,7 +79,7 @@ const homepageEs: HomepageData = {
   },
   banner_feature: {
     enable: true,
-    image: '/images/blog/primeras%20practicas.jpg',
+    image: '/images/blog/primeraspracticas.jpg',
     feature_item: [
       {
         name: 'Traducción',
@@ -151,7 +151,7 @@ const homepageFr: HomepageData = {
   },
   banner_feature: {
     enable: true,
-    image: '/images/blog/primeras%20practicas.jpg',
+    image: '/images/blog/primeraspracticas.jpg',
     feature_item: [
       {
         name: 'Traduction',
