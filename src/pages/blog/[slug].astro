@@ -1,31 +1,29 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { t } from '../../../i18n/translations';
+import { t } from '../../i18n/translations';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   return posts
-    .filter((p) => p.data.lang === 'fr' && !p.data.draft)
+    .filter((p) => p.data.lang === 'es' && !p.data.draft)
     .map((entry) => {
       const slugPart = entry.slug.includes('/') ? entry.slug.split('/')[1]! : entry.slug;
-      return {
-        params: { lang: 'fr' as const, slug: slugPart },
-        props: { entry },
-      };
+      return { params: { slug: slugPart }, props: { entry } };
     });
 }
 
 const { entry } = Astro.props;
-const { lang } = Astro.params;
+const { slug } = Astro.params;
 const post = entry;
+const lang = 'es';
 const { Content } = await post.render();
 ---
 
 <BaseLayout
   title={post.data.title}
   description={post.data.description}
-  lang={lang!}
+  lang={lang}
   isHome={false}
   pageTitle={post.data.title}
   pageDescription={post.data.description}
@@ -46,7 +44,7 @@ const { Content } = await post.render();
             <ul class="list-inline mb-3">
               <li class="list-inline-item mr-3 ml-0">
                 <i class="ti-calendar"></i>{' '}
-                {post.data.date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : 'es-ES', {
+                {post.data.date.toLocaleDateString('es-ES', {
                   day: '2-digit',
                   month: 'long',
                   year: 'numeric',
@@ -54,7 +52,7 @@ const { Content } = await post.render();
               </li>
               {post.data.author && (
                 <li class="list-inline-item mr-3 ml-0">
-                  <i class="ti-user"></i> {t(lang!, 'posted_by')} {post.data.author}
+                  <i class="ti-user"></i> {t(lang, 'posted_by')} {post.data.author}
                 </li>
               )}
             </ul>

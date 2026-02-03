@@ -4,13 +4,12 @@ import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
-  const paths = pages
-    .filter((p) => p.data.path && p.data.path.includes('/'))
+  return pages
+    .filter((p) => p.data.path && p.data.lang === 'fr' && p.data.path.includes('/'))
     .map((entry) => ({
-      params: { lang: entry.data.lang, slug: entry.data.path },
+      params: { lang: 'fr' as const, slug: entry.data.path! },
       props: { entry },
     }));
-  return paths;
 }
 
 const { entry } = Astro.props;

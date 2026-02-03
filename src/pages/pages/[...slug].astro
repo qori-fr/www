@@ -1,26 +1,18 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
-  const topLevel = ['about', 'contact'];
   return pages
-    .filter(
-      (p) =>
-        p.data.path &&
-        p.data.lang === 'fr' &&
-        !p.data.path.includes('/') &&
-        !topLevel.includes(p.data.path)
-    )
+    .filter((p) => p.data.path && p.data.lang === 'es' && p.data.path.includes('/'))
     .map((entry) => ({
-      params: { lang: 'fr' as const, slug: entry.data.path! },
+      params: { slug: entry.data.path! },
       props: { entry },
     }));
 }
 
 const { entry } = Astro.props;
-const { lang, slug } = Astro.params;
 const page = entry;
 const { Content } = await page.render();
 ---
@@ -28,7 +20,7 @@ const { Content } = await page.render();
 <BaseLayout
   title={page.data.title}
   description={page.data.description}
-  lang={lang!}
+  lang="es"
   isHome={false}
   pageTitle={page.data.title}
   pageDescription={page.data.description}

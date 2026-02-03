@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from '../config';
+import { localeBaseWithSlash } from '../utils/locale';
 
 interface Props {
   title: string;
@@ -9,7 +10,7 @@ interface Props {
 }
 
 const { title, description, bgImage, lang } = Astro.props;
-const baseUrl = `/${lang}/`;
+const baseUrl = localeBaseWithSlash(lang);
 const bg = bgImage || '/images/backgrounds/page-title.jpg';
 ---
 

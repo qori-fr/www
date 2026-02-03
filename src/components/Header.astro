@@ -2,6 +2,7 @@
 import { siteConfig } from '../config';
 import { getMenu } from '../data/menu';
 import { t } from '../i18n/translations';
+import { localeBaseWithSlash, localePath, otherLocalePath } from '../utils/locale';
 
 interface Props {
   lang: string;
@@ -10,11 +11,11 @@ interface Props {
 
 const { lang, currentPath } = Astro.props;
 const menu = getMenu(lang);
-const baseUrl = `/${lang}/`;
+const baseUrl = localeBaseWithSlash(lang);
 
 const localeNames: Record<string, string> = { es: 'Es', fr: 'Fr' };
 const otherLang = lang === 'fr' ? 'es' : 'fr';
-const otherUrl = currentPath.replace(`/${lang}/`, `/${otherLang}/`);
+const otherUrl = otherLocalePath(currentPath, lang);
 ---
 
 <header class={`fixed-top header ${siteConfig.topHeader ? 'top-hider' : ''}`}>
@@ -75,7 +76,7 @@ const otherUrl = currentPath.replace(`/${lang}/`, `/${otherLang}/`);
                 </a>
                 <div class="dropdown-menu">
                   {item.children!.map((child) => (
-                    <a class="dropdown-item" href={`/${lang}/${child.URL}/`}>
+                    <a class="dropdown-item" href={localePath(lang, child.URL)}>
                       {child.name}
                     </a>
                   ))}
@@ -83,7 +84,7 @@ const otherUrl = currentPath.replace(`/${lang}/`, `/${otherLang}/`);
               </li>
             ) : (
               <li class="nav-item">
-                <a class="nav-link" href={`/${lang}/${item.URL}/`}>
+                <a class="nav-link" href={localePath(lang, item.URL)}>
                   {item.name}
                 </a>
               </li>

@@ -1,20 +1,16 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { siteConfig } from '../../config';
+import { siteConfig } from '../config';
 
-export function getStaticPaths() {
-  return [{ params: { lang: 'fr' } }];
-}
-
-const { lang } = Astro.params;
+const lang = 'es';
 const pages = await getCollection('pages');
 const page = pages.find((p) => p.data.path === 'contact' && p.data.lang === lang);
-if (!page) return Astro.redirect(lang === 'es' ? '/' : `/${lang}/`);
+if (!page) throw new Error('Contact page not found');
 const { Content } = await page.render();
 ---
 
-<BaseLayout title={page.data.title} lang={lang!} isHome={false} pageTitle={page.data.title}>
+<BaseLayout title={page.data.title} lang={lang} isHome={false} pageTitle={page.data.title}>
   <section class="section">
     <div class="container">
       <div class="row">
@@ -23,12 +19,12 @@ const { Content } = await page.render();
             <Content />
             <p class="mt-4">
               <a href={siteConfig.contact.formAction} class="btn btn-primary" target="_blank" rel="noopener">
-                {lang === 'fr' ? 'Réserver une consultation' : 'Reservar consulta'}
+                Reservar consulta
               </a>
             </p>
             <p>
               <strong>Email:</strong> <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a><br />
-              <strong>{lang === 'fr' ? 'Téléphone' : 'Teléfono'}:</strong> <a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a>
+              <strong>Teléfono:</strong> <a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a>
             </p>
           </div>
         </div>

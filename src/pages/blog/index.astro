@@ -1,14 +1,10 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { t } from '../../../i18n/translations';
-import { localePath } from '../../../utils/locale';
+import { t } from '../../i18n/translations';
+import { localePath } from '../../utils/locale';
 
-export function getStaticPaths() {
-  return [{ params: { lang: 'fr' } }];
-}
-
-const { lang } = Astro.params;
+const lang = 'es';
 const posts = (await getCollection('blog'))
   .filter((p) => p.data.lang === lang && !p.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
@@ -18,7 +14,7 @@ function postSlug(entry: { slug: string }) {
 }
 ---
 
-<BaseLayout title={t(lang!, 'latest_article')} lang={lang!} isHome={false} pageTitle={t(lang!, 'latest_article')}>
+<BaseLayout title={t(lang, 'latest_article')} lang={lang} isHome={false} pageTitle={t(lang, 'latest_article')}>
   <section class="section">
     <div class="container">
       <div class="row justify-content-center">
@@ -36,7 +32,7 @@ function postSlug(entry: { slug: string }) {
                 <ul class="list-inline mb-3">
                   <li class="list-inline-item mr-3 ml-0">
                     <i class="ti-calendar"></i>{' '}
-                    {post.data.date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : 'es-ES', {
+                    {post.data.date.toLocaleDateString('es-ES', {
                       day: '2-digit',
                       month: 'short',
                       year: 'numeric',
@@ -49,14 +45,14 @@ function postSlug(entry: { slug: string }) {
                   )}
                 </ul>
                 <h4 class="card-title">
-                  <a href={localePath(lang!, `blog/${postSlug(post)}`)}>{post.data.title}</a>
+                  <a href={localePath(lang, `blog/${postSlug(post)}`)}>{post.data.title}</a>
                 </h4>
                 <p class="card-text">
                   {post.data.description?.slice(0, 100) ?? ''}
                   {(post.data.description?.length ?? 0) > 100 ? '...' : ''}
                 </p>
-                <a href={localePath(lang!, `blog/${postSlug(post)}`)} class="btn btn-primary btn-sm">
-                  {t(lang!, 'read_more')}
+                <a href={localePath(lang, `blog/${postSlug(post)}`)} class="btn btn-primary btn-sm">
+                  {t(lang, 'read_more')}
                 </a>
               </div>
             </div>
