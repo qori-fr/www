@@ -18,3 +18,15 @@ Mi experiencia abarca también el ámbito jurídico (jurista voluntaria en Secou
 Recientemente, he sido nombrada intérprete por la Cour d'Appel d'Angers, lo que me habilita para proponer servicios como interpretaciones en audiencias judiciales, en matrimonio, para el examen de permiso de conducir, entre otros.
 
 **En QORI, no solo traduzco palabras: facilito encuentros, resuelvo trámites y acompaño a personas y empresas en sus proyectos transfronterizos.**
+
+## Qué significa QORI ?
+
+«QORI» significa “oro” en quechua, la lengua ancestral de mis raíces peruanas.
+Elegí este nombre porque creo que cada traducción bien hecha es un tesoro: convierte palabras comunes en mensajes valiosos, precisos y luminosos que unen personas, familias, empresas y culturas.
+
+Así como el oro es:
+
+- Puro → mis traducciones e interpretaciones son fieles y exactas
+- Brillante → transmiten claridad y eliminan malentendidos
+- Precioso → abren puertas (visas, trámites administrativos, matrimonios, negocios)
+- Duradero → mantienen su valor con el tiempo

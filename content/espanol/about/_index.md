@@ -27,3 +27,15 @@ Contamos con un grupo reactivo gracias a nuestras herramientas de organización 
 Inmediatamente que te pones en contacto con nosotros, identificamos rápidamente lo que necesitas para proveerte una solución en un plazo muy corto.
 
 Herramientas innovadoras nos permiten proponerte una relación calidad/precio de las más interesantes y soluciones a medida.
+
+## Qué significa QORI ?
+
+«QORI» significa “oro” en quechua, la lengua ancestral de mis raíces peruanas.
+Elegí este nombre porque creo que cada traducción bien hecha es un tesoro: convierte palabras comunes en mensajes valiosos, precisos y luminosos que unen personas, familias, empresas y culturas.
+
+Así como el oro es:
+
+- Puro → mis traducciones e interpretaciones son fieles y exactas
+- Brillante → transmiten claridad y eliminan malentendidos
+- Precioso → abren puertas (visas, trámites administrativos, matrimonios, negocios)
+- Duradero → mantienen su valor con el tiempo

@@ -20,3 +20,15 @@ Nous avons une culture internationale orientée non seulement au marché interne
 Notre personnel est évalué constamment et nos services sont effectuées dans le strict respect de normes.
 
 Dès que le premier contact avec nous, nous identifions rapidement les besoins et nous répondons dans un délai court.
+
+## Ça veut dire quoi QORI ? 
+
+«QORI» signifie « or » en quechua, la langue ancestrale de mes racines péruviennes.
+
+J’ai choisi ce nom parce que je crois que chaque traduction bien réalisée est un trésor : elle transforme des mots ordinaires en messages précieux, précis et lumineux qui relient les personnes, les familles, les entreprises et les cultures.
+Tout comme l’or est :
+
+- Pur → mes traductions et interprétations sont fidèles et exactes
+- Brillant → elles transmettent la clarté et éliminent les malentendus
+- Précieux → elles ouvrent des portes (visas, démarches administratives, mariages, affaires)
+- Durable → elles conservent leur valeur au fil du temps
