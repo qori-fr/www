@@ -23,8 +23,8 @@ const mainLinks = menu.filter((m) => !m.children || m.children.length === 0);
             <img class="img-fluid mb-4" src={siteConfig.logo} alt={siteConfig.title} width="405" height="200" />
           </a>
           <ul class="list-unstyled">
-            <li class="mb-4">{siteConfig.email}</li>
-            <li class="mb-4">{siteConfig.phone}</li>
+            <li class="mb-4" set:html={siteConfig.email}</li>
+            <li class="mb-4" set:html={siteConfig.phone}</li>
           </ul>
         </div>
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
@@ -37,6 +37,18 @@ const mainLinks = menu.filter((m) => !m.children || m.children.length === 0);
                 </a>
               </li>
             ))}
+            {lang === 'fr' && (
+              <li class="mb-3">
+                <a class="text-color" href={localePath(lang, 'pages/conditions-generales-de-vente')}>
+                  Conditions générales de vente
+                </a>
+              </li>
+              <li class="mb-3">
+                <a class="text-color" href={localePath(lang, 'pages/mentions-legales')}>
+                  Mentions Légales
+                </a>
+              </li>
+            )}
           </ul>
         </div>
       </div>

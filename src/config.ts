@@ -4,22 +4,22 @@ export const siteConfig = {
   baseURL: 'https://qori.fr/',
   author: 'Ana Medina',
   copyright:
-    'Qori - Copyright © 2020-2026 [Licence Creative Commons by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/4.0/)',
-  email: 'contact@qori.fr',
+    'Qori - Copyright © 2020-2026 <a href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Licence Creative Commons by-nc-sa</a>',
+  email: '<a href="mailto:contact@qori.fr">contact@qori.fr</a>',
+  phone: '<a href="tel:+33652297889">+33 (0) 6 52 29 78 89</a>',
   googleAnalyticsId: 'UA-59880117-2',
   home: 'Qori',
   logo: '/images/logo-w-sm.gif',
-  phone: '+33 (0) 6 52 29 78 89',
   primaryColor: '#ffbc3b',
   navColor: '#ffbc3b',
   navLight: false,
-  topHeader: true,
+  topHeader: false,
   contact: {
     enable: true,
     formAction: 'https://calendly.com/qori',
   },
   preloader: {
-    enable: true,
+    enable: false,
     preloader: '/images/logo-sm.gif',
   },
   social: [
