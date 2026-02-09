@@ -5,4 +5,6 @@ lang: fr
 ---
 # Contact
 
-Contactez-nous via le formulaire Calendly ou par email / téléphone.
+Contactez-nous par email / téléphone.<br/>
+
+14 rue Balzac 91410 Dourdan

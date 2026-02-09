@@ -17,14 +17,9 @@ const { Content } = await page.render();
         <div class="col-12">
           <div class="content">
             <Content />
-            <p class="mt-4">
-              <a href={siteConfig.contact.formAction} class="btn btn-primary" target="_blank" rel="noopener">
-                Reservar consulta
-              </a>
-            </p>
             <p>
-              <strong>Email:</strong> <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a><br />
-              <strong>Teléfono:</strong> <a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a>
+              <strong>Email&nbsp;:</strong>&nbsp;<span set:html={siteConfig.email}/><br />
+              <strong>Teléfono&nbsp;:</strong>&nbsp;<span set:html={siteConfig.phone}/>
             </p>
           </div>
         </div>
