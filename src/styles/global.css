@@ -452,12 +452,17 @@ body .header.fixed-top.top-hider ~ main {
 }
 
 /* Content */
+.content {
+  text-align: justify;
+}
+
 .content h1,
 .content h2,
 .content h3 {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   color: var(--heading-color);
+  text-align: left;
 }
 
 .content h1 { font-size: 1.75rem; }
