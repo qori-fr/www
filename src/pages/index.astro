@@ -26,7 +26,10 @@ const firstSlideBg = firstSlide?.bg_image ?? homepage.slider.bg_image;
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h1 class="text-white">{firstSlide.title}</h1>
+            <h1 class="hero-title text-white">{firstSlide.title}</h1>
+            {firstSlide.subtitle && (
+              <p class="hero-subtitle text-white">{firstSlide.subtitle}</p>
+            )}
             <p class="text-muted mb-4">{firstSlide.content}</p>
             {firstSlide.button.enable && (
               <a href={firstSlide.button.link} class="btn btn-primary">

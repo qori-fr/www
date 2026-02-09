@@ -1,5 +1,6 @@
 export interface SliderItem {
   title: string;
+  subtitle?: string;
   content: string;
   animation_in: string;
   animation_out: string;
@@ -43,42 +44,24 @@ export interface HomepageData {
   blog: { enable: boolean; title: string };
 }
 
+const heroSlide = {
+  title: 'TRADUCTORA FRANCÉS – ESPAÑOL / INTÉRPRETE JURADA FRANCÉS – ESPAÑOL',
+  content:
+    'Je traduis des documents tels que contrats, accords, licences, documents scientifiques, littéraires, publicités, entre autres.',
+  animation_in: 'left',
+  animation_out: 'right',
+  button: { enable: false, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
+  bg_image: '/images/banner/banner-1.jpg',
+};
+
 const homepageEs: HomepageData = {
   slider: {
-    enable: false,
+    enable: true,
     bg_image: '/images/banner/banner-1.jpg',
-    slider_item: [
-      {
-        title: 'Haz Tus Sueños Realidad',
-        content:
-          'No te quedes pensando en como sería si me fuera a estudiar a Francia. Contáctanos y da el salto para que puedas iniciar el proceso de admisión.',
-        animation_in: 'left',
-        animation_out: 'right',
-        button: { enable: true, label: 'Consulta Gratuita', link: 'https://calendly.com/qori' },
-        bg_image: '/images/banner/banner-1.jpg',
-      },
-      {
-        title: 'Estudia En El Exterior Francia Te Espera',
-        content:
-          'Te damos todos los tips para puedas lograr ser admitido en alguna institución francesa. ¡Qori asegura tu éxito profesional!',
-        animation_in: 'left',
-        animation_out: 'right',
-        button: { enable: true, label: 'Consulta Gratuita', link: 'https://calendly.com/qori' },
-        bg_image: '/images/banner/banner-1.jpg',
-      },
-      {
-        title: 'Trabaja En Francia',
-        content:
-          'Te ayudamos en la búsqueda de empleo profesional en Francia, como prácticas profesionales o trabajo en CDD o CDI.',
-        animation_in: 'left',
-        animation_out: 'right',
-        button: { enable: true, label: 'Consulta Gratuita', link: 'https://calendly.com/qori' },
-        bg_image: '/images/banner/banner-1.jpg',
-      },
-    ],
+    slider_item: [heroSlide],
   },
   banner_feature: {
-    enable: true,
+    enable: false,
     image: '/images/blog/primeraspracticas.jpg',
     feature_item: [
       {
@@ -115,42 +98,24 @@ const homepageEs: HomepageData = {
   blog: { enable: true, title: 'Últimas Noticias' },
 };
 
+
+const heroSlideFr = {
+  title: 'TRADUCTEUR FRANÇAIS – ESPAGNOL / INTERPRÈTE ASSERMENTÉE FRANÇAIS – ESPAGNOL',
+  content: 'Traduzco documentos como contratos, acuerdos, licencias, documentos cientificos, literarios, publicidades, entre otros.',
+  animation_in: 'left',
+  animation_out: 'right',
+  button: { enable: false, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
+  bg_image: '/images/banner/banner-1.jpg',
+};
+
 const homepageFr: HomepageData = {
   slider: {
-    enable: false,
+    enable: true,
     bg_image: '/images/banner/banner-1.jpg',
-    slider_item: [
-      {
-        title: "Faites de votre rêve une réalité",
-        content:
-          "Ne réfléchit pas plus longtemps à ce que ce serait d'étudier en France. Contactez-nous et faites le premiers pas pour entâmer votre processus d'admission.",
-        animation_in: 'left',
-        animation_out: 'right',
-        button: { enable: true, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
-        bg_image: '/images/banner/banner-1.jpg',
-      },
-      {
-        title: "Etudiez à l'étranger. La France vous attend.",
-        content:
-          "Nous vous conseillons afin que vous puissiez être admis(e) dans un établissement français. Qori assure votre réussite professionnelle !",
-        animation_in: 'left',
-        animation_out: 'right',
-        button: { enable: true, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
-        bg_image: '/images/banner/banner-1.jpg',
-      },
-      {
-        title: 'Travaillez en France',
-        content:
-          "Nous vous accompagnons dans votre recherche d'un emploi professionnel en France, tels que des stages professionnels ou un emploi en CDD ou CDI.",
-        animation_in: 'left',
-        animation_out: 'right',
-        button: { enable: true, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
-        bg_image: '/images/banner/banner-1.jpg',
-      },
-    ],
+    slider_item: [heroSlideFr],
   },
   banner_feature: {
-    enable: true,
+    enable: false,
     image: '/images/blog/primeraspracticas.jpg',
     feature_item: [
       {

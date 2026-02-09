@@ -306,11 +306,26 @@ body .header.fixed-top.top-hider ~ main {
   z-index: 1;
 }
 
-.hero-section h1 {
+.hero-section h1,
+.hero-section .hero-title {
   font-size: 2.25rem;
   font-weight: 700;
   margin-bottom: 1rem;
   line-height: 1.2;
+}
+
+.hero-section .hero-title {
+  border-bottom: 3px solid #ffbc3b;
+  padding-bottom: 0.25rem;
+  display: inline-block;
+}
+
+.hero-section .hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 .hero-section .text-muted {
