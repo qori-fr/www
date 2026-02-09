@@ -18,3 +18,7 @@ Como intérprete jurada, facilito la comunicación en tiempo real en situaciones
 - **Asesoramiento jurídico o fiscal privado** con clientes extranjeros (reuniones con abogados, expertos fiscales o consultores para optimización patrimonial transfronteriza).
 
 ¡No dudes en contactarme para cualquier solicitud personalizada!
+
+## Interpretación por teléfono 
+
+Si te encuentras en una situación de urgencia, deseas realizar un trámite administrativo, médico, social o te encuentras en una situación particular y quieres que tu interlocutor comprenda tus necesidades, no dudes en llamarme.
