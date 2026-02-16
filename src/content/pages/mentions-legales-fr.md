@@ -86,7 +86,7 @@ Le fait de demander un devis, une information ou une prestation implique l’acc
 
 En utilisant notre site, vous consentez à notre politique de confidentialité susmentionnée.
 
-Vous disposez d’un droit d’accès, de rectification ou de suppression de vos données personnelles en en faisant la demande à l’adresse suivante : office@translator-paris.com.
+Vous disposez d’un droit d’accès, de rectification ou de suppression de vos données personnelles en en faisant la demande à l’adresse suivante : contact@qori.fr.
 
 Nous avons mis en place toutes les mesures de sécurité pour protéger vos données et nous engageons à vous informer de toute faille éventuelle de sécurité et des mesures prises pour y remédier.
 
