@@ -46,8 +46,7 @@ export interface HomepageData {
 
 const heroSlide = {
   title: 'TRADUCTORA FRANCÉS – ESPAÑOL / INTÉRPRETE JURADA FRANCÉS – ESPAÑOL',
-  content:
-    'Je traduis des documents tels que contrats, accords, licences, documents scientifiques, littéraires, publicités, entre autres.',
+  content: '',
   animation_in: 'left',
   animation_out: 'right',
   button: { enable: false, label: 'Consulter gratuitement', link: 'https://calendly.com/qori' },
@@ -83,7 +82,7 @@ const homepageEs: HomepageData = {
     title: 'Acerca de QORI',
     image: '/images/about/about-us.jpg',
     content:
-      "<b>Ana MEDINA</b>, fundadora y traductora-intérprete principal de <b>QORI.FR</b>, te acompaña en traducción e interpretación entre el mundo hispanohablante y el francófono. Traductora e intérprete judicial, intérprete nombrada por la Cour d'Appel d'Angers: rigor, confidencialidad y sensibilidad cultural al servicio de tus proyectos transfronterizos.",
+      "<b>Ana MEDINA</b>, fundadora de <b>QORI.FR</b>, te acompaña en traducción e interpretación entre el mundo hispanohablante y el francófono. Traductora e intérprete judicial, intérprete nombrada por la Cour d'Appel d'Angers: rigor, confidencialidad y sensibilidad cultural al servicio de tus proyectos transfronterizos.",
     button: { enable: true, label: 'Descubre Más', link: 'about' },
   },
   course: { enable: false, title: 'Talleres Virtuales' },
@@ -137,7 +136,7 @@ const homepageFr: HomepageData = {
     title: 'À propos de nous',
     image: '/images/about/about-us.jpg',
     content:
-      "<b>Ana MEDINA</b>, fondatrice et traductrice-interprète principale de <b>QORI.FR</b>, vous accompagne en traduction et interprétation entre le monde hispanophone et francophone. Traductrice et interprète judiciaire, interprète nommée par la Cour d'appel d'Angers : rigueur, confidentialité et sensibilité culturelle au service de vos projets transfrontaliers.",
+      "<b>Ana MEDINA</b>, fondatrice de <b>QORI.FR</b>, vous accompagne en traduction et interprétation entre le monde hispanophone et francophone. Traductrice et interprète judiciaire, interprète nommée par la Cour d'appel d'Angers : rigueur, confidentialité et sensibilité culturelle au service de vos projets transfrontaliers.",
     button: { enable: true, label: 'En savoir plus', link: 'about' },
   },
   course: { enable: false, title: 'Notre cours' },

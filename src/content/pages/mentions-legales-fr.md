@@ -26,9 +26,9 @@ Tous les textes présents sur le site Internet de QORI restent la propriété in
 ## Communication
 
 Directrice de la publication : Ana MEDINA  
-Site internet réalisé par l’agence …  
-Site internet hébergé chez …  
-Crédits photo : …..
+Site internet réalisé avec Astro  
+Site internet hébergé chez Github Pages
+Crédits photo : diverses sources libres de droits
 
 ## Avertissements
 
