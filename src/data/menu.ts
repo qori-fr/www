@@ -16,6 +16,7 @@ function buildMenu(items: Omit<MenuItem, 'children'>[]): MenuItem[] {
 
 const esItems: Omit<MenuItem, 'children'>[] = [
   { URL: 'about', name: 'Nosotros', weight: 1 },
+  { URL: 'pages/proyectos', name: 'Proyectos', weight: 2 },
   { URL: 'pages/traduccion', name: 'Traducción', weight: 3 },
   { URL: 'pages/interpretacion', name: 'Interpretación', weight: 4 },
   { URL: 'blog', name: 'Blog', weight: 6 },
@@ -24,6 +25,7 @@ const esItems: Omit<MenuItem, 'children'>[] = [
 
 const frItems: Omit<MenuItem, 'children'>[] = [
   { URL: 'about', name: 'À propos', weight: 1 },
+  { URL: 'pages/projets', name: 'Projets', weight: 2 },
   { URL: 'pages/traduccion', name: 'Traduction', weight: 3 },
   { URL: 'pages/interpretacion', name: 'Interprétation', weight: 4 },
   { URL: 'blog', name: 'Blog', weight: 6 },
