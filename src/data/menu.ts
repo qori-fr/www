@@ -25,7 +25,7 @@ const esItems: Omit<MenuItem, 'children'>[] = [
 
 const frItems: Omit<MenuItem, 'children'>[] = [
   { URL: 'about', name: 'À propos', weight: 1 },
-  { URL: 'pages/projets', name: 'Projets', weight: 2 },
+  { URL: 'pages/proyectos', name: 'Projets', weight: 2 },
   { URL: 'pages/traduccion', name: 'Traduction', weight: 3 },
   { URL: 'pages/interpretacion', name: 'Interprétation', weight: 4 },
   { URL: 'blog', name: 'Blog', weight: 6 },

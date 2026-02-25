@@ -1,6 +1,6 @@
 ---
 title: "Projets"
-path: projets
+path: proyectos
 lang: fr
 date: 2025-02-25T12:00:00+01:00
 description: "Projets de traduction littéraire"
