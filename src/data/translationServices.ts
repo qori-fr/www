@@ -13,9 +13,9 @@ export const translationServices: TranslationServiceItem[] = [
     titleEs: 'Jurídica y Legal',
     titleFr: 'Juridique et légal',
     descriptionEs:
-      'Traducciones de documentos jurídico-administrativos (no juradas), como acuerdos, contratos, licencias y reglamentos.',
+      'Traducciones de documentos jurídico-administrativos, como acuerdos, contratos, licencias y reglamentos.',
     descriptionFr:
-      'Traductions de documents juridico-administratifs (non assermentées), conventions, contrats, licences et règlements.',
+      'Traductions de documents juridico-administratifs, conventions, contrats, licences et règlements.',
     icon: 'ti-book',
   },
   {
