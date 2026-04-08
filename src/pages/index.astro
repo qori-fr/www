@@ -10,8 +10,8 @@ const lang = 'es';
 const homepage = getHomepage(lang);
 const allPosts = (await getCollection('blog')).filter((p) => p.data.lang === lang && !p.data.draft);
 const latestPosts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
-function postSlug(entry: { slug: string }) {
-  return entry.slug.includes('/') ? entry.slug.split('/')[1]! : entry.slug;
+function postSlug(entry: { id: string }) {
+  return entry.id.includes('/') ? entry.id.split('/')[1]! : entry.id;
 }
 const firstSlide = homepage.slider.slider_item[0];
 const firstSlideBg = firstSlide?.bg_image ?? homepage.slider.bg_image;

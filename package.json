@@ -9,11 +9,11 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^5.0.0"
+    "astro": "^6.1.4"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^3.2.0",
+    "@astrojs/sitemap": "^3.7.2",
     "js-yaml": "^4.1.0",
-    "typescript": "^5.0.0"
+    "typescript": "^6.0.2"
   }
 }

@@ -1,7 +1,8 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 const blogCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
     title: z.string(),
     date: z.coerce.date(),
@@ -13,20 +14,19 @@ const blogCollection = defineCollection({
     draft: z.boolean().optional().default(false),
     lang: z.enum(['fr', 'es']),
     bg_image: z.string().optional(),
-    // urlSlug: used for URL when file is e.g. cv-frances-fr.md -> url /fr/blog/cv-frances/
     urlSlug: z.string().optional(),
   }),
 });
 
 const pagesCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/pages' }),
   schema: z.object({
     title: z.string(),
     date: z.coerce.date().optional(),
     description: z.string().optional(),
     image: z.string().optional(),
     lang: z.enum(['fr', 'es']),
-    path: z.string().optional(), // e.g. "about", "estudia/estudios_superiores" - for routing (slug reserved by Astro)
+    path: z.string().optional(),
   }),
 });
 

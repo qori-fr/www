@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import { getAboutData } from '../../data/about';
 
 export function getStaticPaths() {
@@ -11,7 +11,7 @@ const { lang } = Astro.params;
 const pages = await getCollection('pages');
 const page = pages.find((p) => p.data.path === 'about' && p.data.lang === lang);
 if (!page) return Astro.redirect(lang === 'es' ? '/' : `/${lang}/`);
-const { Content } = await page.render();
+const { Content } = await render(page);
 const aboutData = getAboutData(lang!);
 ---
 

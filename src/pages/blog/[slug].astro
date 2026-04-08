@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import { t } from '../../i18n/translations';
 
 export async function getStaticPaths() {
@@ -8,7 +8,7 @@ export async function getStaticPaths() {
   return posts
     .filter((p) => p.data.lang === 'es' && !p.data.draft)
     .map((entry) => {
-      const slugPart = entry.slug.includes('/') ? entry.slug.split('/')[1]! : entry.slug;
+      const slugPart = entry.id.includes('/') ? entry.id.split('/')[1]! : entry.id;
       return { params: { slug: slugPart }, props: { entry } };
     });
 }
@@ -17,7 +17,7 @@ const { entry } = Astro.props;
 const { slug } = Astro.params;
 const post = entry;
 const lang = 'es';
-const { Content } = await post.render();
+const { Content } = await render(post);
 ---
 
 <BaseLayout

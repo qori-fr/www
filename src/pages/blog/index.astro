@@ -9,8 +9,8 @@ const posts = (await getCollection('blog'))
   .filter((p) => p.data.lang === lang && !p.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-function postSlug(entry: { slug: string }) {
-  return entry.slug.includes('/') ? entry.slug.split('/')[1]! : entry.slug;
+function postSlug(entry: { id: string }) {
+  return entry.id.includes('/') ? entry.id.split('/')[1]! : entry.id;
 }
 ---
 

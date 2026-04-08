@@ -1,13 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import { siteConfig } from '../config';
 
 const lang = 'es';
 const pages = await getCollection('pages');
 const page = pages.find((p) => p.data.path === 'contact' && p.data.lang === lang);
 if (!page) throw new Error('Contact page not found');
-const { Content } = await page.render();
+const { Content } = await render(page);
 ---
 
 <BaseLayout title={page.data.title} lang={lang} isHome={false} pageTitle={page.data.title}>
