@@ -15,5 +15,8 @@
     "@astrojs/sitemap": "^3.7.2",
     "js-yaml": "^4.1.0",
     "typescript": "^6.0.2"
+  },
+  "overrides": {
+    "esbuild": "0.28.1"
   }
 }
