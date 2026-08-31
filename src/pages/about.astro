@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 import { getAboutData } from '../data/about';
+import { pageSeo } from '../seo';
 
 const lang = 'es';
 const pages = await getCollection('pages');
@@ -11,7 +12,13 @@ const { Content } = await render(page);
 const aboutData = getAboutData(lang);
 ---
 
-<BaseLayout title={page.data.title} lang={lang} isHome={false} pageTitle={page.data.title}>
+<BaseLayout
+  title={page.data.title}
+  description={page.data.description ?? pageSeo.about.es.description}
+  lang={lang}
+  isHome={false}
+  pageTitle={page.data.title}
+>
   <section class="section">
     <div class="container">
       <div class="row">

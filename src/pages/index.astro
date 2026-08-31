@@ -5,6 +5,7 @@ import { getHomepage } from '../data/homepage';
 import { getCollection } from 'astro:content';
 import { t } from '../i18n/translations';
 import { localePath } from '../utils/locale';
+import { seoDefaults } from '../seo';
 
 const lang = 'es';
 const homepage = getHomepage(lang);
@@ -17,7 +18,12 @@ const firstSlide = homepage.slider.slider_item[0];
 const firstSlideBg = firstSlide?.bg_image ?? homepage.slider.bg_image;
 ---
 
-<BaseLayout title={firstSlide?.title ?? ''} lang={lang} isHome={true}>
+<BaseLayout
+  title={seoDefaults.es.title}
+  description={seoDefaults.es.description}
+  lang={lang}
+  isHome={true}
+>
   {homepage.slider.enable && firstSlide && (
     <section
       class="hero-section overlay bg-cover"

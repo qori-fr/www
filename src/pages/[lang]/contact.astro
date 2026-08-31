@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 import { siteConfig } from '../../config';
+import { pageSeo } from '../../seo';
 
 export function getStaticPaths() {
   return [{ params: { lang: 'fr' } }];
@@ -14,7 +15,13 @@ if (!page) return Astro.redirect(lang === 'es' ? '/' : `/${lang}/`);
 const { Content } = await render(page);
 ---
 
-<BaseLayout title={page.data.title} lang={lang!} isHome={false} pageTitle={page.data.title}>
+<BaseLayout
+  title={page.data.title}
+  description={page.data.description ?? pageSeo.contact[lang === 'fr' ? 'fr' : 'es'].description}
+  lang={lang!}
+  isHome={false}
+  pageTitle={page.data.title}
+>
   <section class="section">
     <div class="container">
       <div class="row">

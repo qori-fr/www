@@ -13,14 +13,15 @@ interface Props {
   pageTitle?: string;
   pageDescription?: string;
   bgImage?: string;
+  noindex?: boolean;
 }
 
-const { title, description, lang, isHome = false, pageTitle, pageDescription, bgImage } = Astro.props;
+const { title, description, lang, isHome = false, pageTitle, pageDescription, bgImage, noindex = false } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang={lang === 'fr' ? 'fr' : 'es'}>
-  <Head title={title} description={description ?? ''} lang={lang} />
+  <Head title={title} description={description ?? ''} lang={lang} noindex={noindex} />
   <body>
     <Preloader />
     <Header lang={lang} currentPath={Astro.url.pathname} />
