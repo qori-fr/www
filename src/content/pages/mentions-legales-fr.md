@@ -27,8 +27,29 @@ Tous les textes présents sur le site Internet de QORI restent la propriété in
 
 Directrice de la publication : Ana MEDINA  
 Site internet réalisé avec Astro  
-Site internet hébergé chez Github Pages
 Crédits photo : diverses sources libres de droits
+
+## Hébergement
+
+Le site est hébergé par **GitHub Pages**, service de :
+
+GitHub, Inc.  
+88 Colin P. Kelly Jr Street  
+San Francisco, CA 94107  
+États-Unis  
+https://pages.github.com
+
+## Nom de domaine
+
+Le nom de domaine **qori.fr** est enregistré auprès de :
+
+OVH SAS  
+2 rue Kellermann  
+59100 Roubaix  
+France  
+RCS Lille Métropole 424 761 419  
+Téléphone : 1007  
+https://www.ovhcloud.com
 
 ## Avertissements
 

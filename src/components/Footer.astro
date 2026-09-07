@@ -49,6 +49,13 @@ const mainLinks = menu.filter((m) => !m.children || m.children.length === 0);
                 </a>
               </li>
             )}
+            {lang === 'es' && (
+              <li class="mb-3">
+                <a class="text-color" href={localePath(lang, 'pages/mentions-legales')}>
+                  Aviso legal
+                </a>
+              </li>
+            )}
           </ul>
         </div>
       </div>
