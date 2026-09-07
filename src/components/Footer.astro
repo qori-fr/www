@@ -23,8 +23,8 @@ const mainLinks = menu.filter((m) => !m.children || m.children.length === 0);
             <img class="img-fluid mb-4" src={siteConfig.logo} alt={siteConfig.title} width="405" height="200" />
           </a>
           <ul class="list-unstyled">
-            <li class="mb-4" set:html={siteConfig.email}</li>
-            <li class="mb-4" set:html={siteConfig.phone}</li>
+            <li class="mb-4" set:html={siteConfig.email} />
+            <li class="mb-4" set:html={siteConfig.phone} />
           </ul>
         </div>
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
