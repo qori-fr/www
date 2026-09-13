@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.7.4",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.3.2",
     "typescript": "^6.0.2"
   }
 }
